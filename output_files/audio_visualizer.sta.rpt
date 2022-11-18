@@ -1,5 +1,5 @@
 Timing Analyzer report for audio_visualizer
-Fri Nov 18 03:54:26 2022
+Fri Nov 18 12:31:49 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -91,12 +91,12 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 6           ;
 ; Maximum allowed            ; 6           ;
 ;                            ;             ;
-; Average used               ; 1.02        ;
+; Average used               ; 1.03        ;
 ; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.4%      ;
+;     Processors 2-6         ;   0.6%      ;
 +----------------------------+-------------+
 
 
@@ -115,7 +115,7 @@ refer to the applicable agreement for further details.
 +------------+-----------------+---------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                ; Note ;
 +------------+-----------------+---------------------------+------+
-; 321.75 MHz ; 321.75 MHz      ; vga_controller:vga|clkdiv ;      ;
+; 325.41 MHz ; 325.41 MHz      ; vga_controller:vga|clkdiv ;      ;
 +------------+-----------------+---------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -125,8 +125,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------+--------+---------------+
 ; Clock                     ; Slack  ; End Point TNS ;
 +---------------------------+--------+---------------+
-; vga_controller:vga|clkdiv ; -2.108 ; -33.904       ;
-; MAX10_CLK1_50             ; -0.686 ; -0.686        ;
+; vga_controller:vga|clkdiv ; -2.073 ; -37.222       ;
+; MAX10_CLK1_50             ; -0.845 ; -0.845        ;
 +---------------------------+--------+---------------+
 
 
@@ -135,8 +135,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------+-------+---------------+
 ; Clock                     ; Slack ; End Point TNS ;
 +---------------------------+-------+---------------+
-; vga_controller:vga|clkdiv ; 0.641 ; 0.000         ;
-; MAX10_CLK1_50             ; 0.644 ; 0.000         ;
+; vga_controller:vga|clkdiv ; 0.640 ; 0.000         ;
+; MAX10_CLK1_50             ; 0.641 ; 0.000         ;
 +---------------------------+-------+---------------+
 
 
@@ -173,7 +173,7 @@ No synchronizer chains to report.
 +------------+-----------------+---------------------------+------+
 ; Fmax       ; Restricted Fmax ; Clock Name                ; Note ;
 +------------+-----------------+---------------------------+------+
-; 353.36 MHz ; 353.36 MHz      ; vga_controller:vga|clkdiv ;      ;
+; 354.11 MHz ; 354.11 MHz      ; vga_controller:vga|clkdiv ;      ;
 +------------+-----------------+---------------------------+------+
 This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
 
@@ -183,8 +183,8 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------+--------+---------------+
 ; Clock                     ; Slack  ; End Point TNS ;
 +---------------------------+--------+---------------+
-; vga_controller:vga|clkdiv ; -1.830 ; -29.091       ;
-; MAX10_CLK1_50             ; -0.485 ; -0.485        ;
+; vga_controller:vga|clkdiv ; -1.824 ; -32.199       ;
+; MAX10_CLK1_50             ; -0.646 ; -0.646        ;
 +---------------------------+--------+---------------+
 
 
@@ -193,7 +193,7 @@ This panel reports FMAX for every clock in the design, regardless of the user-sp
 +---------------------------+-------+---------------+
 ; Clock                     ; Slack ; End Point TNS ;
 +---------------------------+-------+---------------+
-; MAX10_CLK1_50             ; 0.478 ; 0.000         ;
+; MAX10_CLK1_50             ; 0.473 ; 0.000         ;
 ; vga_controller:vga|clkdiv ; 0.594 ; 0.000         ;
 +---------------------------+-------+---------------+
 
@@ -231,8 +231,8 @@ No synchronizer chains to report.
 +---------------------------+--------+---------------+
 ; Clock                     ; Slack  ; End Point TNS ;
 +---------------------------+--------+---------------+
-; vga_controller:vga|clkdiv ; -0.327 ; -2.828        ;
-; MAX10_CLK1_50             ; -0.169 ; -0.169        ;
+; vga_controller:vga|clkdiv ; -0.300 ; -3.987        ;
+; MAX10_CLK1_50             ; -0.244 ; -0.244        ;
 +---------------------------+--------+---------------+
 
 
@@ -241,8 +241,8 @@ No synchronizer chains to report.
 +---------------------------+-------+---------------+
 ; Clock                     ; Slack ; End Point TNS ;
 +---------------------------+-------+---------------+
-; vga_controller:vga|clkdiv ; 0.249 ; 0.000         ;
-; MAX10_CLK1_50             ; 0.413 ; 0.000         ;
+; vga_controller:vga|clkdiv ; 0.248 ; 0.000         ;
+; MAX10_CLK1_50             ; 0.439 ; 0.000         ;
 +---------------------------+-------+---------------+
 
 
@@ -263,7 +263,7 @@ No paths to report.
 +---------------------------+--------+---------------+
 ; Clock                     ; Slack  ; End Point TNS ;
 +---------------------------+--------+---------------+
-; MAX10_CLK1_50             ; -3.000 ; -4.082        ;
+; MAX10_CLK1_50             ; -3.000 ; -4.121        ;
 ; vga_controller:vga|clkdiv ; -1.000 ; -22.000       ;
 +---------------------------+--------+---------------+
 
@@ -279,12 +279,12 @@ No synchronizer chains to report.
 +----------------------------+---------+-------+----------+---------+---------------------+
 ; Clock                      ; Setup   ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
 +----------------------------+---------+-------+----------+---------+---------------------+
-; Worst-case Slack           ; -2.108  ; 0.249 ; N/A      ; N/A     ; -3.000              ;
-;  MAX10_CLK1_50             ; -0.686  ; 0.413 ; N/A      ; N/A     ; -3.000              ;
-;  vga_controller:vga|clkdiv ; -2.108  ; 0.249 ; N/A      ; N/A     ; -1.403              ;
-; Design-wide TNS            ; -34.59  ; 0.0   ; 0.0      ; 0.0     ; -35.269             ;
-;  MAX10_CLK1_50             ; -0.686  ; 0.000 ; N/A      ; N/A     ; -4.403              ;
-;  vga_controller:vga|clkdiv ; -33.904 ; 0.000 ; N/A      ; N/A     ; -30.866             ;
+; Worst-case Slack           ; -2.073  ; 0.248 ; N/A      ; N/A     ; -3.000              ;
+;  MAX10_CLK1_50             ; -0.845  ; 0.439 ; N/A      ; N/A     ; -3.000              ;
+;  vga_controller:vga|clkdiv ; -2.073  ; 0.248 ; N/A      ; N/A     ; -1.403              ;
+; Design-wide TNS            ; -38.067 ; 0.0   ; 0.0      ; 0.0     ; -35.269             ;
+;  MAX10_CLK1_50             ; -0.845  ; 0.000 ; N/A      ; N/A     ; -4.403              ;
+;  vga_controller:vga|clkdiv ; -37.222 ; 0.000 ; N/A      ; N/A     ; -30.866             ;
 +----------------------------+---------+-------+----------+---------+---------------------+
 
 
@@ -430,7 +430,6 @@ No synchronizer chains to report.
 +---------------------+-----------------------+-----------------+-----------------+
 ; Pin                 ; I/O Standard          ; 10-90 Rise Time ; 90-10 Fall Time ;
 +---------------------+-----------------------+-----------------+-----------------+
-; KEY[1]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; SW[0]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; SW[1]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; SW[2]               ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
@@ -474,6 +473,7 @@ No synchronizer chains to report.
 ; ARDUINO_IO[14]      ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; ARDUINO_IO[15]      ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; ARDUINO_RESET_N     ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; KEY[1]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; KEY[0]              ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; MAX10_CLK1_50       ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
 ; ~ALTERA_TMS~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
@@ -938,8 +938,8 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 1     ; 1    ;
-; Unconstrained Input Port Paths  ; 23    ; 23   ;
+; Unconstrained Input Ports       ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 32    ; 32   ;
 ; Unconstrained Output Ports      ; 11    ; 11   ;
 ; Unconstrained Output Port Paths ; 173   ; 173  ;
 +---------------------------------+-------+------+
@@ -961,6 +961,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
 ; KEY[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; KEY[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +------------+--------------------------------------------------------------------------------------+
 
 
@@ -989,6 +990,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 ; Input Port ; Comment                                                                              ;
 +------------+--------------------------------------------------------------------------------------+
 ; KEY[0]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; KEY[1]     ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
 +------------+--------------------------------------------------------------------------------------+
 
 
@@ -1017,7 +1019,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 18 03:54:22 2022
+    Info: Processing started: Fri Nov 18 12:31:45 2022
 Info: Command: quartus_sta audio_visualizer -c audio_visualizer
 Info: qsta_default_script.tcl version: #1
 Warning (20013): Ignored 24 assignments for entity "DE10_LITE_Default" -- entity does not exist in design
@@ -1060,16 +1062,16 @@ Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
 Info: Analyzing Slow 1200mV 85C Model
 Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
 Critical Warning (332148): Timing requirements not met
-Info (332146): Worst-case setup slack is -2.108
+Info (332146): Worst-case setup slack is -2.073
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -2.108             -33.904 vga_controller:vga|clkdiv 
-    Info (332119):    -0.686              -0.686 MAX10_CLK1_50 
-Info (332146): Worst-case hold slack is 0.641
+    Info (332119):    -2.073             -37.222 vga_controller:vga|clkdiv 
+    Info (332119):    -0.845              -0.845 MAX10_CLK1_50 
+Info (332146): Worst-case hold slack is 0.640
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.641               0.000 vga_controller:vga|clkdiv 
-    Info (332119):     0.644               0.000 MAX10_CLK1_50 
+    Info (332119):     0.640               0.000 vga_controller:vga|clkdiv 
+    Info (332119):     0.641               0.000 MAX10_CLK1_50 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -3.000
@@ -1082,15 +1084,15 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
-Info (332146): Worst-case setup slack is -1.830
+Info (332146): Worst-case setup slack is -1.824
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -1.830             -29.091 vga_controller:vga|clkdiv 
-    Info (332119):    -0.485              -0.485 MAX10_CLK1_50 
-Info (332146): Worst-case hold slack is 0.478
+    Info (332119):    -1.824             -32.199 vga_controller:vga|clkdiv 
+    Info (332119):    -0.646              -0.646 MAX10_CLK1_50 
+Info (332146): Worst-case hold slack is 0.473
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.478               0.000 MAX10_CLK1_50 
+    Info (332119):     0.473               0.000 MAX10_CLK1_50 
     Info (332119):     0.594               0.000 vga_controller:vga|clkdiv 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
@@ -1102,29 +1104,29 @@ Info (332146): Worst-case minimum pulse width slack is -3.000
 Info: Analyzing Fast 1200mV 0C Model
 Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
 Critical Warning (332148): Timing requirements not met
-Info (332146): Worst-case setup slack is -0.327
+Info (332146): Worst-case setup slack is -0.300
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -0.327              -2.828 vga_controller:vga|clkdiv 
-    Info (332119):    -0.169              -0.169 MAX10_CLK1_50 
-Info (332146): Worst-case hold slack is 0.249
+    Info (332119):    -0.300              -3.987 vga_controller:vga|clkdiv 
+    Info (332119):    -0.244              -0.244 MAX10_CLK1_50 
+Info (332146): Worst-case hold slack is 0.248
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):     0.249               0.000 vga_controller:vga|clkdiv 
-    Info (332119):     0.413               0.000 MAX10_CLK1_50 
+    Info (332119):     0.248               0.000 vga_controller:vga|clkdiv 
+    Info (332119):     0.439               0.000 MAX10_CLK1_50 
 Info (332140): No Recovery paths to report
 Info (332140): No Removal paths to report
 Info (332146): Worst-case minimum pulse width slack is -3.000
     Info (332119):     Slack       End Point TNS Clock 
     Info (332119): ========= =================== =====================
-    Info (332119):    -3.000              -4.082 MAX10_CLK1_50 
+    Info (332119):    -3.000              -4.121 MAX10_CLK1_50 
     Info (332119):    -1.000             -22.000 vga_controller:vga|clkdiv 
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 4846 megabytes
-    Info: Processing ended: Fri Nov 18 03:54:26 2022
+    Info: Peak virtual memory: 4844 megabytes
+    Info: Processing ended: Fri Nov 18 12:31:49 2022
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:03
 
 

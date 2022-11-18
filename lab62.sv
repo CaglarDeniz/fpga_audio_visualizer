@@ -58,7 +58,7 @@ module lab62 (
 
 
 
-logic Reset_h, vssig, blank, sync, VGA_Clk;
+logic Reset_h, vssig, blank, sync, VGA_Clk,Button;
 
 
 //=======================================================
@@ -78,6 +78,7 @@ logic Reset_h, vssig, blank, sync, VGA_Clk;
 	
 	//Assign one button to reset
 	assign {Reset_h}=~ (KEY[0]);
+	assign Button_h = ~(KEY[1]);
 
 	//Our A/D converter is only 12 bit
 	assign VGA_R = Red[7:4];
@@ -106,7 +107,7 @@ ball balls(
 );
 
 color_mapper color(
-	.BallX(ballxsig), .BallY(ballysig), .DrawX(drawxsig), .DrawY(drawysig), .Ball_size(ballsizesig),.Clk(MAX10_CLK1_50),
+	.BallX(ballxsig), .BallY(ballysig), .DrawX(drawxsig), .DrawY(drawysig), .Ball_size(ballsizesig),.Clk(MAX10_CLK1_50),.Button(Button_h),
 	.Red(Red), .Green(Green), .Blue(Blue)
 );
 

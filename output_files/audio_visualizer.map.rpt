@@ -1,5 +1,5 @@
 Analysis & Synthesis report for audio_visualizer
-Fri Nov 18 03:54:06 2022
+Fri Nov 18 12:31:26 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -47,13 +47,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Nov 18 03:54:06 2022       ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 18 12:31:26 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; audio_visualizer                            ;
 ; Top-level Entity Name              ; lab62                                       ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 51                                          ;
-;     Total combinational functions  ; 51                                          ;
+; Total logic elements               ; 53                                          ;
+;     Total combinational functions  ; 53                                          ;
 ;     Dedicated logic registers      ; 23                                          ;
 ; Total registers                    ; 23                                          ;
 ; Total pins                         ; 141                                         ;
@@ -187,16 +187,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------+
 ; Resource                                    ; Usage                     ;
 +---------------------------------------------+---------------------------+
-; Estimated Total logic elements              ; 51                        ;
+; Estimated Total logic elements              ; 53                        ;
 ;                                             ;                           ;
-; Total combinational functions               ; 51                        ;
+; Total combinational functions               ; 53                        ;
 ; Logic element usage by number of LUT inputs ;                           ;
 ;     -- 4 input functions                    ; 19                        ;
-;     -- 3 input functions                    ; 1                         ;
-;     -- <=2 input functions                  ; 31                        ;
+;     -- 3 input functions                    ; 0                         ;
+;     -- <=2 input functions                  ; 34                        ;
 ;                                             ;                           ;
 ; Logic elements by mode                      ;                           ;
-;     -- normal mode                          ; 31                        ;
+;     -- normal mode                          ; 33                        ;
 ;     -- arithmetic mode                      ; 20                        ;
 ;                                             ;                           ;
 ; Total registers                             ; 23                        ;
@@ -209,7 +209,7 @@ refer to the applicable agreement for further details.
 ;                                             ;                           ;
 ; Maximum fan-out node                        ; vga_controller:vga|clkdiv ;
 ; Maximum fan-out                             ; 23                        ;
-; Total fan-out                               ; 400                       ;
+; Total fan-out                               ; 403                       ;
 ; Average fan-out                             ; 1.03                      ;
 +---------------------------------------------+---------------------------+
 
@@ -219,8 +219,8 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name       ; Entity Name    ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
-; |lab62                     ; 51 (0)              ; 23 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 141  ; 0            ; 0          ; |lab62                    ; lab62          ; work         ;
-;    |color_mapper:color|    ; 10 (10)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab62|color_mapper:color ; color_mapper   ; work         ;
+; |lab62                     ; 53 (0)              ; 23 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 141  ; 0            ; 0          ; |lab62                    ; lab62          ; work         ;
+;    |color_mapper:color|    ; 12 (12)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab62|color_mapper:color ; color_mapper   ; work         ;
 ;    |vga_controller:vga|    ; 41 (41)             ; 23 (23)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab62|vga_controller:vga ; vga_controller ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -301,18 +301,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     CLR               ; 13                          ;
 ;     ENA CLR           ; 10                          ;
 ; cycloneiii_io_obuf    ; 33                          ;
-; cycloneiii_lcell_comb ; 53                          ;
+; cycloneiii_lcell_comb ; 57                          ;
 ;     arith             ; 20                          ;
 ;         2 data inputs ; 20                          ;
-;     normal            ; 33                          ;
+;     normal            ; 37                          ;
 ;         0 data inputs ; 3                           ;
-;         1 data inputs ; 2                           ;
-;         2 data inputs ; 8                           ;
-;         3 data inputs ; 1                           ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 11                          ;
 ;         4 data inputs ; 19                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 2.32                        ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 2.75                        ;
 +-----------------------+-----------------------------+
 
 
@@ -331,7 +330,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 18 03:53:56 2022
+    Info: Processing started: Fri Nov 18 12:31:11 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off audio_visualizer -c audio_visualizer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -349,7 +348,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file bar_gra
     Info (12023): Found entity 1: bar_graph File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
     Info (12023): Found entity 1: testbench File: C:/Users/dcagl/Desktop/ECE385/final/testbench.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(93): created implicit net for "VGA_CLK" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 93
+Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(81): created implicit net for "Button_h" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 81
+Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(94): created implicit net for "VGA_CLK" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 94
 Warning (10236): Verilog HDL Implicit Net warning at bar_graph.sv(33): created implicit net for "BAR_EN" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 33
 Info (12127): Elaborating entity "lab62" for the top level hierarchy
 Warning (10034): Output port "LEDR" at lab62.sv(21) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
@@ -369,13 +369,13 @@ Warning (10034): Output port "DRAM_CS_N" at lab62.sv(39) has no driver File: C:/
 Warning (10034): Output port "DRAM_WE_N" at lab62.sv(40) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 40
 Warning (10034): Output port "DRAM_CAS_N" at lab62.sv(41) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 41
 Warning (10034): Output port "DRAM_RAS_N" at lab62.sv(42) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 42
-Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 100
+Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 101
 Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(76): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 76
 Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(79): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 79
-Info (12128): Elaborating entity "ball" for hierarchy "ball:balls" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 106
+Info (12128): Elaborating entity "ball" for hierarchy "ball:balls" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 107
 Warning (10230): Verilog HDL assignment warning at ball.sv(64): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 64
 Warning (10230): Verilog HDL assignment warning at ball.sv(82): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 82
-Info (12128): Elaborating entity "color_mapper" for hierarchy "color_mapper:color" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 111
+Info (12128): Elaborating entity "color_mapper" for hierarchy "color_mapper:color" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 112
 Warning (13039): The following bidirectional pins have no drivers
     Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
     Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
@@ -524,8 +524,7 @@ Warning (20013): Ignored 24 assignments for entity "DE10_LITE_Default" -- entity
 Info (144001): Generated suppressed messages file C:/Users/dcagl/Desktop/ECE385/final/output_files/audio_visualizer.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 11 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 15
+Warning (21074): Design contains 10 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
@@ -536,16 +535,16 @@ Warning (21074): Design contains 11 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-Info (21057): Implemented 201 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 203 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 95 output pins
     Info (21060): Implemented 33 bidirectional pins
-    Info (21061): Implemented 60 logic cells
+    Info (21061): Implemented 62 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 180 warnings
-    Info: Peak virtual memory: 4787 megabytes
-    Info: Processing ended: Fri Nov 18 03:54:06 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 4785 megabytes
+    Info: Processing ended: Fri Nov 18 12:31:26 2022
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:13
 
 
 +------------------------------------------+
