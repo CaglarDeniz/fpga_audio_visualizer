@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:vga|clkdiv'
+Slack : -2.300
+TNS   : -35.558
+
+Type  : Slow 1200mV 85C Model Setup 'MAX10_CLK1_50'
+Slack : -0.686
+TNS   : -0.686
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:vga|clkdiv'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MAX10_CLK1_50'
+Slack : 0.644
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:vga|clkdiv'
+Slack : -1.403
+TNS   : -30.866
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:vga|vs'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:vga|clkdiv'
+Slack : -1.997
+TNS   : -30.593
+
+Type  : Slow 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -0.485
+TNS   : -0.485
+
+Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.478
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:vga|clkdiv'
+Slack : 0.592
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:vga|clkdiv'
+Slack : -1.403
+TNS   : -30.866
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:vga|vs'
+Slack : -1.403
+TNS   : -1.403
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:vga|clkdiv'
+Slack : -0.325
+TNS   : -3.712
+
+Type  : Fast 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -0.169
+TNS   : -0.169
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:vga|clkdiv'
+Slack : 0.247
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.082
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:vga|clkdiv'
+Slack : -1.000
+TNS   : -22.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:vga|vs'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

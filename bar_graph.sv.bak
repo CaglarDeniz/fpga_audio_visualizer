@@ -1,0 +1,9 @@
+module bar_graph(
+	
+	input Clk,
+	input [9:0] SW,
+	output vsync,hsync,
+	output [4:0] red,green,blue
+
+
+);
