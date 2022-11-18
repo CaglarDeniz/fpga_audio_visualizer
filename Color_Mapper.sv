@@ -14,6 +14,7 @@
 
 
 module  color_mapper ( input        [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
+								input Clk,
                        output logic [7:0]  Red, Green, Blue );
     
     logic ball_on;
@@ -31,22 +32,134 @@ module  color_mapper ( input        [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
      of the 12 available multipliers on the chip!  Since the multiplicants are required to be signed,
 	  we have to first cast them from logic to int (signed by default) before they are multiplied). */
 	  
-    int DistX, DistY, Size;
-	 assign DistX = DrawX - BallX;
-    assign DistY = DrawY - BallY;
-    assign Size = Ball_size;
 	  
-    always_comb
-    begin:Ball_on_proc
-        if ( ( DistX*DistX + DistY*DistY) <= (Size * Size) ) 
-            ball_on = 1'b1;
-        else 
-            ball_on = 1'b0;
-     end 
+//// background and foreground colors
+//logic [3:0] BGR_B = 4'd8;
+//logic [3:0] FGR_R = 4'd8;
+
+// internal BAR variables, setting bar amplitudes to be constant
+logic [9:0] BAR_X[10] ;
+logic [9:0] BAR_Y[10] ;
+logic [9:0] BAR_EN;
+
+// BAR_GAP is 10px
+// BAR_WIDTH is 53px
+// One bar unit takes up 63px with gap.
+
+always_comb
+begin
+	
+	BAR_X[0] = 10'd10;
+	BAR_X[1] = 10'd73;
+	BAR_X[2] = 10'd136;
+	BAR_X[3] = 10'd199;
+	BAR_X[4] = 10'd262;
+	BAR_X[5] = 10'd325;
+	BAR_X[6] = 10'd388;
+	BAR_X[7] = 10'd451;
+	BAR_X[8] = 10'd514;
+	BAR_X[9] = 10'd577;
+end
+
+// update BAR positions with frame clock
+always_comb
+begin
+	BAR_Y[0] = 10'd50;
+	BAR_Y[1] = 10'd30;
+	BAR_Y[2] = 10'd60;
+	BAR_Y[3] = 10'd90;
+	BAR_Y[4] = 10'd120;
+	BAR_Y[5] = 10'd150;
+	BAR_Y[6] = 10'd180;
+	BAR_Y[7] = 10'd210;
+	BAR_Y[8] = 10'd240;
+	BAR_Y[9] = 10'd270;
+end
+
+always_comb
+begin
+
+	if ((DrawX >= BAR_X[0] && DrawX <= BAR_X[0] + 53 && DrawY <= BAR_Y[0])) 
+		BAR_EN[0] = 1'b1;
+	else
+		BAR_EN[0] = 1'b0;
+	if ((DrawX >= BAR_X[1] && DrawX <= BAR_X[1] + 53 && DrawY <= BAR_Y[1])) 
+		BAR_EN[1] = 1'b1;
+	else
+		BAR_EN[1] = 1'b0;
+	if ((DrawX >= BAR_X[2] && DrawX <= BAR_X[2] + 53 && DrawY <= BAR_Y[2])) 
+		BAR_EN[2] = 1'b1;
+	else
+		BAR_EN[2] = 1'b0;
+	if ((DrawX >= BAR_X[3] && DrawX <= BAR_X[3] + 53 && DrawY <= BAR_Y[3])) 
+		BAR_EN[3] = 1'b1;
+	else
+		BAR_EN[3] = 1'b0;
+	if ((DrawX >= BAR_X[4] && DrawX <= BAR_X[4] + 53 && DrawY <= BAR_Y[4])) 
+		BAR_EN[4] = 1'b1;
+	else
+		BAR_EN[4] = 1'b0;
+	if ((DrawX >= BAR_X[5] && DrawX <= BAR_X[5] + 53 && DrawY <= BAR_Y[5])) 
+		BAR_EN[5] = 1'b1;
+	else
+		BAR_EN[5] = 1'b0;
+	if ((DrawX >= BAR_X[6] && DrawX <= BAR_X[6] + 53 && DrawY <= BAR_Y[6])) 
+		BAR_EN[6] = 1'b1;
+	else
+		BAR_EN[6] = 1'b0;
+	if ((DrawX >= BAR_X[7] && DrawX <= BAR_X[7] + 53 && DrawY <= BAR_Y[7])) 
+		BAR_EN[7] = 1'b1;
+	else
+		BAR_EN[7] = 1'b0;
+	if ((DrawX >= BAR_X[8] && DrawX <= BAR_X[8] + 53 && DrawY <= BAR_Y[8])) 
+		BAR_EN[8] = 1'b1;
+	else
+		BAR_EN[8] = 1'b0;
+	if ((DrawX >= BAR_X[9] && DrawX <= BAR_X[9] + 53 && DrawY <= BAR_Y[9])) 
+		BAR_EN[9] = 1'b1;
+	else
+		BAR_EN[9] = 1'b0;
+end
+
+// //determine if DrawX and DrawY are inside a bar or not
+//always_comb 
+//begin
+//
+//	for(int i = 0 ; i < 10 ; i++) begin
+//	
+//		if(DrawX >= BAR_X[i] && DrawX <= BAR_X[i] + 53 && DrawY <= BAR_Y[i] &&  BAR_EN[i]) begin
+//			// if pixel is inside a bar color it red
+//			red = FGR_R;
+//			green = 4'hF;
+//			blue = 4'hF;
+//		end
+//		
+//		else begin
+//			// else color it blue
+//			red = 4'hF;
+//			green = BGR_B;
+//			blue = 4'hF;
+//		end	
+//	end
+//end
+
+	  
+//    int DistX, DistY, Size;
+//	 assign DistX = DrawX - BallX;
+//    assign DistY = DrawY - BallY;
+//    assign Size = Ball_size;
+	  
+//    always_comb
+//    begin:Ball_on_proc
+//        if ( ( DistX*DistX + DistY*DistY) <= (Size * Size) ) 
+//            ball_on = 1'b1;
+//        else 
+//            ball_on = 1'b0;
+//     end 
        
     always_comb
     begin:RGB_Display
-        if ((ball_on == 1'b1)) 
+        if (BAR_EN & 10'h3FF != 10'h0) 
         begin 
             Red = 8'hff;
             Green = 8'h55;

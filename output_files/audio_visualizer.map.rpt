@@ -1,5 +1,5 @@
 Analysis & Synthesis report for audio_visualizer
-Fri Nov 18 01:22:00 2022
+Fri Nov 18 03:54:06 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,14 +13,15 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Registers Removed During Synthesis
-  9. General Register Statistics
- 10. Parameter Settings for User Entity Instance: vga_controller:vga
- 11. Port Connectivity Checks: "vga_controller:vga"
- 12. Post-Synthesis Netlist Statistics for Top Partition
- 13. Elapsed Time Per Partition
- 14. Analysis & Synthesis Messages
- 15. Analysis & Synthesis Suppressed Messages
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: vga_controller:vga
+ 10. Parameter Settings for User Entity Instance: ball:balls
+ 11. Port Connectivity Checks: "color_mapper:color"
+ 12. Port Connectivity Checks: "vga_controller:vga"
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+ 16. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -46,16 +47,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Nov 18 01:22:00 2022       ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 18 03:54:06 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; audio_visualizer                            ;
-; Top-level Entity Name              ; bar_graph                                   ;
+; Top-level Entity Name              ; lab62                                       ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 50                                          ;
-;     Total combinational functions  ; 49                                          ;
-;     Dedicated logic registers      ; 24                                          ;
-; Total registers                    ; 24                                          ;
-; Total pins                         ; 26                                          ;
+; Total logic elements               ; 51                                          ;
+;     Total combinational functions  ; 51                                          ;
+;     Dedicated logic registers      ; 23                                          ;
+; Total registers                    ; 23                                          ;
+; Total pins                         ; 141                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -71,7 +72,7 @@ refer to the applicable agreement for further details.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M50DAF484C7G     ;                    ;
-; Top-level entity name                                            ; bar_graph          ; audio_visualizer   ;
+; Top-level entity name                                            ; lab62              ; audio_visualizer   ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -164,7 +165,8 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -173,8 +175,10 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------------+-------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                          ; Library ;
 +----------------------------------+-----------------+------------------------------+-------------------------------------------------------+---------+
+; lab62.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/dcagl/Desktop/ECE385/final/lab62.sv          ;         ;
 ; VGA_controller.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv ;         ;
-; bar_graph.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv      ;         ;
+; Color_Mapper.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv   ;         ;
+; ball.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/dcagl/Desktop/ECE385/final/ball.sv           ;         ;
 +----------------------------------+-----------------+------------------------------+-------------------------------------------------------+---------+
 
 
@@ -183,60 +187,43 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------------+
 ; Resource                                    ; Usage                     ;
 +---------------------------------------------+---------------------------+
-; Estimated Total logic elements              ; 50                        ;
+; Estimated Total logic elements              ; 51                        ;
 ;                                             ;                           ;
-; Total combinational functions               ; 49                        ;
+; Total combinational functions               ; 51                        ;
 ; Logic element usage by number of LUT inputs ;                           ;
-;     -- 4 input functions                    ; 18                        ;
-;     -- 3 input functions                    ; 0                         ;
+;     -- 4 input functions                    ; 19                        ;
+;     -- 3 input functions                    ; 1                         ;
 ;     -- <=2 input functions                  ; 31                        ;
 ;                                             ;                           ;
 ; Logic elements by mode                      ;                           ;
-;     -- normal mode                          ; 29                        ;
+;     -- normal mode                          ; 31                        ;
 ;     -- arithmetic mode                      ; 20                        ;
 ;                                             ;                           ;
-; Total registers                             ; 24                        ;
-;     -- Dedicated logic registers            ; 24                        ;
+; Total registers                             ; 23                        ;
+;     -- Dedicated logic registers            ; 23                        ;
 ;     -- I/O registers                        ; 0                         ;
 ;                                             ;                           ;
-; I/O pins                                    ; 26                        ;
+; I/O pins                                    ; 141                       ;
 ;                                             ;                           ;
 ; Embedded Multiplier 9-bit elements          ; 0                         ;
 ;                                             ;                           ;
 ; Maximum fan-out node                        ; vga_controller:vga|clkdiv ;
 ; Maximum fan-out                             ; 23                        ;
-; Total fan-out                               ; 240                       ;
-; Average fan-out                             ; 1.92                      ;
+; Total fan-out                               ; 400                       ;
+; Average fan-out                             ; 1.03                      ;
 +---------------------------------------------+---------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                             ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------+----------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name           ; Entity Name    ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------+----------------+--------------+
-; |bar_graph                 ; 49 (8)              ; 24 (1)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 26   ; 0            ; 0          ; |bar_graph                    ; bar_graph      ; work         ;
-;    |vga_controller:vga|    ; 41 (41)             ; 23 (23)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |bar_graph|vga_controller:vga ; vga_controller ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------+----------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name       ; Entity Name    ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
+; |lab62                     ; 51 (0)              ; 23 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 141  ; 0            ; 0          ; |lab62                    ; lab62          ; work         ;
+;    |color_mapper:color|    ; 10 (10)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab62|color_mapper:color ; color_mapper   ; work         ;
+;    |vga_controller:vga|    ; 41 (41)             ; 23 (23)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab62|vga_controller:vga ; vga_controller ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+--------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                             ;
-+---------------------------------------+----------------------------------------+
-; Register name                         ; Reason for Removal                     ;
-+---------------------------------------+----------------------------------------+
-; BAR_Y[9][9]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][7]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][6]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][5]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][4]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][0]                           ; Stuck at GND due to stuck port data_in ;
-; BAR_Y[9][2]                           ; Merged with BAR_Y[9][1]                ;
-; BAR_Y[9][3]                           ; Merged with BAR_Y[9][1]                ;
-; BAR_Y[9][8]                           ; Merged with BAR_Y[9][1]                ;
-; Total Number of Removed Registers = 9 ;                                        ;
-+---------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -244,7 +231,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 24    ;
+; Total registers                              ; 23    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 23    ;
@@ -265,6 +252,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ball:balls ;
++----------------+------------+---------------------------+
+; Parameter Name ; Value      ; Type                      ;
++----------------+------------+---------------------------+
+; Ball_X_Center  ; 0101000000 ; Unsigned Binary           ;
+; Ball_Y_Center  ; 0011110000 ; Unsigned Binary           ;
+; Ball_X_Min     ; 0000000000 ; Unsigned Binary           ;
+; Ball_X_Max     ; 1001111111 ; Unsigned Binary           ;
+; Ball_Y_Min     ; 0000000000 ; Unsigned Binary           ;
+; Ball_Y_Max     ; 0111011111 ; Unsigned Binary           ;
+; Ball_X_Step    ; 0000000001 ; Unsigned Binary           ;
+; Ball_Y_Step    ; 0000000001 ; Unsigned Binary           ;
++----------------+------------+---------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "color_mapper:color"                                                                        ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Red[3..0]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Green[3..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; Blue[3..0]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +---------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "vga_controller:vga"                                                                      ;
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
@@ -281,22 +296,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 26                          ;
-; cycloneiii_ff         ; 24                          ;
+; boundary_port         ; 141                         ;
+; cycloneiii_ff         ; 23                          ;
 ;     CLR               ; 13                          ;
 ;     ENA CLR           ; 10                          ;
-;     plain             ; 1                           ;
-; cycloneiii_lcell_comb ; 51                          ;
+; cycloneiii_io_obuf    ; 33                          ;
+; cycloneiii_lcell_comb ; 53                          ;
 ;     arith             ; 20                          ;
 ;         2 data inputs ; 20                          ;
-;     normal            ; 31                          ;
+;     normal            ; 33                          ;
 ;         0 data inputs ; 3                           ;
 ;         1 data inputs ; 2                           ;
 ;         2 data inputs ; 8                           ;
-;         4 data inputs ; 18                          ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 19                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 3.25                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 2.32                        ;
 +-----------------------+-----------------------------+
 
 
@@ -315,10 +331,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 18 01:21:50 2022
+    Info: Processing started: Fri Nov 18 03:53:56 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off audio_visualizer -c audio_visualizer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file lab62.sv
+    Info (12023): Found entity 1: lab62 File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file vga_controller.sv
     Info (12023): Found entity 1: vga_controller File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
@@ -329,44 +347,203 @@ Info (12021): Found 1 design units, including 1 entities, in source file ball.sv
     Info (12023): Found entity 1: ball File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file bar_graph.sv
     Info (12023): Found entity 1: bar_graph File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 1
-Info (12127): Elaborating entity "bar_graph" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at bar_graph.sv(43): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 43
-Warning (10230): Verilog HDL assignment warning at bar_graph.sv(52): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 52
-Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 94
+Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
+    Info (12023): Found entity 1: testbench File: C:/Users/dcagl/Desktop/ECE385/final/testbench.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(93): created implicit net for "VGA_CLK" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 93
+Warning (10236): Verilog HDL Implicit Net warning at bar_graph.sv(33): created implicit net for "BAR_EN" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 33
+Info (12127): Elaborating entity "lab62" for the top level hierarchy
+Warning (10034): Output port "LEDR" at lab62.sv(21) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+Warning (10034): Output port "HEX0" at lab62.sv(24) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+Warning (10034): Output port "HEX1" at lab62.sv(25) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+Warning (10034): Output port "HEX2" at lab62.sv(26) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+Warning (10034): Output port "HEX3" at lab62.sv(27) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+Warning (10034): Output port "HEX4" at lab62.sv(28) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+Warning (10034): Output port "HEX5" at lab62.sv(29) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+Warning (10034): Output port "DRAM_ADDR" at lab62.sv(34) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+Warning (10034): Output port "DRAM_BA" at lab62.sv(35) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
+Warning (10034): Output port "DRAM_CLK" at lab62.sv(32) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 32
+Warning (10034): Output port "DRAM_CKE" at lab62.sv(33) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 33
+Warning (10034): Output port "DRAM_LDQM" at lab62.sv(37) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 37
+Warning (10034): Output port "DRAM_UDQM" at lab62.sv(38) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 38
+Warning (10034): Output port "DRAM_CS_N" at lab62.sv(39) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 39
+Warning (10034): Output port "DRAM_WE_N" at lab62.sv(40) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 40
+Warning (10034): Output port "DRAM_CAS_N" at lab62.sv(41) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 41
+Warning (10034): Output port "DRAM_RAS_N" at lab62.sv(42) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 42
+Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 100
 Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(76): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 76
 Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(79): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 79
+Info (12128): Elaborating entity "ball" for hierarchy "ball:balls" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 106
+Warning (10230): Verilog HDL assignment warning at ball.sv(64): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 64
+Warning (10230): Verilog HDL assignment warning at ball.sv(82): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 82
+Info (12128): Elaborating entity "color_mapper" for hierarchy "color_mapper:color" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 111
+Warning (13039): The following bidirectional pins have no drivers
+    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "ARDUINO_IO[0]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[1]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[2]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[3]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[4]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[5]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[6]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[7]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[8]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[9]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[10]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[11]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[12]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[13]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[14]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[15]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_RESET_N" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 56
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 14
-    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 15
-    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 15
-    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 15
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
+    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 32
+    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 33
+    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
+    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
+    Warning (13410): Pin "DRAM_LDQM" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 37
+    Warning (13410): Pin "DRAM_UDQM" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 38
+    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 39
+    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 40
+    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 41
+    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 42
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
 Info (286030): Timing-Driven Synthesis is running
+Warning (20013): Ignored 24 assignments for entity "DE10_LITE_Default" -- entity does not exist in design
+    Warning (20014): Assignment for entity set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_PRESERVE_HIGH_SPEED_TILES ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IGNORE_SOURCE_FILE_CHANGES OFF -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ALWAYS_USE_QXP_NETLIST OFF -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_COLOR 16764057 -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_ASSIGNMENTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_ASSIGNMENTS REPLACE_CONFLICTING -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_EXISTING_LOGICLOCK_REGIONS UPDATE_CONFLICTING -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PIN_ASSIGNMENTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_IMPORT_PROMOTE_ASSIGNMENTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_TYPE STANDARD_PARTITION -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ALLOW_MULTIPLE_PERSONAS OFF -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ASD_REGION_ID 1 -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name CROSS_BOUNDARY_OPTIMIZATIONS OFF -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_CONSTANTS_ON_INPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PROPAGATE_INVERSIONS_ON_INPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name REMOVE_LOGIC_ON_UNCONNECTED_OUTPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_INPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name MERGE_EQUIVALENT_BIDIRS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name ABSORB_PATHS_FROM_OUTPUTS_TO_INPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_EXTRACT_HARD_BLOCK_NODES ON -entity DE10_LITE_Default -section_id Top was ignored
+    Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ENABLE_STRICT_PRESERVATION OFF -entity DE10_LITE_Default -section_id Top was ignored
 Info (144001): Generated suppressed messages file C:/Users/dcagl/Desktop/ECE385/final/output_files/audio_visualizer.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 9 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 10
-Info (21057): Implemented 85 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 12 input pins
-    Info (21059): Implemented 14 output pins
-    Info (21061): Implemented 59 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 26 warnings
+Warning (21074): Design contains 11 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 15
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+Info (21057): Implemented 201 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 95 output pins
+    Info (21060): Implemented 33 bidirectional pins
+    Info (21061): Implemented 60 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 180 warnings
     Info: Peak virtual memory: 4787 megabytes
-    Info: Processing ended: Fri Nov 18 01:22:00 2022
+    Info: Processing ended: Fri Nov 18 03:54:06 2022
     Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:05
 
