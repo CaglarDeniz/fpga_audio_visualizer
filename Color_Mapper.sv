@@ -64,11 +64,7 @@ end
 // update BAR positions with frame clock
 always_comb
 begin
-	if(Button)
-		BAR_Y[0] = 10'd480 - 10'd50;
-	else
-		BAR_Y[0] = 10'd480 - 10'd100;
-//	BAR_Y[1] = 10'd30;
+//	BAR_Y[1] = 10'd30;	
 //	BAR_Y[2] = 10'd60;
 //	BAR_Y[3] = 10'd90;
 //	BAR_Y[4] = 10'd120;
@@ -77,51 +73,91 @@ begin
 //	BAR_Y[7] = 10'd210;
 //	BAR_Y[8] = 10'd240;
 //	BAR_Y[9] = 10'd270;
+	if(Button)
+		BAR_Y[0] = 10'd480 - 10'd50;
+	else
+		BAR_Y[0] = 10'd480 - 10'd100;
+	if(Button)
+		BAR_Y[1] = 10'd480 - 10'd30;
+	else
+		BAR_Y[1] = 10'd480 - 10'd60;
+	if(Button)
+		BAR_Y[2] = 10'd480 - 10'd120;
+	else
+		BAR_Y[2] = 10'd480 - 10'd60;
+	if(Button)
+		BAR_Y[3] = 10'd480 - 10'd90;
+	else
+		BAR_Y[3] = 10'd480 - 10'd180;
+	if(Button)
+		BAR_Y[4] = 10'd480 - 10'd240;
+	else
+		BAR_Y[4] = 10'd480 - 10'd120;
+	if(Button)
+		BAR_Y[5] = 10'd480 - 10'd150;
+	else
+		BAR_Y[5] = 10'd480 - 10'd300;
+	if(Button)
+		BAR_Y[6] = 10'd480 - 10'd360;
+	else
+		BAR_Y[6] = 10'd480 - 10'd180;
+	if(Button)
+		BAR_Y[7] = 10'd480 - 10'd210;
+	else
+		BAR_Y[7] = 10'd480 - 10'd420;
+	if(Button)
+		BAR_Y[8] = 10'd480 - 10'd50;
+	else
+		BAR_Y[8] = 10'd480 - 10'd100;
+	if(Button)
+		BAR_Y[9] = 10'd480 - 10'd120;
+	else
+		BAR_Y[9] = 10'd480 - 10'd60;
+	
 end
 
 always_comb
 begin
-
 	if ((DrawX >= BAR_X[0] && DrawX <= BAR_X[0] + 53 && DrawY >= BAR_Y[0])) 
 		BAR_EN[0] = 1'b1;
 	else
 		BAR_EN[0] = 1'b0;
-//	if ((DrawX >= BAR_X[1] && DrawX <= BAR_X[1] + 53 && DrawY <= BAR_Y[1])) 
-//		BAR_EN[1] = 1'b1;
-//	else
-//		BAR_EN[1] = 1'b0;
-//	if ((DrawX >= BAR_X[2] && DrawX <= BAR_X[2] + 53 && DrawY <= BAR_Y[2])) 
-//		BAR_EN[2] = 1'b1;
-//	else
-//		BAR_EN[2] = 1'b0;
-//	if ((DrawX >= BAR_X[3] && DrawX <= BAR_X[3] + 53 && DrawY <= BAR_Y[3])) 
-//		BAR_EN[3] = 1'b1;
-//	else
-//		BAR_EN[3] = 1'b0;
-//	if ((DrawX >= BAR_X[4] && DrawX <= BAR_X[4] + 53 && DrawY <= BAR_Y[4])) 
-//		BAR_EN[4] = 1'b1;
-//	else
-//		BAR_EN[4] = 1'b0;
-//	if ((DrawX >= BAR_X[5] && DrawX <= BAR_X[5] + 53 && DrawY <= BAR_Y[5])) 
-//		BAR_EN[5] = 1'b1;
-//	else
-//		BAR_EN[5] = 1'b0;
-//	if ((DrawX >= BAR_X[6] && DrawX <= BAR_X[6] + 53 && DrawY <= BAR_Y[6])) 
-//		BAR_EN[6] = 1'b1;
-//	else
-//		BAR_EN[6] = 1'b0;
-//	if ((DrawX >= BAR_X[7] && DrawX <= BAR_X[7] + 53 && DrawY <= BAR_Y[7])) 
-//		BAR_EN[7] = 1'b1;
-//	else
-//		BAR_EN[7] = 1'b0;
-//	if ((DrawX >= BAR_X[8] && DrawX <= BAR_X[8] + 53 && DrawY <= BAR_Y[8])) 
-//		BAR_EN[8] = 1'b1;
-//	else
-//		BAR_EN[8] = 1'b0;
-//	if ((DrawX >= BAR_X[9] && DrawX <= BAR_X[9] + 53 && DrawY <= BAR_Y[9])) 
-//		BAR_EN[9] = 1'b1;
-//	else
-//		BAR_EN[9] = 1'b0;
+	if ((DrawX >= BAR_X[1] && (DrawX <= BAR_X[1] + 53) && DrawY >= BAR_Y[1])) 
+		BAR_EN[1] = 1'b1;
+	else
+		BAR_EN[1] = 1'b0;
+	if ((DrawX >= BAR_X[2] && DrawX <= BAR_X[2] + 53 && DrawY >= BAR_Y[2])) 
+		BAR_EN[2] = 1'b1;
+	else
+		BAR_EN[2] = 1'b0;
+	if ((DrawX >= BAR_X[3] && DrawX <= BAR_X[3] + 53 && DrawY >= BAR_Y[3])) 
+		BAR_EN[3] = 1'b1;
+	else
+		BAR_EN[3] = 1'b0;
+	if ((DrawX >= BAR_X[4] && DrawX <= BAR_X[4] + 53 && DrawY >= BAR_Y[4])) 
+		BAR_EN[4] = 1'b1;
+	else
+		BAR_EN[4] = 1'b0;
+	if ((DrawX >= BAR_X[5] && DrawX <= BAR_X[5] + 53 && DrawY >= BAR_Y[5])) 
+		BAR_EN[5] = 1'b1;
+	else
+		BAR_EN[5] = 1'b0;
+	if ((DrawX >= BAR_X[6] && DrawX <= BAR_X[6] + 53 && DrawY >= BAR_Y[6])) 
+		BAR_EN[6] = 1'b1;
+	else
+		BAR_EN[6] = 1'b0;
+	if ((DrawX >= BAR_X[7] && DrawX <= BAR_X[7] + 53 && DrawY >= BAR_Y[7])) 
+		BAR_EN[7] = 1'b1;
+	else
+		BAR_EN[7] = 1'b0;
+	if ((DrawX >= BAR_X[8] && DrawX <= BAR_X[8] + 53 && DrawY >= BAR_Y[8])) 
+		BAR_EN[8] = 1'b1;
+	else
+		BAR_EN[8] = 1'b0;
+	if ((DrawX >= BAR_X[9] && DrawX <= BAR_X[9] + 53 && DrawY >= BAR_Y[9])) 
+		BAR_EN[9] = 1'b1;
+	else
+		BAR_EN[9] = 1'b0;
 end
 
 // //determine if DrawX and DrawY are inside a bar or not
@@ -162,7 +198,7 @@ end
        
     always_comb
     begin:RGB_Display
-        if (BAR_EN & 10'h3FF != 10'h0) 
+        if ((BAR_EN & 10'h3FF) != 10'h0) 
         begin 
             Red = 8'hff;
             Green = 8'h55;

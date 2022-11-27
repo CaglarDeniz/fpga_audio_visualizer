@@ -1,5 +1,5 @@
 Flow report for audio_visualizer
-Fri Nov 18 12:31:51 2022
+Sun Nov 27 00:37:33 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 18 12:31:51 2022       ;
+; Flow Status                        ; Successful - Sun Nov 27 00:37:33 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; audio_visualizer                            ;
 ; Top-level Entity Name              ; lab62                                       ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 55 / 49,760 ( < 1 % )                       ;
-;     Total combinational functions  ; 54 / 49,760 ( < 1 % )                       ;
+; Total logic elements               ; 135 / 49,760 ( < 1 % )                      ;
+;     Total combinational functions  ; 134 / 49,760 ( < 1 % )                      ;
 ;     Dedicated logic registers      ; 23 / 49,760 ( < 1 % )                       ;
 ; Total registers                    ; 23                                          ;
 ; Total pins                         ; 141 / 360 ( 39 % )                          ;
@@ -66,30 +66,40 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/18/2022 12:31:12 ;
+; Start date & time ; 11/27/2022 00:36:51 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; audio_visualizer    ;
 +-------------------+---------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                 ;
-+-------------------------------------+----------------------------------------+------------------+-------------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value    ; Entity Name       ; Section Id ;
-+-------------------------------------+----------------------------------------+------------------+-------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 58067802040636.166879627205080         ; --               ; --                ; --         ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>           ; --                ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --               ; --                ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --               ; --                ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top        ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --               ; lab62             ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --               ; lab62             ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --               ; lab62             ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --               ; --                ; --         ;
-; TOP_LEVEL_ENTITY                    ; lab62                                  ; audio_visualizer ; --                ; --         ;
-+-------------------------------------+----------------------------------------+------------------+-------------------+------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                      ;
++--------------------------------------+----------------------------------------+------------------+-------------------+----------------+
+; Assignment Name                      ; Value                                  ; Default Value    ; Entity Name       ; Section Id     ;
++--------------------------------------+----------------------------------------+------------------+-------------------+----------------+
+; COMPILER_SIGNATURE_ID                ; 58067802040636.166953101109960         ; --               ; --                ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --               ; --                ; testbench      ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --               ; --                ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --               ; --                ; eda_simulation ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>           ; --                ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --               ; --                ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; testbench.sv                           ; --               ; --                ; testbench      ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --               ; --                ; testbench      ;
+; EDA_TEST_BENCH_NAME                  ; testbench                              ; --               ; --                ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --               ; --                ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --               ; --                ; --             ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --               ; --                ; --             ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top            ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; lab62             ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; lab62             ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --               ; lab62             ; Top            ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --               ; --                ; --             ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --               ; --                ; --             ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --               ; --                ; --             ;
+; TOP_LEVEL_ENTITY                     ; lab62                                  ; audio_visualizer ; --                ; --             ;
++--------------------------------------+----------------------------------------+------------------+-------------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -97,12 +107,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4785 MB             ; 00:00:13                           ;
-; Fitter               ; 00:00:12     ; 1.0                     ; 5772 MB             ; 00:00:09                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4687 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4844 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:28                           ;
+; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4789 MB             ; 00:00:11                           ;
+; Fitter               ; 00:00:13     ; 1.0                     ; 5771 MB             ; 00:00:08                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4679 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 4850 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4650 MB             ; 00:00:00                           ;
+; Total                ; 00:00:38     ; --                      ; --                  ; 00:00:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

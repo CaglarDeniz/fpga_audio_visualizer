@@ -3,19 +3,19 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'vga_controller:vga|clkdiv'
-Slack : -2.073
-TNS   : -37.222
+Slack : -2.180
+TNS   : -36.091
 
 Type  : Slow 1200mV 85C Model Setup 'MAX10_CLK1_50'
-Slack : -0.845
-TNS   : -0.845
+Slack : -0.976
+TNS   : -0.976
 
 Type  : Slow 1200mV 85C Model Hold 'vga_controller:vga|clkdiv'
-Slack : 0.640
+Slack : 0.649
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'MAX10_CLK1_50'
-Slack : 0.641
+Slack : 0.786
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
@@ -27,19 +27,19 @@ Slack : -1.403
 TNS   : -30.866
 
 Type  : Slow 1200mV 0C Model Setup 'vga_controller:vga|clkdiv'
-Slack : -1.824
-TNS   : -32.199
+Slack : -1.935
+TNS   : -31.192
 
 Type  : Slow 1200mV 0C Model Setup 'MAX10_CLK1_50'
-Slack : -0.646
-TNS   : -0.646
-
-Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
-Slack : 0.473
-TNS   : 0.000
+Slack : -0.849
+TNS   : -0.849
 
 Type  : Slow 1200mV 0C Model Hold 'vga_controller:vga|clkdiv'
-Slack : 0.594
+Slack : 0.600
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.704
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
@@ -51,24 +51,24 @@ Slack : -1.403
 TNS   : -30.866
 
 Type  : Fast 1200mV 0C Model Setup 'vga_controller:vga|clkdiv'
-Slack : -0.300
-TNS   : -3.987
+Slack : -0.343
+TNS   : -3.417
 
 Type  : Fast 1200mV 0C Model Setup 'MAX10_CLK1_50'
-Slack : -0.244
-TNS   : -0.244
+Slack : -0.117
+TNS   : -0.117
 
 Type  : Fast 1200mV 0C Model Hold 'vga_controller:vga|clkdiv'
-Slack : 0.248
+Slack : 0.252
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'MAX10_CLK1_50'
-Slack : 0.439
+Slack : 0.270
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
 Slack : -3.000
-TNS   : -4.121
+TNS   : -4.004
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:vga|clkdiv'
 Slack : -1.000

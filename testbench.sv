@@ -8,25 +8,32 @@ timeprecision 1ns;
 // instantiated as a submodule in testbench.
 logic Clk = 0;
 logic [9:0] SW;
+logic Key;
 
 logic vs,hs;
-logic [3:0] r,g,b;
+logic [7:0] r,g,b;
+
+logic [9:0] BallX,BallY,Ball_size,DrawX,DrawY;
 		
 // Make sure the module and signal names match with those in your design
-bar_graph bar(
-	 // System clock
-	.MAX10_CLK1_50(Clk),
-	
-	// Button
-	.Reset(1'b1),
-	
-	// Switch input
-	.SW(SW),
-	
-	// VGA
-	.VGA_VS(vs),.VGA_HS(hs),
-	.VGA_R(r),.VGA_G(g),.VGA_B(b)
-);
+//bar_graph bar(
+//	 // System clock
+//	.MAX10_CLK1_50(Clk),
+//	
+//	// Button
+//	.Reset(1'b1),
+//	
+//	// Switch input
+//	.SW(SW),
+//	
+//	// VGA
+//	.VGA_VS(vs),.VGA_HS(hs),
+//	.VGA_R(r),.VGA_G(g),.VGA_B(b)
+//);
+
+color_mapper color( .*,
+								 .Clk(Clk),.Button(Key),
+                       .Red(r), .Green(g), .Blue(b) );
 
 // Toggle the clock
 // #1 means wait for a delay of 1 timeunit
@@ -44,15 +51,61 @@ end
 // as in a software program
 initial begin: TEST_VECTORS
 
-SW = 10'b0101010101;
+Key=0;
+DrawX = 10'd0;
+DrawY = 10'd10;
 
-#1500
+#2
 
-#1500
+DrawX = 10'd15;
+DrawY = 10'd480;
 
-#1500
+#2
 
-#1500
+DrawX = 10'd80;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd140;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd205;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd270;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd340;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd395;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd460;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd520;
+DrawY = 10'd480;
+
+#2
+
+DrawX = 10'd580;
+DrawY = 10'd480;
+
+#2
 
 
 $display("Simulation succesfully completed");

@@ -8,78 +8,123 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim
-vbar_graph
+vball
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1668758190
 !i10b 1
-!s100 n@mSoK<OBzcjQ8[4^;5^H3
-IocO7n2Ec0>G@a2VL>e<zi1
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-!s105 bar_graph_sv_unit
-S1
-R0
-w1668758036
-8C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
-FC:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
-L0 1
-Z4 OV;L;10.5b;63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 31
-Z5 !s108 1668758190.000000
-!s107 C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv|
+!s100 RHC]^6Z5FHTALOg35UZ?A3
+ILa>;o[CJRTX9GM3hYVf=M0
+!s105 ball_sv_unit
+S1
+R0
+Z3 w1667270012
+8C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+FC:/Users/dcagl/Desktop/ECE385/final/ball.sv
+Z4 L0 16
+Z5 OV;L;10.5b;63
+Z6 !s108 1669530405.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
 !i113 1
-Z6 o-sv -work work
-Z7 !s92 -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
-Z8 tCvgOpt 0
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
+Z9 tCvgOpt 0
+vcolor_mapper
+R1
+!i10b 1
+R2
+r1
+!s85 0
+31
+!s100 4L6g0UF=oQP=SQ^]dfh`Z3
+IJRi7`1]k=k;N`_@zgP7kM2
+!s105 Color_Mapper_sv_unit
+S1
+R0
+w1669530294
+8C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+FC:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+R4
+R5
+R6
+!s107 C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
+!i113 1
+R7
+R8
+R9
+vlab62
+R1
+!i10b 1
+R2
+r1
+!s85 0
+31
+!s100 j4IJ;bQOJ?;d>1^A?S<Oj2
+I[;6Q`;]bl6Jg1_Z4gAl7B0
+!s105 lab62_sv_unit
+S1
+R0
+w1668795969
+8C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+FC:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+L0 9
+R5
+R6
+!s107 C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
+!i113 1
+R7
+R8
+R9
 vtestbench
 R1
-R2
 !i10b 1
-!s100 9]TB^0B`:]Uli;mfFNWA41
-I?f2eehbI`e3IfgzSDH9aO0
-R3
+R2
+r1
+!s85 0
+31
+!s100 h4AWXZ4FaEhUfk7[hNnUg1
+INZYnYan50ZeNVLDiOIQ]31
 !s105 testbench_sv_unit
 S1
 R0
-w1668757825
+w1669530388
 8C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
 FC:/Users/dcagl/Desktop/ECE385/final/testbench.sv
 L0 1
-R4
-r1
-!s85 0
-31
 R5
+R6
 !s107 C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
 !i113 1
-R6
 R7
 R8
+R9
 vvga_controller
 R1
-R2
 !i10b 1
-!s100 PJJOcFccdZOKRcczIX[X?3
-IP3DOf[FCQAcTmIM`_6Mfo0
-R3
-!s105 VGA_controller_sv_unit
-S1
-R0
-w1667270012
-8C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
-FC:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
-L0 25
-R4
+R2
 r1
 !s85 0
 31
+!s100 PJJOcFccdZOKRcczIX[X?3
+IP3DOf[FCQAcTmIM`_6Mfo0
+!s105 VGA_controller_sv_unit
+S1
+R0
+R3
+8C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+FC:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+L0 25
 R5
+!s108 1669530406.000000
 !s107 C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
 !i113 1
-R6
 R7
 R8
+R9

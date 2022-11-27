@@ -5,8 +5,10 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/lab62.sv}
 vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv}
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ball.sv}
 
 vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/testbench.sv}
 
