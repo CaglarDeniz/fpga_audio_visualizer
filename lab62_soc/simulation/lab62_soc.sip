@@ -49,7 +49,6 @@ set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::qua
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_spi_0.v"]
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_sdram_pll.vo"]
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_sdram.v"]
-set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_onchip_memory2_0.hex"]
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_onchip_memory2_0.v"]
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_nios2_gen2_0.v"]
 set_global_assignment -library "lib_lab62_soc" -name MISC_FILE [file join $::quartus(sip_path) "submodules/lab62_soc_nios2_gen2_0_cpu.sdc"]

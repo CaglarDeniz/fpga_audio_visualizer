@@ -1,5 +1,5 @@
 Flow report for audio_visualizer
-Sun Nov 27 00:37:33 2022
+Thu Dec 08 05:19:49 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Nov 27 00:37:33 2022       ;
+; Flow Status                        ; Successful - Thu Dec 08 05:19:49 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; audio_visualizer                            ;
 ; Top-level Entity Name              ; lab62                                       ;
 ; Family                             ; MAX 10                                      ;
 ; Device                             ; 10M50DAF484C7G                              ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 135 / 49,760 ( < 1 % )                      ;
-;     Total combinational functions  ; 134 / 49,760 ( < 1 % )                      ;
-;     Dedicated logic registers      ; 23 / 49,760 ( < 1 % )                       ;
-; Total registers                    ; 23                                          ;
+; Total logic elements               ; 4,148 / 49,760 ( 8 % )                      ;
+;     Total combinational functions  ; 3,537 / 49,760 ( 7 % )                      ;
+;     Dedicated logic registers      ; 2,436 / 49,760 ( 5 % )                      ;
+; Total registers                    ; 2505                                        ;
 ; Total pins                         ; 141 / 360 ( 39 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
+; Total memory bits                  ; 1,326,048 / 1,677,312 ( 79 % )              ;
 ; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
 ; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
 ; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/27/2022 00:36:51 ;
+; Start date & time ; 12/08/2022 05:17:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; audio_visualizer    ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+------------------+-------------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value    ; Entity Name       ; Section Id     ;
 +--------------------------------------+----------------------------------------+------------------+-------------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 58067802040636.166953101109960         ; --               ; --                ; --             ;
+; COMPILER_SIGNATURE_ID                ; 58067802040636.167049822711400         ; --               ; --                ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --               ; --                ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --               ; --                ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --               ; --                ; eda_simulation ;
@@ -89,6 +89,10 @@ refer to the applicable agreement for further details.
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --               ; --                ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --               ; --                ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --               ; --                ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --               ; --                ; --             ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                      ; --               ; --                ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --               ; --                ; --             ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                             ; --               ; --                ; --             ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top            ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; lab62             ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; DE10_LITE_Default ; Top            ;
@@ -107,12 +111,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4789 MB             ; 00:00:11                           ;
-; Fitter               ; 00:00:13     ; 1.0                     ; 5771 MB             ; 00:00:08                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4679 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 4850 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4650 MB             ; 00:00:00                           ;
-; Total                ; 00:00:38     ; --                      ; --                  ; 00:00:23                           ;
+; Analysis & Synthesis ; 00:01:51     ; 1.0                     ; 5009 MB             ; 00:01:11                           ;
+; Fitter               ; 00:00:29     ; 1.4                     ; 5856 MB             ; 00:00:24                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4710 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:06     ; 2.1                     ; 4919 MB             ; 00:00:08                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4739 MB             ; 00:00:02                           ;
+; Total                ; 00:02:33     ; --                      ; --                  ; 00:01:48                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,12 +1,12 @@
-# system info lab62_soc on 2022.12.04.19:11:04
+# system info lab62_soc on 2022.12.08.05:13:00
 system_info:
 name,value
 DEVICE,10M50DAF484C7G
 DEVICE_FAMILY,MAX 10
-GENERATION_ID,1670202621
+GENERATION_ID,1670497924
 #
 #
-# Files generated for lab62_soc on 2022.12.04.19:11:04
+# Files generated for lab62_soc on 2022.12.08.05:13:00
 files:
 filepath,kind,attributes,module,is_top
 simulation/lab62_soc.v,VERILOG,,lab62_soc,true
@@ -17,7 +17,6 @@ simulation/submodules/lab62_soc_jtag_uart_0.v,VERILOG,,lab62_soc_jtag_uart_0,fal
 simulation/submodules/lab62_soc_keycode.v,VERILOG,,lab62_soc_keycode,false
 simulation/submodules/lab62_soc_leds_pio.v,VERILOG,,lab62_soc_leds_pio,false
 simulation/submodules/lab62_soc_nios2_gen2_0.v,VERILOG,,lab62_soc_nios2_gen2_0,false
-simulation/submodules/lab62_soc_onchip_memory2_0.hex,HEX,,lab62_soc_onchip_memory2_0,false
 simulation/submodules/lab62_soc_onchip_memory2_0.v,VERILOG,,lab62_soc_onchip_memory2_0,false
 simulation/submodules/lab62_soc_sdram.v,VERILOG,,lab62_soc_sdram,false
 simulation/submodules/lab62_soc_sdram_pll.vo,VERILOG,,lab62_soc_sdram_pll,false

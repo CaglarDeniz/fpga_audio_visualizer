@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.12.04.19:11:05
+# ACDS 18.1 625 win32 2022.12.08.05:13:00
 
 # ----------------------------------------
 # Initialize variables
@@ -150,7 +150,6 @@ alias file_copy {
   file copy -force $QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0_cpu_rf_ram_b.dat ./
   file copy -force $QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0_cpu_rf_ram_b.hex ./
   file copy -force $QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0_cpu_rf_ram_b.mif ./
-  file copy -force $QSYS_SIMDIR/submodules/lab62_soc_onchip_memory2_0.hex ./
 }
 
 # ----------------------------------------

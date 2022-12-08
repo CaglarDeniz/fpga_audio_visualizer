@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="lab62_soc" kind="lab62_soc" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2022.12.04.19:11:09 -->
+ <!-- 2022.12.08.05:17:31 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1670202669</value>
+  <value>1670498251</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -7449,7 +7449,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x10' type='altera_avalon_onchip_memory2.s1' /><slave name='sdram_pll.pll_slave' start='0x40' end='0x50' type='altpll.pll_slave' /><slave name='button.s1' start='0x50' end='0x60' type='altera_avalon_pio.s1' /><slave name='spi_0.spi_control_port' start='0x60' end='0x80' type='altera_avalon_spi.spi_control_port' /><slave name='sysid_qsys_0.control_slave' start='0x88' end='0x90' type='altera_avalon_sysid_qsys.control_slave' /><slave name='key.s1' start='0xA0' end='0xB0' type='altera_avalon_pio.s1' /><slave name='leds_pio.s1' start='0xB0' end='0xC0' type='altera_avalon_pio.s1' /><slave name='hex_digits_pio.s1' start='0xC0' end='0xD0' type='altera_avalon_pio.s1' /><slave name='usb_rst.s1' start='0xD0' end='0xE0' type='altera_avalon_pio.s1' /><slave name='usb_gpx.s1' start='0xE0' end='0xF0' type='altera_avalon_pio.s1' /><slave name='usb_irq.s1' start='0xF0' end='0x100' type='altera_avalon_pio.s1' /><slave name='keycode.s1' start='0x100' end='0x110' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x130' end='0x138' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='irq_timer.s1' start='0x180' end='0x1C0' type='altera_avalon_timer.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sdram.s1' start='0x8000000' end='0xC000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='sdram_pll.pll_slave' start='0x10' end='0x20' type='altpll.pll_slave' /><slave name='sysid_qsys_0.control_slave' start='0x28' end='0x30' type='altera_avalon_sysid_qsys.control_slave' /><slave name='button.s1' start='0x50' end='0x60' type='altera_avalon_pio.s1' /><slave name='spi_0.spi_control_port' start='0x60' end='0x80' type='altera_avalon_spi.spi_control_port' /><slave name='key.s1' start='0xA0' end='0xB0' type='altera_avalon_pio.s1' /><slave name='leds_pio.s1' start='0xB0' end='0xC0' type='altera_avalon_pio.s1' /><slave name='hex_digits_pio.s1' start='0xC0' end='0xD0' type='altera_avalon_pio.s1' /><slave name='usb_rst.s1' start='0xD0' end='0xE0' type='altera_avalon_pio.s1' /><slave name='usb_gpx.s1' start='0xE0' end='0xF0' type='altera_avalon_pio.s1' /><slave name='usb_irq.s1' start='0xF0' end='0x100' type='altera_avalon_pio.s1' /><slave name='keycode.s1' start='0x100' end='0x110' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x130' end='0x138' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='irq_timer.s1' start='0x180' end='0x1C0' type='altera_avalon_timer.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='onchip_memory2_0.s1' start='0x80000' end='0xA81FC' type='altera_avalon_onchip_memory2.s1' /><slave name='sdram.s1' start='0x8000000' end='0xC000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -7469,7 +7469,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x0' end='0x10' type='altera_avalon_onchip_memory2.s1' /><slave name='sdram_pll.pll_slave' start='0x40' end='0x50' type='altpll.pll_slave' /><slave name='button.s1' start='0x50' end='0x60' type='altera_avalon_pio.s1' /><slave name='spi_0.spi_control_port' start='0x60' end='0x80' type='altera_avalon_spi.spi_control_port' /><slave name='sysid_qsys_0.control_slave' start='0x88' end='0x90' type='altera_avalon_sysid_qsys.control_slave' /><slave name='key.s1' start='0xA0' end='0xB0' type='altera_avalon_pio.s1' /><slave name='leds_pio.s1' start='0xB0' end='0xC0' type='altera_avalon_pio.s1' /><slave name='hex_digits_pio.s1' start='0xC0' end='0xD0' type='altera_avalon_pio.s1' /><slave name='usb_rst.s1' start='0xD0' end='0xE0' type='altera_avalon_pio.s1' /><slave name='usb_gpx.s1' start='0xE0' end='0xF0' type='altera_avalon_pio.s1' /><slave name='usb_irq.s1' start='0xF0' end='0x100' type='altera_avalon_pio.s1' /><slave name='keycode.s1' start='0x100' end='0x110' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x130' end='0x138' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='irq_timer.s1' start='0x180' end='0x1C0' type='altera_avalon_timer.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sdram.s1' start='0x8000000' end='0xC000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='sdram_pll.pll_slave' start='0x10' end='0x20' type='altpll.pll_slave' /><slave name='sysid_qsys_0.control_slave' start='0x28' end='0x30' type='altera_avalon_sysid_qsys.control_slave' /><slave name='button.s1' start='0x50' end='0x60' type='altera_avalon_pio.s1' /><slave name='spi_0.spi_control_port' start='0x60' end='0x80' type='altera_avalon_spi.spi_control_port' /><slave name='key.s1' start='0xA0' end='0xB0' type='altera_avalon_pio.s1' /><slave name='leds_pio.s1' start='0xB0' end='0xC0' type='altera_avalon_pio.s1' /><slave name='hex_digits_pio.s1' start='0xC0' end='0xD0' type='altera_avalon_pio.s1' /><slave name='usb_rst.s1' start='0xD0' end='0xE0' type='altera_avalon_pio.s1' /><slave name='usb_gpx.s1' start='0xE0' end='0xF0' type='altera_avalon_pio.s1' /><slave name='usb_irq.s1' start='0xF0' end='0x100' type='altera_avalon_pio.s1' /><slave name='keycode.s1' start='0x100' end='0x110' type='altera_avalon_pio.s1' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x130' end='0x138' type='altera_avalon_jtag_uart.avalon_jtag_slave' /><slave name='irq_timer.s1' start='0x180' end='0x1C0' type='altera_avalon_timer.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x1000' end='0x1800' type='altera_nios2_gen2.debug_mem_slave' /><slave name='onchip_memory2_0.s1' start='0x80000' end='0xA81FC' type='altera_avalon_onchip_memory2.s1' /><slave name='sdram.s1' start='0x8000000' end='0xC000000' type='altera_avalon_new_sdram_controller.s1' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -8148,7 +8148,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sysid_qsys_0</moduleName>
     <slaveName>control_slave</slaveName>
     <name>sysid_qsys_0.control_slave</name>
-    <baseAddress>136</baseAddress>
+    <baseAddress>40</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -8164,7 +8164,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sdram_pll</moduleName>
     <slaveName>pll_slave</slaveName>
     <name>sdram_pll.pll_slave</name>
-    <baseAddress>64</baseAddress>
+    <baseAddress>16</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -8172,8 +8172,8 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>onchip_memory2_0</moduleName>
     <slaveName>s1</slaveName>
     <name>onchip_memory2_0.s1</name>
-    <baseAddress>0</baseAddress>
-    <span>16</span>
+    <baseAddress>524288</baseAddress>
+    <span>164348</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -8563,7 +8563,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sysid_qsys_0</moduleName>
     <slaveName>control_slave</slaveName>
     <name>sysid_qsys_0.control_slave</name>
-    <baseAddress>136</baseAddress>
+    <baseAddress>40</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -8579,7 +8579,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sdram_pll</moduleName>
     <slaveName>pll_slave</slaveName>
     <name>sdram_pll.pll_slave</name>
-    <baseAddress>64</baseAddress>
+    <baseAddress>16</baseAddress>
     <span>16</span>
    </memoryBlock>
    <memoryBlock>
@@ -8587,8 +8587,8 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>onchip_memory2_0</moduleName>
     <slaveName>s1</slaveName>
     <name>onchip_memory2_0.s1</name>
-    <baseAddress>0</baseAddress>
-    <span>16</span>
+    <baseAddress>524288</baseAddress>
+    <span>164348</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -9323,7 +9323,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_CONTENTS_FILE</name>
-   <value>lab62_soc_onchip_memory2_0</value>
+   <value>rickroll_short</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.INIT_MEM_CONTENT</name>
@@ -9335,7 +9335,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.NON_DEFAULT_INIT_FILE_ENABLED</name>
-   <value>0</value>
+   <value>1</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.RAM_BLOCK_TYPE</name>
@@ -9355,7 +9355,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.SIZE_VALUE</name>
-   <value>16</value>
+   <value>164348</value>
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.WRITABLE</name>
@@ -9387,7 +9387,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.memoryInfo.MEM_INIT_FILENAME</name>
-   <value>lab62_soc_onchip_memory2_0</value>
+   <value>rickroll_short</value>
   </assignment>
   <assignment>
    <name>postgeneration.simulation.init_file.param_name</name>
@@ -9463,9 +9463,9 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="initializationFileName">
    <type>java.lang.String</type>
-   <value>onchip_mem.hex</value>
+   <value>C:/Users/dcagl/Desktop/ECE385/final/rickroll_short.mif</value>
    <derived>false</derived>
-   <enabled>false</enabled>
+   <enabled>true</enabled>
    <visible>true</visible>
    <valid>true</valid>
   </parameter>
@@ -9487,7 +9487,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="memorySize">
    <type>long</type>
-   <value>16</value>
+   <value>164348</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9551,7 +9551,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="useNonDefaultInitFile">
    <type>boolean</type>
-   <value>false</value>
+   <value>true</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -9561,7 +9561,7 @@ the requested settings for a module instance. -->
    <type>boolean</type>
    <value>false</value>
    <derived>false</derived>
-   <enabled>false</enabled>
+   <enabled>true</enabled>
    <visible>false</visible>
    <valid>true</valid>
   </parameter>
@@ -9626,7 +9626,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width">
    <type>int</type>
-   <value>2</value>
+   <value>16</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -9634,7 +9634,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_set_addr_width2">
    <type>int</type>
-   <value>2</value>
+   <value>16</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -9674,7 +9674,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="derived_init_file_name">
    <type>java.lang.String</type>
-   <value>lab62_soc_onchip_memory2_0.hex</value>
+   <value>C:/Users/dcagl/Desktop/ECE385/final/rickroll_short.mif</value>
    <derived>true</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -9771,7 +9771,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>16</value>
+    <value>164348</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -9859,7 +9859,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="explicitAddressSpan">
     <type>java.math.BigInteger</type>
-    <value>16</value>
+    <value>164348</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -10070,7 +10070,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>address</name>
     <direction>Input</direction>
-    <width>2</width>
+    <width>16</width>
     <role>address</role>
    </port>
    <port>
@@ -13933,7 +13933,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1670202669</value>
+   <value>1670498251</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -13953,7 +13953,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1670202669</value>
+   <value>1670498251</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -13969,7 +13969,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1670202669</value>
+   <value>1670498251</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -16779,7 +16779,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0088</value>
+   <value>0x0028</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -16881,7 +16881,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0040</value>
+   <value>0x0010</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -16932,7 +16932,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0000</value>
+   <value>0x00080000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -17595,7 +17595,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0088</value>
+   <value>0x0028</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -17697,7 +17697,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0040</value>
+   <value>0x0010</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -17748,7 +17748,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0000</value>
+   <value>0x00080000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
