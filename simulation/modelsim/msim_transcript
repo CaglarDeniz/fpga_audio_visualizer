@@ -1205,3 +1205,769 @@ vcom -work rtl_work -refresh -force_refresh
 # -- Skipping module vga_controller
 # End time: 23:55:23 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+restart
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+run -all
+# Simulation succesfully completed
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:26 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 02:38:26 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:26 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 02:38:26 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:26 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 02:38:26 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:27 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 02:38:27 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:27 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 02:38:27 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:27 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:38:27 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:28 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 02:38:28 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:28 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:38:28 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:28 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 02:38:28 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:38 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 02:38:38 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:38:38 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 02:38:39 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:08 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 02:40:08 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:08 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 02:40:08 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:08 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 02:40:08 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:08 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 02:40:08 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:09 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 02:40:09 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:09 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 02:40:09 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:09 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 02:40:09 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:10 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:40:10 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:10 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 02:40:10 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:14 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 02:40:14 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:40:15 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 02:40:15 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 02:40:26 on Dec 09,2022, Elapsed time: 3:27:08
+# Errors: 2, Warnings: 1
+# vsim work.testbench 
+# Start time: 02:40:28 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(440): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(438): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(436): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(434): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(432): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(430): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(428): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(426): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(424): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(422): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(420): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(418): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(416): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(414): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(412): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(410): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+add wave -position insertpoint  \
+sim:/testbench/s0 \
+sim:/testbench/s1 \
+sim:/testbench/s2 \
+sim:/testbench/s3 \
+sim:/testbench/s4 \
+sim:/testbench/s5 \
+sim:/testbench/s6 \
+sim:/testbench/s7 \
+sim:/testbench/s8 \
+sim:/testbench/s9 \
+sim:/testbench/s10 \
+sim:/testbench/s11 \
+sim:/testbench/s12 \
+sim:/testbench/s13 \
+sim:/testbench/s14 \
+sim:/testbench/s15 \
+sim:/testbench/x0 \
+sim:/testbench/x1 \
+sim:/testbench/x2 \
+sim:/testbench/x3 \
+sim:/testbench/x4 \
+sim:/testbench/x5 \
+sim:/testbench/x6 \
+sim:/testbench/x7 \
+sim:/testbench/x8 \
+sim:/testbench/x9 \
+sim:/testbench/x10 \
+sim:/testbench/x11 \
+sim:/testbench/x12 \
+sim:/testbench/x13 \
+sim:/testbench/x14 \
+sim:/testbench/x15 \
+sim:/testbench/frame_completed \
+sim:/testbench/Ready
+restart
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(440): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(438): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(436): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(434): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(432): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(430): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(428): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(426): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(424): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(422): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(420): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(418): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(416): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(414): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(412): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(410): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+run -all
+# Simulation succesfully completed
+restart
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(440): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(438): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(436): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(434): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(432): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(430): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(428): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(426): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(424): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(422): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(420): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(418): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(416): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(414): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(412): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(410): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+run -all
+# Simulation succesfully completed
+add wave -position insertpoint  \
+sim:/testbench/fft/outsignal_r0 \
+sim:/testbench/fft/outsignal_r1 \
+sim:/testbench/fft/outsignal_r2 \
+sim:/testbench/fft/outsignal_r3 \
+sim:/testbench/fft/outsignal_r4 \
+sim:/testbench/fft/outsignal_r5 \
+sim:/testbench/fft/outsignal_r6 \
+sim:/testbench/fft/outsignal_r7 \
+sim:/testbench/fft/outsignal_r8 \
+sim:/testbench/fft/outsignal_r9 \
+sim:/testbench/fft/outsignal_r10 \
+sim:/testbench/fft/outsignal_r11 \
+sim:/testbench/fft/outsignal_r12 \
+sim:/testbench/fft/outsignal_r13 \
+sim:/testbench/fft/outsignal_r14 \
+sim:/testbench/fft/outsignal_r15
+restart
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(440): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(438): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(436): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(434): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(432): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(430): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(428): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(426): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(424): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(422): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(420): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(418): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(416): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(414): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(412): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(410): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+run -all
+# Simulation succesfully completed
+add wave -position insertpoint  \
+sim:/testbench/fft/curr_state \
+sim:/testbench/fft/next_state
+restart
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(440): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(438): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(492).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(436): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(434): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(489).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(432): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(430): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(486).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(428): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(426): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(483).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(424): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(422): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(480).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(420): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(418): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(477).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(416): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(414): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(474).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(412): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(410): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(471).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+run -all
+# Simulation succesfully completed
+add wave -position insertpoint  \
+sim:/testbench/fft/Clk \
+sim:/testbench/fft/Reset
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:34 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 03:06:34 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 03:06:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 03:06:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 03:06:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 03:06:36 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 03:06:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 03:06:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:06:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 03:06:37 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:41 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 03:06:41 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:06:42 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 03:06:42 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+restart
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(443): Variable '/testbench/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(488).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(441): Variable '/testbench/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(488).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(439): Variable '/testbench/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(485).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(437): Variable '/testbench/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(485).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(435): Variable '/testbench/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(482).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(433): Variable '/testbench/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(482).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(431): Variable '/testbench/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(479).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(429): Variable '/testbench/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(479).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(427): Variable '/testbench/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(476).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(425): Variable '/testbench/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(476).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(423): Variable '/testbench/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(473).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(421): Variable '/testbench/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(473).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(419): Variable '/testbench/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(470).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(417): Variable '/testbench/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(470).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(415): Variable '/testbench/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(467).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# ** Warning: (vsim-3839) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(413): Variable '/testbench/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(467).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/fft File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+run
+# Simulation succesfully completed
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:53 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 03:08:53 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:53 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 03:08:53 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:53 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 03:08:53 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:54 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 03:08:54 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:54 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 03:08:54 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:54 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 03:08:54 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:54 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 03:08:54 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:54 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:08:55 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:55 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 03:08:55 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:59 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 03:08:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:08:59 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 03:08:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

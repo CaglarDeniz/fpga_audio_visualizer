@@ -12,6 +12,8 @@ logic [23:0] s0,  s1,   s2,   s3,   s4,   s5,   s6,   s7,  s8,   s9,
  s10,   s11,   s12,   s13,   s14,   s15,   x0,   x1,   x2 ,   x3, 
  x4,   x5,   x6,   x7,   x8 ,   x9,   x10,   x11,   x12,   x13,
  x14,   x15;
+ logic frame_completed;
+ logic Ready = 0;
 //logic [9:0] SW;
 //logic Key;
 //
@@ -77,12 +79,13 @@ s2 = 24'd3;
 s1 = 24'd14;
 s0 = 24'd15;
 
-#2 
-Reset = 1'b1;
+#2 Reset = 1'b1;
 
 #2 Reset = 1'b0;
 
 # 1000
+
+#2 Ready = 1'b1;
 
 //Key=0;
 //DrawX = 10'd0;
