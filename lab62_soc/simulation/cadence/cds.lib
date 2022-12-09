@@ -37,14 +37,14 @@ DEFINE sysid_qsys_0                                 ./libraries/sysid_qsys_0/
 DEFINE spi_0                                        ./libraries/spi_0/                                       
 DEFINE sdram_pll                                    ./libraries/sdram_pll/                                   
 DEFINE sdram                                        ./libraries/sdram/                                       
-DEFINE onchip_memory2_0                             ./libraries/onchip_memory2_0/                            
 DEFINE nios2_gen2_0                                 ./libraries/nios2_gen2_0/                                
 DEFINE leds_pio                                     ./libraries/leds_pio/                                    
 DEFINE keycode                                      ./libraries/keycode/                                     
+DEFINE key                                          ./libraries/key/                                         
 DEFINE jtag_uart_0                                  ./libraries/jtag_uart_0/                                 
 DEFINE irq_timer                                    ./libraries/irq_timer/                                   
+DEFINE i2c_0                                        ./libraries/i2c_0/                                       
 DEFINE hex_digits_pio                               ./libraries/hex_digits_pio/                              
-DEFINE button                                       ./libraries/button/                                      
 DEFINE altera_ver                                   ./libraries/altera_ver/                                  
 DEFINE lpm_ver                                      ./libraries/lpm_ver/                                     
 DEFINE sgate_ver                                    ./libraries/sgate_ver/                                   

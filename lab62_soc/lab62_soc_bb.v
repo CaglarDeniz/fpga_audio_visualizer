@@ -1,8 +1,11 @@
 
 module lab62_soc (
-	button_wire_export,
 	clk_clk,
 	hex_digits_export,
+	i2c_0_sda_in,
+	i2c_0_scl_in,
+	i2c_0_sda_oe,
+	i2c_0_scl_oe,
 	key_external_connection_export,
 	keycode_export,
 	leds_export,
@@ -25,9 +28,12 @@ module lab62_soc (
 	usb_irq_export,
 	usb_rst_export);	
 
-	input	[1:0]	button_wire_export;
 	input		clk_clk;
 	output	[15:0]	hex_digits_export;
+	input		i2c_0_sda_in;
+	input		i2c_0_scl_in;
+	output		i2c_0_sda_oe;
+	output		i2c_0_scl_oe;
 	input	[1:0]	key_external_connection_export;
 	output	[7:0]	keycode_export;
 	output	[13:0]	leds_export;

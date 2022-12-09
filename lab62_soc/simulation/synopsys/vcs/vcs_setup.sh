@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2022.12.08.05:13:00
+# ACDS 18.1 625 win32 2022.12.09.13:09:40
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.12.08.05:13:00
+# ACDS 18.1 625 win32 2022.12.09.13:09:40
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="lab62_soc"
@@ -196,14 +196,24 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   $QSYS_SIMDIR/submodules/lab62_soc_spi_0.v \
   $QSYS_SIMDIR/submodules/lab62_soc_sdram_pll.vo \
   $QSYS_SIMDIR/submodules/lab62_soc_sdram.v \
-  $QSYS_SIMDIR/submodules/lab62_soc_onchip_memory2_0.v \
   $QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0.v \
   $QSYS_SIMDIR/submodules/lab62_soc_leds_pio.v \
   $QSYS_SIMDIR/submodules/lab62_soc_keycode.v \
+  $QSYS_SIMDIR/submodules/lab62_soc_key.v \
   $QSYS_SIMDIR/submodules/lab62_soc_jtag_uart_0.v \
   $QSYS_SIMDIR/submodules/lab62_soc_irq_timer.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_csr.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_clk_cnt.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_det.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_gen.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_fifo.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_mstfsm.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_rxshifter.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_txshifter.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_spksupp.v \
+  $QSYS_SIMDIR/submodules/altera_avalon_i2c_txout.v \
   $QSYS_SIMDIR/submodules/lab62_soc_hex_digits_pio.v \
-  $QSYS_SIMDIR/submodules/lab62_soc_button.v \
   $QSYS_SIMDIR/lab62_soc.v \
   -top $TOP_LEVEL_NAME
 # ----------------------------------------

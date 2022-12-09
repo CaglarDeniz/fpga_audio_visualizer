@@ -16,7 +16,7 @@ r1
 !s85 0
 31
 !s100 RHC]^6Z5FHTALOg35UZ?A3
-I5Y6zR4__8=?WoljXZ?Ab>2
+ILa>;o[CJRTX9GM3hYVf=M0
 !s105 ball_sv_unit
 S1
 R0
@@ -25,35 +25,13 @@ Z3 w1667270012
 FC:/Users/dcagl/Desktop/ECE385/final/ball.sv
 Z4 L0 16
 Z5 OV;L;10.5b;63
-Z6 !s108 1670589487.000000
+Z6 !s108 1670595904.000000
 !s107 C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
 !i113 1
-Z7 o-work work
-Z8 tCvgOpt 0
-vbar_graph
-R1
-!i10b 1
-R2
-r1
-!s85 0
-31
-!s100 NecioKI0lEGLBR7jbhF113
-I^h5THbSLlYHC0AY7Uj;dG3
-!s105 bar_graph_sv_unit
-S1
-R0
-Z9 w1670566872
-8C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
-FC:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
-L0 1
-R5
-R6
-!s107 C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv|
-!i113 1
-R7
-R8
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
+Z9 tCvgOpt 0
 vbutterfly
 R1
 !i10b 1
@@ -62,21 +40,22 @@ r1
 !s85 0
 31
 !s100 Wi2:`6fnIeWXYoJKULi9]2
-I@7B08j_jQVgd4hBoMG1L60
+I90^7`M=TOzbIfWKcHe<hh2
 !s105 butterfly_module_sv_unit
 S1
 R0
-R9
+w1670566872
 8C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
 FC:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
 L0 1
 R5
 R6
 !s107 C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv|
 !i113 1
 R7
 R8
+R9
 vcolor_mapper
 R1
 !i10b 1
@@ -84,22 +63,23 @@ R2
 r1
 !s85 0
 31
-!s100 U<NW=^2RG]:]oC_ClP1e00
-I39:MW;UHS[P<BdfHZDGUF2
+!s100 CN4@EnS7g_n<_B0CNEKRb2
+In6n]EY`U2YjRV@`WJYNY>3
 !s105 Color_Mapper_sv_unit
 S1
 R0
-w1669531006
+w1670591216
 8C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
 FC:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
 R4
 R5
 R6
 !s107 C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
 !i113 1
 R7
 R8
+R9
 vFastFourierTransform
 R1
 !i10b 1
@@ -107,47 +87,24 @@ R2
 r1
 !s85 0
 31
-!s100 W2>kY=nWoc:gb]fR?HjfH3
-IO;RFI^A38;5TGfKWVLUZR1
+!s100 GRZRLjKI1ak2UnK1_:KS[1
+ImZQR]M^=FkNflHA1;_T3Q3
 !s105 FastFourierTransform_sv_unit
 S1
 R0
-w1670589477
+w1670590988
 8C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
 FC:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
 L0 2
 R5
-Z10 !s108 1670589488.000000
+R6
 !s107 C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv|
 !i113 1
 R7
 R8
+R9
 n@fast@fourier@transform
-vHexDriver
-R1
-!i10b 1
-R2
-r1
-!s85 0
-31
-!s100 hKBo4zbCRmY3[Ac9JZP;<0
-Il:Ga3GciiVV46M;Y3JKd@3
-!s105 HexDriver_sv_unit
-S1
-R0
-R3
-8C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
-FC:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
-L0 1
-R5
-R10
-!s107 C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv|
-!i113 1
-R7
-R8
-n@hex@driver
 vlab62
 R1
 !i10b 1
@@ -155,42 +112,44 @@ R2
 r1
 !s85 0
 31
-!s100 d3AD2FUk2Znm`g6z?=[bb0
-I>8?oll[]MMGjfkfkTieX83
+!s100 ObddYXEoY5^UBCl29zzMg0
+I9_zP07fGC7`<g_IlJW`oH2
 !s105 lab62_sv_unit
 S1
 R0
-w1670589100
+w1670595751
 8C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
 FC:/Users/dcagl/Desktop/ECE385/final/lab62.sv
 L0 9
 R5
-R10
+Z10 !s108 1670595905.000000
 !s107 C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
 !i113 1
 R7
 R8
+R9
 vram
 !i10b 1
 R2
 r1
 !s85 0
 31
-!s100 _]PhLm9<ho@J8h<G<fL`53
-IP99gTT_12Q:bi=5m:i`PL0
+!s100 @bU<`2o[DAMiVKPT`lf?S1
+IbYIDH5Nb:KA2HER]JjH`T1
 R0
 w1670569834
-8C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
-FC:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
-L0 34
+8C:/Users/dcagl/Desktop/ECE385/final/ram.v
+FC:/Users/dcagl/Desktop/ECE385/final/ram.v
+L0 39
 R5
-Z11 !s108 1670589489.000000
-!s107 C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v|
+R10
+!s107 C:/Users/dcagl/Desktop/ECE385/final/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/ram.v|
 !i113 1
-R7
-R8
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
+R9
 vtestbench
 R1
 !i10b 1
@@ -199,7 +158,7 @@ r1
 !s85 0
 31
 !s100 <ioPnD=o6;Q>Z[lH;cKCn0
-I3?CZEQfmmL<dL_BiB21MS2
+IeU]Qo;NziLU=kI8YH?^CM2
 !s105 testbench_sv_unit
 S1
 R0
@@ -208,12 +167,13 @@ w1670577515
 FC:/Users/dcagl/Desktop/ECE385/final/testbench.sv
 L0 1
 R5
-R11
+R10
 !s107 C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
 !i113 1
 R7
 R8
+R9
 vvga_controller
 R1
 !i10b 1
@@ -222,7 +182,7 @@ r1
 !s85 0
 31
 !s100 PJJOcFccdZOKRcczIX[X?3
-IW<?nE;1:W9dWh9YHn:ID:2
+IP3DOf[FCQAcTmIM`_6Mfo0
 !s105 VGA_controller_sv_unit
 S1
 R0
@@ -231,9 +191,10 @@ R3
 FC:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
 L0 25
 R5
-R11
+R10
 !s107 C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
 !i113 1
 R7
 R8
+R9

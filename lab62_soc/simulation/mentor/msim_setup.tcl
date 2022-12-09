@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.12.08.05:13:00
+# ACDS 18.1 625 win32 2022.12.09.13:09:40
 
 # ----------------------------------------
 # Initialize variables
@@ -229,22 +229,22 @@ ensure_lib                                              ./libraries/sdram_pll/
 vmap       sdram_pll                                    ./libraries/sdram_pll/                                   
 ensure_lib                                              ./libraries/sdram/                                       
 vmap       sdram                                        ./libraries/sdram/                                       
-ensure_lib                                              ./libraries/onchip_memory2_0/                            
-vmap       onchip_memory2_0                             ./libraries/onchip_memory2_0/                            
 ensure_lib                                              ./libraries/nios2_gen2_0/                                
 vmap       nios2_gen2_0                                 ./libraries/nios2_gen2_0/                                
 ensure_lib                                              ./libraries/leds_pio/                                    
 vmap       leds_pio                                     ./libraries/leds_pio/                                    
 ensure_lib                                              ./libraries/keycode/                                     
 vmap       keycode                                      ./libraries/keycode/                                     
+ensure_lib                                              ./libraries/key/                                         
+vmap       key                                          ./libraries/key/                                         
 ensure_lib                                              ./libraries/jtag_uart_0/                                 
 vmap       jtag_uart_0                                  ./libraries/jtag_uart_0/                                 
 ensure_lib                                              ./libraries/irq_timer/                                   
 vmap       irq_timer                                    ./libraries/irq_timer/                                   
+ensure_lib                                              ./libraries/i2c_0/                                       
+vmap       i2c_0                                        ./libraries/i2c_0/                                       
 ensure_lib                                              ./libraries/hex_digits_pio/                              
 vmap       hex_digits_pio                               ./libraries/hex_digits_pio/                              
-ensure_lib                                              ./libraries/button/                                      
-vmap       button                                       ./libraries/button/                                      
 
 # ----------------------------------------
 # Compile device library files
@@ -316,14 +316,24 @@ alias com {
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_spi_0.v"                                                    -work spi_0                                       
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_sdram_pll.vo"                                               -work sdram_pll                                   
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_sdram.v"                                                    -work sdram                                       
-  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_onchip_memory2_0.v"                                         -work onchip_memory2_0                            
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0.v"                                             -work nios2_gen2_0                                
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_leds_pio.v"                                                 -work leds_pio                                    
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_keycode.v"                                                  -work keycode                                     
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_key.v"                                                      -work key                                         
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_jtag_uart_0.v"                                              -work jtag_uart_0                                 
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_irq_timer.v"                                                -work irq_timer                                   
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c.v"                                                  -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_csr.v"                                              -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_clk_cnt.v"                                          -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_det.v"                                        -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_gen.v"                                        -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_fifo.v"                                             -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_mstfsm.v"                                           -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_rxshifter.v"                                        -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_txshifter.v"                                        -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_spksupp.v"                                          -work i2c_0                                       
+  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/altera_avalon_i2c_txout.v"                                            -work i2c_0                                       
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_hex_digits_pio.v"                                           -work hex_digits_pio                              
-  eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/submodules/lab62_soc_button.v"                                                   -work button                                      
   eval  vlog $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS     "$QSYS_SIMDIR/lab62_soc.v"                                                                                                                       
 }
 
@@ -331,14 +341,14 @@ alias com {
 # Elaborate top level design
 alias elab {
   echo "\[exec\] elab"
-  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L error_adapter_0 -L avalon_st_adapter_005 -L avalon_st_adapter -L crosser -L sdram_s1_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L sdram_s1_burst_adapter -L router_007 -L router_002 -L router -L jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_0_avalon_jtag_slave_agent -L nios2_gen2_0_data_master_agent -L jtag_uart_0_avalon_jtag_slave_translator -L nios2_gen2_0_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L usb_rst -L usb_gpx -L sysid_qsys_0 -L spi_0 -L sdram_pll -L sdram -L onchip_memory2_0 -L nios2_gen2_0 -L leds_pio -L keycode -L jtag_uart_0 -L irq_timer -L hex_digits_pio -L button -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver $TOP_LEVEL_NAME
+  eval vsim -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L error_adapter_0 -L avalon_st_adapter_005 -L avalon_st_adapter -L crosser -L sdram_s1_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L sdram_s1_burst_adapter -L router_007 -L router_002 -L router -L jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_0_avalon_jtag_slave_agent -L nios2_gen2_0_data_master_agent -L jtag_uart_0_avalon_jtag_slave_translator -L nios2_gen2_0_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L usb_rst -L usb_gpx -L sysid_qsys_0 -L spi_0 -L sdram_pll -L sdram -L nios2_gen2_0 -L leds_pio -L keycode -L key -L jtag_uart_0 -L irq_timer -L i2c_0 -L hex_digits_pio -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------
 # Elaborate the top level design with novopt option
 alias elab_debug {
   echo "\[exec\] elab_debug"
-  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L error_adapter_0 -L avalon_st_adapter_005 -L avalon_st_adapter -L crosser -L sdram_s1_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L sdram_s1_burst_adapter -L router_007 -L router_002 -L router -L jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_0_avalon_jtag_slave_agent -L nios2_gen2_0_data_master_agent -L jtag_uart_0_avalon_jtag_slave_translator -L nios2_gen2_0_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L usb_rst -L usb_gpx -L sysid_qsys_0 -L spi_0 -L sdram_pll -L sdram -L onchip_memory2_0 -L nios2_gen2_0 -L leds_pio -L keycode -L jtag_uart_0 -L irq_timer -L hex_digits_pio -L button -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver $TOP_LEVEL_NAME
+  eval vsim -novopt -t ps $ELAB_OPTIONS $USER_DEFINED_ELAB_OPTIONS -L work -L work_lib -L error_adapter_0 -L avalon_st_adapter_005 -L avalon_st_adapter -L crosser -L sdram_s1_rsp_width_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L sdram_s1_burst_adapter -L router_007 -L router_002 -L router -L jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo -L jtag_uart_0_avalon_jtag_slave_agent -L nios2_gen2_0_data_master_agent -L jtag_uart_0_avalon_jtag_slave_translator -L nios2_gen2_0_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L usb_rst -L usb_gpx -L sysid_qsys_0 -L spi_0 -L sdram_pll -L sdram -L nios2_gen2_0 -L leds_pio -L keycode -L key -L jtag_uart_0 -L irq_timer -L i2c_0 -L hex_digits_pio -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver $TOP_LEVEL_NAME
 }
 
 # ----------------------------------------

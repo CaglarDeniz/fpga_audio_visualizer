@@ -1,7 +1,10 @@
 	lab62_soc u0 (
-		.button_wire_export             (<connected-to-button_wire_export>),             //             button_wire.export
 		.clk_clk                        (<connected-to-clk_clk>),                        //                     clk.clk
 		.hex_digits_export              (<connected-to-hex_digits_export>),              //              hex_digits.export
+		.i2c_0_sda_in                   (<connected-to-i2c_0_sda_in>),                   //                   i2c_0.sda_in
+		.i2c_0_scl_in                   (<connected-to-i2c_0_scl_in>),                   //                        .scl_in
+		.i2c_0_sda_oe                   (<connected-to-i2c_0_sda_oe>),                   //                        .sda_oe
+		.i2c_0_scl_oe                   (<connected-to-i2c_0_scl_oe>),                   //                        .scl_oe
 		.key_external_connection_export (<connected-to-key_external_connection_export>), // key_external_connection.export
 		.keycode_export                 (<connected-to-keycode_export>),                 //                 keycode.export
 		.leds_export                    (<connected-to-leds_export>),                    //                    leds.export

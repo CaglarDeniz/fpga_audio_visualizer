@@ -1,8 +1,11 @@
 	component lab62_soc is
 		port (
-			button_wire_export             : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- export
 			clk_clk                        : in    std_logic                     := 'X';             -- clk
 			hex_digits_export              : out   std_logic_vector(15 downto 0);                    -- export
+			i2c_0_sda_in                   : in    std_logic                     := 'X';             -- sda_in
+			i2c_0_scl_in                   : in    std_logic                     := 'X';             -- scl_in
+			i2c_0_sda_oe                   : out   std_logic;                                        -- sda_oe
+			i2c_0_scl_oe                   : out   std_logic;                                        -- scl_oe
 			key_external_connection_export : in    std_logic_vector(1 downto 0)  := (others => 'X'); -- export
 			keycode_export                 : out   std_logic_vector(7 downto 0);                     -- export
 			leds_export                    : out   std_logic_vector(13 downto 0);                    -- export
@@ -29,9 +32,12 @@
 
 	u0 : component lab62_soc
 		port map (
-			button_wire_export             => CONNECTED_TO_button_wire_export,             --             button_wire.export
 			clk_clk                        => CONNECTED_TO_clk_clk,                        --                     clk.clk
 			hex_digits_export              => CONNECTED_TO_hex_digits_export,              --              hex_digits.export
+			i2c_0_sda_in                   => CONNECTED_TO_i2c_0_sda_in,                   --                   i2c_0.sda_in
+			i2c_0_scl_in                   => CONNECTED_TO_i2c_0_scl_in,                   --                        .scl_in
+			i2c_0_sda_oe                   => CONNECTED_TO_i2c_0_sda_oe,                   --                        .sda_oe
+			i2c_0_scl_oe                   => CONNECTED_TO_i2c_0_scl_oe,                   --                        .scl_oe
 			key_external_connection_export => CONNECTED_TO_key_external_connection_export, -- key_external_connection.export
 			keycode_export                 => CONNECTED_TO_keycode_export,                 --                 keycode.export
 			leds_export                    => CONNECTED_TO_leds_export,                    --                    leds.export

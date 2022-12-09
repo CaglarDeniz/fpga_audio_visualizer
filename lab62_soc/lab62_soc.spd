@@ -257,10 +257,6 @@
    type="VERILOG"
    library="sdram" />
  <file
-   path="simulation/submodules/lab62_soc_onchip_memory2_0.v"
-   type="VERILOG"
-   library="onchip_memory2_0" />
- <file
    path="simulation/submodules/lab62_soc_nios2_gen2_0.v"
    type="VERILOG"
    library="nios2_gen2_0" />
@@ -273,6 +269,10 @@
    type="VERILOG"
    library="keycode" />
  <file
+   path="simulation/submodules/lab62_soc_key.v"
+   type="VERILOG"
+   library="key" />
+ <file
    path="simulation/submodules/lab62_soc_jtag_uart_0.v"
    type="VERILOG"
    library="jtag_uart_0" />
@@ -281,17 +281,54 @@
    type="VERILOG"
    library="irq_timer" />
  <file
+   path="simulation/submodules/altera_avalon_i2c.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_csr.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_clk_cnt.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_condt_det.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_condt_gen.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_fifo.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_mstfsm.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_rxshifter.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_txshifter.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_spksupp.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
+   path="simulation/submodules/altera_avalon_i2c_txout.v"
+   type="VERILOG"
+   library="i2c_0" />
+ <file
    path="simulation/submodules/lab62_soc_hex_digits_pio.v"
    type="VERILOG"
    library="hex_digits_pio" />
- <file
-   path="simulation/submodules/lab62_soc_button.v"
-   type="VERILOG"
-   library="button" />
  <file path="simulation/lab62_soc.v" type="VERILOG" />
  <topLevel name="lab62_soc" />
  <deviceFamily name="max10" />
- <modelMap
-   controllerPath="lab62_soc.onchip_memory2_0"
-   modelPath="lab62_soc.onchip_memory2_0" />
 </simPackage>

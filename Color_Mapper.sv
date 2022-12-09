@@ -15,6 +15,7 @@
 
 module  color_mapper ( input        [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
 								input Clk,Button,
+								input logic [23:0] x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,
                        output logic [7:0]  Red, Green, Blue );
     
     logic ball_on;
@@ -39,7 +40,7 @@ module  color_mapper ( input        [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
 
 // internal BAR variables, setting bar amplitudes to be constant
 logic [9:0] BAR_X[10] ;
-logic [9:0] BAR_Y[10] ;
+logic [8:0] BAR_Y[10] ;
 logic [9:0] BAR_EN;
 
 // BAR_GAP is 10px
@@ -64,55 +65,56 @@ end
 // update BAR positions with frame clock
 always_comb
 begin
-//	BAR_Y[1] = 10'd30;	
-//	BAR_Y[2] = 10'd60;
-//	BAR_Y[3] = 10'd90;
-//	BAR_Y[4] = 10'd120;
-//	BAR_Y[5] = 10'd150;
-//	BAR_Y[6] = 10'd180;
-//	BAR_Y[7] = 10'd210;
-//	BAR_Y[8] = 10'd240;
-//	BAR_Y[9] = 10'd270;
-	if(Button)
-		BAR_Y[0] = 10'd480 - 10'd50;
-	else
-		BAR_Y[0] = 10'd480 - 10'd100;
-	if(Button)
-		BAR_Y[1] = 10'd480 - 10'd30;
-	else
-		BAR_Y[1] = 10'd480 - 10'd60;
-	if(Button)
-		BAR_Y[2] = 10'd480 - 10'd120;
-	else
-		BAR_Y[2] = 10'd480 - 10'd60;
-	if(Button)
-		BAR_Y[3] = 10'd480 - 10'd90;
-	else
-		BAR_Y[3] = 10'd480 - 10'd180;
-	if(Button)
-		BAR_Y[4] = 10'd480 - 10'd240;
-	else
-		BAR_Y[4] = 10'd480 - 10'd120;
-	if(Button)
-		BAR_Y[5] = 10'd480 - 10'd150;
-	else
-		BAR_Y[5] = 10'd480 - 10'd300;
-	if(Button)
-		BAR_Y[6] = 10'd480 - 10'd360;
-	else
-		BAR_Y[6] = 10'd480 - 10'd180;
-	if(Button)
-		BAR_Y[7] = 10'd480 - 10'd210;
-	else
-		BAR_Y[7] = 10'd480 - 10'd420;
-	if(Button)
-		BAR_Y[8] = 10'd480 - 10'd50;
-	else
-		BAR_Y[8] = 10'd480 - 10'd100;
-	if(Button)
-		BAR_Y[9] = 10'd480 - 10'd120;
-	else
-		BAR_Y[9] = 10'd480 - 10'd60;
+	BAR_Y[0] = 9'd480 - x0[22:14];
+	BAR_Y[1] = 9'd480 - x1[22:14];	
+	BAR_Y[2] = 9'd480 - x2[22:14];
+	BAR_Y[3] = 9'd480 - x3[22:14];
+	BAR_Y[4] = 9'd480 - x4[22:14];
+	BAR_Y[5] = 9'd480 - x5[22:14];
+	BAR_Y[6] = 9'd480 - x6[22:14];
+	BAR_Y[7] = 9'd480 - x7[22:14];
+	BAR_Y[8] = 9'd480 - x8[22:14];
+	BAR_Y[9] = 9'd480 - x9[22:14];
+//	if(Button)
+//		BAR_Y[0] = 10'd480 - 10'd50;
+//	else
+//		BAR_Y[0] = 10'd480 - 10'd100;
+//	if(Button)
+//		BAR_Y[1] = 10'd480 - 10'd30;
+//	else
+//		BAR_Y[1] = 10'd480 - 10'd60;
+//	if(Button)
+//		BAR_Y[2] = 10'd480 - 10'd120;
+//	else
+//		BAR_Y[2] = 10'd480 - 10'd60;
+//	if(Button)
+//		BAR_Y[3] = 10'd480 - 10'd90;
+//	else
+//		BAR_Y[3] = 10'd480 - 10'd180;
+//	if(Button)
+//		BAR_Y[4] = 10'd480 - 10'd240;
+//	else
+//		BAR_Y[4] = 10'd480 - 10'd120;
+//	if(Button)
+//		BAR_Y[5] = 10'd480 - 10'd150;
+//	else
+//		BAR_Y[5] = 10'd480 - 10'd300;
+//	if(Button)
+//		BAR_Y[6] = 10'd480 - 10'd360;
+//	else
+//		BAR_Y[6] = 10'd480 - 10'd180;
+//	if(Button)
+//		BAR_Y[7] = 10'd480 - 10'd210;
+//	else
+//		BAR_Y[7] = 10'd480 - 10'd420;
+//	if(Button)
+//		BAR_Y[8] = 10'd480 - 10'd50;
+//	else
+//		BAR_Y[8] = 10'd480 - 10'd100;
+//	if(Button)
+//		BAR_Y[9] = 10'd480 - 10'd120;
+//	else
+//		BAR_Y[9] = 10'd480 - 10'd60;
 	
 end
 

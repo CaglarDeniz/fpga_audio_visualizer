@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'lab62_soc'
  * SOPC Builder design path: ../../lab62_soc.sopcinfo
  *
- * Generated: Thu Dec 08 05:22:13 CST 2022
+ * Generated: Fri Dec 09 13:15:19 CST 2022
  */
 
 /*
@@ -133,9 +133,9 @@
  *
  */
 
+#define __ALTERA_AVALON_I2C
 #define __ALTERA_AVALON_JTAG_UART
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
-#define __ALTERA_AVALON_ONCHIP_MEMORY2
 #define __ALTERA_AVALON_PIO
 #define __ALTERA_AVALON_SPI
 #define __ALTERA_AVALON_SYSID_QSYS
@@ -181,33 +181,6 @@
 
 
 /*
- * button configuration
- *
- */
-
-#define ALT_MODULE_CLASS_button altera_avalon_pio
-#define BUTTON_BASE 0x50
-#define BUTTON_BIT_CLEARING_EDGE_REGISTER 0
-#define BUTTON_BIT_MODIFYING_OUTPUT_REGISTER 0
-#define BUTTON_CAPTURE 0
-#define BUTTON_DATA_WIDTH 2
-#define BUTTON_DO_TEST_BENCH_WIRING 0
-#define BUTTON_DRIVEN_SIM_VALUE 0
-#define BUTTON_EDGE_TYPE "NONE"
-#define BUTTON_FREQ 50000000
-#define BUTTON_HAS_IN 1
-#define BUTTON_HAS_OUT 0
-#define BUTTON_HAS_TRI 0
-#define BUTTON_IRQ -1
-#define BUTTON_IRQ_INTERRUPT_CONTROLLER_ID -1
-#define BUTTON_IRQ_TYPE "NONE"
-#define BUTTON_NAME "/dev/button"
-#define BUTTON_RESET_VALUE 0
-#define BUTTON_SPAN 16
-#define BUTTON_TYPE "altera_avalon_pio"
-
-
-/*
  * hal configuration
  *
  */
@@ -224,7 +197,7 @@
  */
 
 #define ALT_MODULE_CLASS_hex_digits_pio altera_avalon_pio
-#define HEX_DIGITS_PIO_BASE 0xc0
+#define HEX_DIGITS_PIO_BASE 0x170
 #define HEX_DIGITS_PIO_BIT_CLEARING_EDGE_REGISTER 0
 #define HEX_DIGITS_PIO_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define HEX_DIGITS_PIO_CAPTURE 0
@@ -243,6 +216,23 @@
 #define HEX_DIGITS_PIO_RESET_VALUE 0
 #define HEX_DIGITS_PIO_SPAN 16
 #define HEX_DIGITS_PIO_TYPE "altera_avalon_pio"
+
+
+/*
+ * i2c_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_i2c_0 altera_avalon_i2c
+#define I2C_0_BASE 0x40
+#define I2C_0_FIFO_DEPTH 4
+#define I2C_0_FREQ 50000000
+#define I2C_0_IRQ 0
+#define I2C_0_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define I2C_0_NAME "/dev/i2c_0"
+#define I2C_0_SPAN 64
+#define I2C_0_TYPE "altera_avalon_i2c"
+#define I2C_0_USE_AV_ST 0
 
 
 /*
@@ -295,7 +285,7 @@
  */
 
 #define ALT_MODULE_CLASS_key altera_avalon_pio
-#define KEY_BASE 0xa0
+#define KEY_BASE 0x150
 #define KEY_BIT_CLEARING_EDGE_REGISTER 0
 #define KEY_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define KEY_CAPTURE 0
@@ -322,7 +312,7 @@
  */
 
 #define ALT_MODULE_CLASS_keycode altera_avalon_pio
-#define KEYCODE_BASE 0x100
+#define KEYCODE_BASE 0x1f0
 #define KEYCODE_BIT_CLEARING_EDGE_REGISTER 0
 #define KEYCODE_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define KEYCODE_CAPTURE 0
@@ -349,7 +339,7 @@
  */
 
 #define ALT_MODULE_CLASS_leds_pio altera_avalon_pio
-#define LEDS_PIO_BASE 0xb0
+#define LEDS_PIO_BASE 0x160
 #define LEDS_PIO_BIT_CLEARING_EDGE_REGISTER 0
 #define LEDS_PIO_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define LEDS_PIO_CAPTURE 0
@@ -368,35 +358,6 @@
 #define LEDS_PIO_RESET_VALUE 0
 #define LEDS_PIO_SPAN 16
 #define LEDS_PIO_TYPE "altera_avalon_pio"
-
-
-/*
- * onchip_memory2_0 configuration
- *
- */
-
-#define ALT_MODULE_CLASS_onchip_memory2_0 altera_avalon_onchip_memory2
-#define ONCHIP_MEMORY2_0_ALLOW_IN_SYSTEM_MEMORY_CONTENT_EDITOR 0
-#define ONCHIP_MEMORY2_0_ALLOW_MRAM_SIM_CONTENTS_ONLY_FILE 0
-#define ONCHIP_MEMORY2_0_BASE 0x80000
-#define ONCHIP_MEMORY2_0_CONTENTS_INFO ""
-#define ONCHIP_MEMORY2_0_DUAL_PORT 0
-#define ONCHIP_MEMORY2_0_GUI_RAM_BLOCK_TYPE "AUTO"
-#define ONCHIP_MEMORY2_0_INIT_CONTENTS_FILE "rickroll_short"
-#define ONCHIP_MEMORY2_0_INIT_MEM_CONTENT 1
-#define ONCHIP_MEMORY2_0_INSTANCE_ID "NONE"
-#define ONCHIP_MEMORY2_0_IRQ -1
-#define ONCHIP_MEMORY2_0_IRQ_INTERRUPT_CONTROLLER_ID -1
-#define ONCHIP_MEMORY2_0_NAME "/dev/onchip_memory2_0"
-#define ONCHIP_MEMORY2_0_NON_DEFAULT_INIT_FILE_ENABLED 1
-#define ONCHIP_MEMORY2_0_RAM_BLOCK_TYPE "AUTO"
-#define ONCHIP_MEMORY2_0_READ_DURING_WRITE_MODE "DONT_CARE"
-#define ONCHIP_MEMORY2_0_SINGLE_CLOCK_OP 0
-#define ONCHIP_MEMORY2_0_SIZE_MULTIPLE 1
-#define ONCHIP_MEMORY2_0_SIZE_VALUE 164348
-#define ONCHIP_MEMORY2_0_SPAN 164348
-#define ONCHIP_MEMORY2_0_TYPE "altera_avalon_onchip_memory2"
-#define ONCHIP_MEMORY2_0_WRITABLE 1
 
 
 /*
@@ -444,7 +405,7 @@
  */
 
 #define ALT_MODULE_CLASS_sdram_pll altpll
-#define SDRAM_PLL_BASE 0x10
+#define SDRAM_PLL_BASE 0x200
 #define SDRAM_PLL_IRQ -1
 #define SDRAM_PLL_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SDRAM_PLL_NAME "/dev/sdram_pll"
@@ -458,7 +419,7 @@
  */
 
 #define ALT_MODULE_CLASS_spi_0 altera_avalon_spi
-#define SPI_0_BASE 0x60
+#define SPI_0_BASE 0xa0
 #define SPI_0_CLOCKMULT 1
 #define SPI_0_CLOCKPHASE 0
 #define SPI_0_CLOCKPOLARITY 0
@@ -489,13 +450,13 @@
  */
 
 #define ALT_MODULE_CLASS_sysid_qsys_0 altera_avalon_sysid_qsys
-#define SYSID_QSYS_0_BASE 0x28
+#define SYSID_QSYS_0_BASE 0x210
 #define SYSID_QSYS_0_ID 0
 #define SYSID_QSYS_0_IRQ -1
 #define SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_QSYS_0_NAME "/dev/sysid_qsys_0"
 #define SYSID_QSYS_0_SPAN 8
-#define SYSID_QSYS_0_TIMESTAMP 1670498251
+#define SYSID_QSYS_0_TIMESTAMP 1670613132
 #define SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 
@@ -505,7 +466,7 @@
  */
 
 #define ALT_MODULE_CLASS_usb_gpx altera_avalon_pio
-#define USB_GPX_BASE 0xe0
+#define USB_GPX_BASE 0x1d0
 #define USB_GPX_BIT_CLEARING_EDGE_REGISTER 0
 #define USB_GPX_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define USB_GPX_CAPTURE 0
@@ -532,7 +493,7 @@
  */
 
 #define ALT_MODULE_CLASS_usb_irq altera_avalon_pio
-#define USB_IRQ_BASE 0xf0
+#define USB_IRQ_BASE 0x1e0
 #define USB_IRQ_BIT_CLEARING_EDGE_REGISTER 0
 #define USB_IRQ_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define USB_IRQ_CAPTURE 0
@@ -559,7 +520,7 @@
  */
 
 #define ALT_MODULE_CLASS_usb_rst altera_avalon_pio
-#define USB_RST_BASE 0xd0
+#define USB_RST_BASE 0x1c0
 #define USB_RST_BIT_CLEARING_EDGE_REGISTER 0
 #define USB_RST_BIT_MODIFYING_OUTPUT_REGISTER 0
 #define USB_RST_CAPTURE 0

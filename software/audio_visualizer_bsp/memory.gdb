@@ -3,7 +3,7 @@
 # Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'lab62_soc'
 # SOPC Builder design path: ../../lab62_soc.sopcinfo
 #
-# Generated: Thu Dec 08 03:15:29 CST 2022
+# Generated: Fri Dec 09 12:24:08 CST 2022
 
 # DO NOT MODIFY THIS FILE
 #
@@ -45,9 +45,6 @@
 # Define memory regions for each memory connected to the CPU.
 # The cache attribute is specified which improves GDB performance
 # by allowing GDB to cache memory contents on the host.
-
-# onchip_memory2_0
-memory 0x80000 0xa81fc cache
 
 # sdram
 memory 0x8000000 0xc000000 cache

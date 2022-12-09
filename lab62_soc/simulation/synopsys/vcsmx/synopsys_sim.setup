@@ -30,14 +30,14 @@ sysid_qsys_0:                                 ./libraries/sysid_qsys_0/
 spi_0:                                        ./libraries/spi_0/                                       
 sdram_pll:                                    ./libraries/sdram_pll/                                   
 sdram:                                        ./libraries/sdram/                                       
-onchip_memory2_0:                             ./libraries/onchip_memory2_0/                            
 nios2_gen2_0:                                 ./libraries/nios2_gen2_0/                                
 leds_pio:                                     ./libraries/leds_pio/                                    
 keycode:                                      ./libraries/keycode/                                     
+key:                                          ./libraries/key/                                         
 jtag_uart_0:                                  ./libraries/jtag_uart_0/                                 
 irq_timer:                                    ./libraries/irq_timer/                                   
+i2c_0:                                        ./libraries/i2c_0/                                       
 hex_digits_pio:                               ./libraries/hex_digits_pio/                              
-button:                                       ./libraries/button/                                      
 altera_ver:                                   ./libraries/altera_ver/                                  
 lpm_ver:                                      ./libraries/lpm_ver/                                     
 sgate_ver:                                    ./libraries/sgate_ver/                                   

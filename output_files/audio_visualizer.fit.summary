@@ -1,18 +1,18 @@
-Fitter Status : Successful - Fri Dec 09 00:24:51 2022
+Fitter Status : Successful - Fri Dec 09 13:14:13 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : audio_visualizer
 Top-level Entity Name : lab62
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 43 / 49,760 ( < 1 % )
-    Total combinational functions : 42 / 49,760 ( < 1 % )
-    Dedicated logic registers : 23 / 49,760 ( < 1 % )
-Total registers : 23
-Total pins : 141 / 360 ( 39 % )
+Total logic elements : 6,531 / 49,760 ( 13 % )
+    Total combinational functions : 4,854 / 49,760 ( 10 % )
+    Dedicated logic registers : 4,563 / 49,760 ( 9 % )
+Total registers : 4632
+Total pins : 157 / 360 ( 44 % )
 Total virtual pins : 0
-Total memory bits : 0 / 1,677,312 ( 0 % )
+Total memory bits : 566,344 / 1,677,312 ( 34 % )
 Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
-Total PLLs : 0 / 4 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
 UFM blocks : 0 / 1 ( 0 % )
 ADC blocks : 0 / 2 ( 0 % )

@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2022.12.08.05:13:00
+# ACDS 18.1 625 win32 2022.12.09.13:09:40
 
 # ----------------------------------------
 # vcsmx - auto-generated simulation script
@@ -107,7 +107,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2022.12.08.05:13:00
+# ACDS 18.1 625 win32 2022.12.09.13:09:40
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="lab62_soc"
@@ -175,14 +175,14 @@ mkdir -p ./libraries/sysid_qsys_0/
 mkdir -p ./libraries/spi_0/
 mkdir -p ./libraries/sdram_pll/
 mkdir -p ./libraries/sdram/
-mkdir -p ./libraries/onchip_memory2_0/
 mkdir -p ./libraries/nios2_gen2_0/
 mkdir -p ./libraries/leds_pio/
 mkdir -p ./libraries/keycode/
+mkdir -p ./libraries/key/
 mkdir -p ./libraries/jtag_uart_0/
 mkdir -p ./libraries/irq_timer/
+mkdir -p ./libraries/i2c_0/
 mkdir -p ./libraries/hex_digits_pio/
-mkdir -p ./libraries/button/
 mkdir -p ./libraries/altera_ver/
 mkdir -p ./libraries/lpm_ver/
 mkdir -p ./libraries/sgate_ver/
@@ -270,14 +270,24 @@ if [ $SKIP_COM -eq 0 ]; then
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_spi_0.v"                                                    -work spi_0                                       
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_sdram_pll.vo"                                               -work sdram_pll                                   
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_sdram.v"                                                    -work sdram                                       
-  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_onchip_memory2_0.v"                                         -work onchip_memory2_0                            
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_nios2_gen2_0.v"                                             -work nios2_gen2_0                                
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_leds_pio.v"                                                 -work leds_pio                                    
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_keycode.v"                                                  -work keycode                                     
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_key.v"                                                      -work key                                         
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_jtag_uart_0.v"                                              -work jtag_uart_0                                 
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_irq_timer.v"                                                -work irq_timer                                   
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c.v"                                                  -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_csr.v"                                              -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_clk_cnt.v"                                          -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_det.v"                                        -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_condt_gen.v"                                        -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_fifo.v"                                             -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_mstfsm.v"                                           -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_rxshifter.v"                                        -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_txshifter.v"                                        -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_spksupp.v"                                          -work i2c_0                                       
+  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/altera_avalon_i2c_txout.v"                                            -work i2c_0                                       
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_hex_digits_pio.v"                                           -work hex_digits_pio                              
-  vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/submodules/lab62_soc_button.v"                                                   -work button                                      
   vlogan +v2k $USER_DEFINED_VERILOG_COMPILE_OPTIONS $USER_DEFINED_COMPILE_OPTIONS           "$QSYS_SIMDIR/lab62_soc.v"                                                                                                                       
 fi
 

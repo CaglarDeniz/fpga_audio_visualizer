@@ -476,25 +476,25 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 butterfly butterfly_c1( .a_real(butterfly_ir0), .a_imag(butterfly_ii0), .b_real(butterfly_ir1), .b_imag(butterfly_ii1), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
 						 .A_real(outsignal_r0), .A_imag(outsignal_i0) , .B_real(outsignal_r1), .B_imag(outsignal_i1));
 						
-butterfly butterfly_c2( .a_real(butterfly_ir2), .a_imag(butterfly_ii2), .b_real(butterfly_ir3), .b_imag(butterfly_ii3), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c2( .a_real(butterfly_ir2), .a_imag(butterfly_ii2), .b_real(butterfly_ir3), .b_imag(butterfly_ii3), .twiddle_real(twiddle_r1), .twiddle_imag(twiddle_i1), 
 						 .A_real(outsignal_r2), .A_imag(outsignal_i2) , .B_real(outsignal_r3), .B_imag(outsignal_i3));
 						 
-butterfly butterfly_c3( .a_real(butterfly_ir4), .a_imag(butterfly_ii4), .b_real(butterfly_ir5), .b_imag(butterfly_ii5), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c3( .a_real(butterfly_ir4), .a_imag(butterfly_ii4), .b_real(butterfly_ir5), .b_imag(butterfly_ii5), .twiddle_real(twiddle_r2), .twiddle_imag(twiddle_i2), 
 						 .A_real(outsignal_r4), .A_imag(outsignal_i4) , .B_real(outsignal_r5), .B_imag(outsignal_i5));
 
-butterfly butterfly_c4( .a_real(butterfly_ir6), .a_imag(butterfly_ii6), .b_real(butterfly_ir7), .b_imag(butterfly_ii7), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c4( .a_real(butterfly_ir6), .a_imag(butterfly_ii6), .b_real(butterfly_ir7), .b_imag(butterfly_ii7), .twiddle_real(twiddle_r3), .twiddle_imag(twiddle_i3), 
 						 .A_real(outsignal_r6), .A_imag(outsignal_i6) , .B_real(outsignal_r7), .B_imag(outsignal_i7));
 
-butterfly butterfly_c5( .a_real(butterfly_ir8), .a_imag(butterfly_ii8), .b_real(butterfly_ir9), .b_imag(butterfly_ii9), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c5( .a_real(butterfly_ir8), .a_imag(butterfly_ii8), .b_real(butterfly_ir9), .b_imag(butterfly_ii9), .twiddle_real(twiddle_r4), .twiddle_imag(twiddle_i4), 
 						 .A_real(outsignal_r8), .A_imag(outsignal_i8) , .B_real(outsignal_r9), .B_imag(outsignal_i9));
 
-butterfly butterfly_c6( .a_real(butterfly_ir10), .a_imag(butterfly_ii10), .b_real(butterfly_ir11), .b_imag(butterfly_ii11), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c6( .a_real(butterfly_ir10), .a_imag(butterfly_ii10), .b_real(butterfly_ir11), .b_imag(butterfly_ii11), .twiddle_real(twiddle_r5), .twiddle_imag(twiddle_i5), 
 						 .A_real(outsignal_r10), .A_imag(outsignal_i10) , .B_real(outsignal_r11), .B_imag(outsignal_i11));
 
-butterfly butterfly_c7( .a_real(butterfly_ir12), .a_imag(butterfly_ii12), .b_real(butterfly_ir13), .b_imag(butterfly_ii13), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c7( .a_real(butterfly_ir12), .a_imag(butterfly_ii12), .b_real(butterfly_ir13), .b_imag(butterfly_ii13), .twiddle_real(twiddle_r6), .twiddle_imag(twiddle_i6), 
 						 .A_real(outsignal_r12), .A_imag(outsignal_i12) , .B_real(outsignal_r13), .B_imag(outsignal_i13));
 
-butterfly butterfly_c8( .a_real(butterfly_ir14), .a_imag(butterfly_ii14), .b_real(butterfly_ir15), .b_imag(butterfly_ii15), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
+butterfly butterfly_c8( .a_real(butterfly_ir14), .a_imag(butterfly_ii14), .b_real(butterfly_ir15), .b_imag(butterfly_ii15), .twiddle_real(twiddle_r7), .twiddle_imag(twiddle_i7), 
 						 .A_real(outsignal_r14), .A_imag(outsignal_i14) , .B_real(outsignal_r15), .B_imag(outsignal_i15));						 
 
 endmodule 

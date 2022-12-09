@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'lab62_soc'
  * SOPC Builder design path: ../../lab62_soc.sopcinfo
  *
- * Generated: Thu Dec 08 03:15:29 CST 2022
+ * Generated: Fri Dec 09 12:24:08 CST 2022
  */
 
 /*
@@ -50,13 +50,11 @@
 
 MEMORY
 {
-    onchip_memory2_0 : ORIGIN = 0x80000, LENGTH = 164348
     reset : ORIGIN = 0x8000000, LENGTH = 32
     sdram : ORIGIN = 0x8000020, LENGTH = 67108832
 }
 
 /* Define symbols for each memory base-address */
-__alt_mem_onchip_memory2_0 = 0x80000;
 __alt_mem_sdram = 0x8000000;
 
 OUTPUT_FORMAT( "elf32-littlenios2",
@@ -309,24 +307,7 @@ SECTIONS
      *
      */
 
-    .onchip_memory2_0 : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
-    {
-        PROVIDE (_alt_partition_onchip_memory2_0_start = ABSOLUTE(.));
-        *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
-        . = ALIGN(4);
-        PROVIDE (_alt_partition_onchip_memory2_0_end = ABSOLUTE(.));
-    } > onchip_memory2_0
-
-    PROVIDE (_alt_partition_onchip_memory2_0_load_addr = LOADADDR(.onchip_memory2_0));
-
-    /*
-     *
-     * This section's LMA is set to the .text region.
-     * crt0 will copy to this section's specified mapped region virtual memory address (VMA)
-     *
-     */
-
-    .sdram LOADADDR (.onchip_memory2_0) + SIZEOF (.onchip_memory2_0) : AT ( LOADADDR (.onchip_memory2_0) + SIZEOF (.onchip_memory2_0) )
+    .sdram LOADADDR (.bss) + SIZEOF (.bss) : AT ( LOADADDR (.bss) + SIZEOF (.bss) )
     {
         PROVIDE (_alt_partition_sdram_start = ABSOLUTE(.));
         *(.sdram .sdram. sdram.*)
