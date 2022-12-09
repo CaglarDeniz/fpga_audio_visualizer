@@ -1,6 +1,6 @@
-Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv Line: 23
-Warning (10268): Verilog HDL information at FastFourierTransform.sv(61): always construct contains both blocking and non-blocking assignments File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv Line: 61
-Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "a_real" differs only in case from object "A_real" in the same scope File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv Line: 1
-Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "a_imag" differs only in case from object "A_imag" in the same scope File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv Line: 1
-Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "b_real" differs only in case from object "B_real" in the same scope File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv Line: 1
-Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "b_imag" differs only in case from object "B_imag" in the same scope File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv Line: 1
+Warning (10273): Verilog HDL warning at lab62.sv(300): extended using "x" or "z" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 300
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv Line: 23
+Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "a_real" differs only in case from object "A_real" in the same scope File: C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv Line: 1
+Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "a_imag" differs only in case from object "A_imag" in the same scope File: C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv Line: 1
+Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "b_real" differs only in case from object "B_real" in the same scope File: C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv Line: 1
+Info (10281): Verilog HDL Declaration information at butterfly_module.sv(1): object "b_imag" differs only in case from object "B_imag" in the same scope File: C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv Line: 1

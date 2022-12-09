@@ -113,11 +113,11 @@ logic Reset_h, vssig, blank, sync, VGA_Clk;
 //	
 	//Assign one button to reset
 	assign {Reset_h}=~ (KEY[0]);
-//
-//	//Our A/D converter is only 12 bit
-//	assign VGA_R = Red[7:4];
-//	assign VGA_B = Blue[7:4];
-//	assign VGA_G = Green[7:4];
+
+//Our A/D converter is only 12 bit
+assign VGA_R = Red[7:4];
+assign VGA_B = Blue[7:4];
+assign VGA_G = Green[7:4];
 //	
 //	
 //	lab62_soc u0 (
@@ -159,6 +159,10 @@ logic Reset_h, vssig, blank, sync, VGA_Clk;
 //	 );
 
 logic [23:0] s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15;
+logic [23:0] x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15;
+logic input_ready,frame_completed;
+
+FastFourierTransform fft(.*,.Clk(MAX10_CLK1_50),.Reset(Reset_h),.Ready(input_ready),.frame_completed(frame_completed));
 
 // RAM initialization
 logic [14:0] RAM_ADDR;
@@ -179,7 +183,13 @@ begin
 		begin
 		curr_state <= halt;
 		sample_index <= 6'd0;
-		RAM_ADDR = 15'h0;
+		RAM_ADDR <= 15'h0;
+		end
+	else if (~Reset_h && address_increment)
+		begin
+		RAM_ADDR <= RAM_ADDR + 15'd1;
+		curr_state <= next_state;
+		sample_index <= next_sample_index;
 		end
 	else
 		begin
@@ -191,9 +201,6 @@ end
 // increment address and record data from memory
 always_ff @ (posedge MAX10_CLK1_50)
 begin
-	if(address_increment)
-		RAM_ADDR <= RAM_ADDR + 15'd1;
-		
 	if (sample_writeen)
 	begin
 		case(sample_index)
@@ -243,13 +250,18 @@ begin
 	RAM_WREN = 1'b0;
 	next_sample_index = sample_index;
 	next_state = curr_state;
+	input_ready = 1'b0;
 
 	case(curr_state)
 	
 	halt:
 		begin
-		next_state = wait_for_mem0;
+		if(frame_completed)
+			next_state = wait_for_mem0;
+		else
+			next_state = halt;
 		next_sample_index = 6'd0;
+		input_ready = 1'b1;
 		end
 	wait_for_mem0:
 		begin
@@ -274,6 +286,7 @@ begin
 			begin
 			next_sample_index = 6'd0;
 			next_state = halt;
+			input_ready = 1'b1;
 			end
 		else 
 			begin
