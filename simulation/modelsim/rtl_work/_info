@@ -7,213 +7,145 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim
+Z0 dC:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim
 vball
-Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
 !i10b 1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 r1
 !s85 0
 31
 !s100 RHC]^6Z5FHTALOg35UZ?A3
-ICmWe7V5f^SkjF;IHzn2TV2
+ILa>;o[CJRTX9GM3hYVf=M0
 !s105 ball_sv_unit
 S1
-Z2 dC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/simulation/modelsim
-Z3 w1669530777
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+R0
+Z3 w1667270012
+8C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+FC:/Users/dcagl/Desktop/ECE385/final/ball.sv
 Z4 L0 16
 Z5 OV;L;10.5b;63
-Z6 !s108 1670565318.000000
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv|
+!s108 1670575592.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/ball.sv|
 !i113 1
-Z7 o-work work
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
 Z8 tCvgOpt 0
-vbar_graph
-R0
-!i10b 1
-R1
-r1
-!s85 0
-31
-!s100 NecioKI0lEGLBR7jbhF113
-IADE3]TaJM1I1X53GN1SLo1
-!s105 bar_graph_sv_unit
-S1
-R2
-w1670565082
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
-L0 1
-R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv|
-!i113 1
-R7
-R8
-vbutterfly
-R0
-!i10b 1
-R1
-r1
-!s85 0
-31
-!s100 Wi2:`6fnIeWXYoJKULi9]2
-IaK4<eHOaKzIAXYo]BH[Kg1
-!s105 butterfly_module_sv_unit
-S1
-R2
-w1670565044
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
-L0 1
-R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv|
-!i113 1
-R7
-R8
 vcolor_mapper
-R0
-!i10b 1
 R1
+!i10b 1
+R2
 r1
 !s85 0
 31
 !s100 U<NW=^2RG]:]oC_ClP1e00
-I4GB7a]jHglYiO`:hm0KiC0
+IXX<U`>nQo1l>]5Hj4QgWP1
 !s105 Color_Mapper_sv_unit
 S1
-R2
-w1670202536
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+R0
+w1669531006
+8C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+FC:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
 R4
 R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv|
+Z9 !s108 1670575593.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv|
 !i113 1
+R6
 R7
 R8
-vFastFourierTransform
-R0
-!i10b 1
-R1
-r1
-!s85 0
-31
-!s100 >JDHFWOn]j^mV=Vcdn[4U1
-I5im3W[87X@J^jZ``Ij5n23
-!s105 FastFourierTransform_sv_unit
-S1
-R2
-w1670565031
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
-L0 2
-R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv|
-!i113 1
-R7
-R8
-n@fast@fourier@transform
-vHexDriver
-R0
-!i10b 1
-R1
-r1
-!s85 0
-31
-!s100 hKBo4zbCRmY3[Ac9JZP;<0
-IfBcTUYaTjQ4A7ndHZgQ>m1
-!s105 HexDriver_sv_unit
-S1
-R2
-R3
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
-L0 1
-R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv|
-!i113 1
-R7
-R8
-n@hex@driver
 vlab62
-R0
-!i10b 1
 R1
+!i10b 1
+R2
 r1
 !s85 0
 31
-!s100 f=;KFfGEGB8;lVoIdI:Cn0
-IXa_Dn;]@AVCN1XXzJ2]OZ2
+!s100 8TYeUcgnKO6K0>25e`4k40
+I^_ETzG6D@Dk1ioL:lXN@J0
 !s105 lab62_sv_unit
 S1
-R2
-w1670565195
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+R0
+w1670575580
+8C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+FC:/Users/dcagl/Desktop/ECE385/final/lab62.sv
 L0 9
 R5
-R6
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv|
+R9
+!s107 C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/lab62.sv|
 !i113 1
+R6
 R7
 R8
-vtestbench
-R0
+vram
 !i10b 1
-R1
+R2
 r1
 !s85 0
 31
-!s100 XY@6?1BRb?;C185]aLX3>0
-I7j6Nf29JEEVNd<fQ29AaZ0
+!s100 @bU<`2o[DAMiVKPT`lf?S1
+IbYIDH5Nb:KA2HER]JjH`T1
+R0
+w1670569834
+8C:/Users/dcagl/Desktop/ECE385/final/ram.v
+FC:/Users/dcagl/Desktop/ECE385/final/ram.v
+L0 39
+R5
+!s108 1670575594.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/ram.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final
+R8
+vtestbench
+R1
+!i10b 1
+R2
+r1
+!s85 0
+31
+!s100 ^XQjCA=j5emiBHm`2`zO01
+I;38><9=TP]GeOm7I]DNS03
 !s105 testbench_sv_unit
 S1
-R2
-w1670565064
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+R0
+w1670574685
+8C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+FC:/Users/dcagl/Desktop/ECE385/final/testbench.sv
 L0 1
 R5
-Z9 !s108 1670565319.000000
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv|
+!s108 1670575595.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/testbench.sv|
 !i113 1
+R6
 R7
 R8
 vvga_controller
-R0
-!i10b 1
 R1
+!i10b 1
+R2
 r1
 !s85 0
 31
 !s100 PJJOcFccdZOKRcczIX[X?3
-IJi:Wh8gK[m2Tl2OgHKN4`1
+IP3DOf[FCQAcTmIM`_6Mfo0
 !s105 VGA_controller_sv_unit
 S1
-R2
+R0
 R3
-8C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
-FC:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+8C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+FC:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
 L0 25
 R5
-R9
-!s107 C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv|
-!s90 -reportprogress|300|-work|work|C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv|
+!s108 1670575596.000000
+!s107 C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/dcagl/Desktop/ECE385/final|C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv|
 !i113 1
+R6
 R7
 R8

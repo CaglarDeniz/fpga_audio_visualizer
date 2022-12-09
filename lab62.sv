@@ -111,8 +111,8 @@ logic Reset_h, vssig, blank, sync, VGA_Clk;
 //	assign HEX2 = {1'b1, ~signs[0], 3'b111, ~hundreds[0], ~hundreds[0], 1'b1};
 //	
 //	
-//	//Assign one button to reset
-//	assign {Reset_h}=~ (KEY[0]);
+	//Assign one button to reset
+	assign {Reset_h}=~ (KEY[0]);
 //
 //	//Our A/D converter is only 12 bit
 //	assign VGA_R = Red[7:4];
@@ -157,6 +157,138 @@ logic Reset_h, vssig, blank, sync, VGA_Clk;
 //		.keycode_export(keycode)
 //		
 //	 );
+
+logic [23:0] s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15;
+
+// RAM initialization
+logic [14:0] RAM_ADDR;
+logic [15:0] RAM_IN, RAM_OUT;
+logic RAM_RDEN, RAM_WREN;
+
+ram ram0(.address(RAM_ADDR),.clock(MAX10_CLK1_50),.data(RAM_IN),.rden(RAM_RDEN),.wren(RAM_WREN),.q(RAM_OUT));
+
+// FSM 
+logic [5:0] sample_index,next_sample_index;
+logic sample_writeen,address_increment;
+enum logic [2:0] {halt,wait_for_mem0,wait_for_mem1,write,increment} curr_state, next_state;
+
+always_ff @ (posedge MAX10_CLK1_50 or posedge Reset_h)
+begin
+
+	if(Reset_h)
+		begin
+		curr_state <= halt;
+		sample_index <= 6'd0;
+		RAM_ADDR = 15'h0;
+		end
+	else
+		begin
+		curr_state <= next_state;
+		sample_index <= next_sample_index;
+		end
+end
+
+// increment address and record data from memory
+always_ff @ (posedge MAX10_CLK1_50)
+begin
+	if(address_increment)
+		RAM_ADDR <= RAM_ADDR + 15'd1;
+		
+	if (sample_writeen)
+	begin
+		case(sample_index)
+			6'd0:
+				s0 <= 16'd0; // RAM_OUT;
+			6'd1:
+				s1 <= 16'd1;// RAM_OUT;
+			6'd2:
+				s2 <= 16'd2;// RAM_OUT;
+			6'd3:
+				s3 <= 16'd3;// RAM_OUT;
+			6'd4:
+				s4 <= 16'd4;// RAM_OUT;
+			6'd5:
+				s5 <= 16'd5;// RAM_OUT;
+			6'd6:
+				s6 <= 16'd6;// RAM_OUT;
+			6'd7:
+				s7 <= 16'd7;// RAM_OUT;
+			6'd8:
+				s8 <= 16'd8;// RAM_OUT;
+			6'd9:
+				s9 <= 16'd9;// RAM_OUT;
+			6'd10:
+				s10 <= 16'd10;// RAM_OUT;
+			6'd11:
+				s11 <= 16'd11;// RAM_OUT;
+			6'd12:
+				s12 <= 16'd12;// RAM_OUT;
+			6'd13:
+				s13 <= 16'd13;// RAM_OUT;
+			6'd14:
+				s14 <= 16'd14;// RAM_OUT;
+			6'd15:
+				s15 <= 16'd15;// RAM_OUT;
+		endcase
+	end
+end
+
+always_comb 
+begin
+
+	// default values for control signals
+	address_increment = 1'b0;
+	sample_writeen = 1'b0;
+	RAM_RDEN = 1'b0;
+	RAM_WREN = 1'b0;
+	next_sample_index = sample_index;
+	next_state = curr_state;
+
+	case(curr_state)
+	
+	halt:
+		begin
+		next_state = wait_for_mem0;
+		next_sample_index = 6'd0;
+		end
+	wait_for_mem0:
+		begin
+		next_state = wait_for_mem1;
+		RAM_RDEN = 1'b1;
+		end
+	wait_for_mem1:
+		begin
+		next_state = write;
+		RAM_RDEN = 1'b1;
+		end
+	write:
+		begin
+		sample_writeen = 1'b1;
+		next_state = increment;
+		RAM_RDEN = 1'b1;
+		end
+	increment:
+		begin
+		address_increment = 1'b1;
+		if(sample_index == 6'd15)
+			begin
+			next_sample_index = 6'd0;
+			next_state = halt;
+			end
+		else 
+			begin
+			next_sample_index = sample_index + 6'd1;
+			next_state = wait_for_mem0;
+			end
+		end
+	default:
+		begin
+		next_state = halt;
+		next_sample_index = 6'dx;
+		end
+	endcase
+
+end
 
 vga_controller vga(.Clk(MAX10_CLK1_50),       // 50 MHz clock
 						.Reset(Reset_h),     // reset signal

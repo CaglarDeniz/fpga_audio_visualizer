@@ -7,7 +7,7 @@ timeprecision 1ns;
 // These signals are internal because the logic_processor_8bit will be 
 // instantiated as a submodule in testbench.
 logic Clk = 0;
-logic Reset = 0;
+logic Reset = 1;
 logic [23:0] s0,  s1,   s2,   s3,   s4,   s5,   s6,   s7,  s8,   s9,
  s10,   s11,   s12,   s13,   s14,   s15,   x0,   x1,   x2 ,   x3, 
  x4,   x5,   x6,   x7,   x8 ,   x9,   x10,   x11,   x12,   x13,
@@ -36,7 +36,16 @@ logic [23:0] s0,  s1,   s2,   s3,   s4,   s5,   s6,   s7,  s8,   s9,
 //	.VGA_R(r),.VGA_G(g),.VGA_B(b)
 //);'
 
-FastFourierTransform fft(.*);
+lab62 top(///////// Clocks /////////
+      .MAX10_CLK1_50(Clk), 
+
+      ///////// KEY /////////
+      .KEY({1'b0, Reset}),
+
+      ///////// SW /////////
+      .SW(9'h0));
+
+//FastFourierTransform fft(.*);
 
 //color_mapper color( .*,
 //								 .Clk(Clk),.Button(Key),
@@ -78,9 +87,9 @@ s1 = 24'd14;
 s0 = 24'd15;
 
 #2 
-Reset = 1'b1;
+Reset = 1'b0;
 
-#2 Reset = 1'b0;
+#2 Reset = 1'b1;
 
 # 1000
 

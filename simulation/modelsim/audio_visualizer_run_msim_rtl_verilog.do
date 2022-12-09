@@ -5,12 +5,13 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv}
-vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv}
-vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv}
-vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv}
+vlog -vlog01compat -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ram.v}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/lab62.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ball.sv}
 
-vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv}
+vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/testbench.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
 
