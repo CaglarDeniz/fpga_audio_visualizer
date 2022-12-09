@@ -1,16 +1,16 @@
 module bar_graph(
 	
 	// System clock
-	input MAX10_CLK1_50,
+	input logic MAX10_CLK1_50,
 	
 	// Button
-	input Reset,
+	input logic Reset,
 	
 	// Switch input
-	input [9:0] SW,
+	input logic[9:0] SW,
 	
 	// VGA
-	output [7:0] VGA_R,VGA_G,VGA_B
+	output logic[7:0] VGA_R,VGA_G,VGA_B
 );
 
 //// background and foreground colors

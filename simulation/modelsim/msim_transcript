@@ -1,5 +1,4 @@
 # Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
-# ERROR: No extended dataflow license exists
 # do audio_visualizer_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -11,480 +10,1198 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/lab62.sv}
+# vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:10:49 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# Start time: 23:04:22 on Dec 08,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385" C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
 # -- Compiling module lab62
 # 
 # Top level modules:
 # 	lab62
-# End time: 00:10:50 on Nov 27,2022, Elapsed time: 0:00:01
+# End time: 23:04:22 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv}
+# vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:10:50 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# Start time: 23:04:22 on Dec 08,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385" C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 00:10:50 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:04:22 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv}
+# vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:10:50 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# Start time: 23:04:22 on Dec 08,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385" C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 00:10:50 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:04:22 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ball.sv}
+# vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:10:50 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# Start time: 23:04:22 on Dec 08,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385" C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 00:10:50 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:04:22 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/testbench.sv}
+# vlog -sv -work work +incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385 {C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:10:50 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# Start time: 23:04:22 on Dec 08,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/deepa/Desktop/ECE385-FinalProject/ece385" C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 00:10:50 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:04:22 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 00:10:51 on Nov 27,2022
+# Start time: 23:04:22 on Dec 08,2022
 # Loading sv_std.std
 # Loading work.testbench
-# Loading work.color_mapper
+# ** Error: (vsim-3033) C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv(39): Instantiation of 'FastFourierTransform' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/simulation/modelsim/rtl_work
+#             C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./audio_visualizer_run_msim_rtl_verilog.do PAUSED at line 15
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
 # 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
+# Top level modules:
+# 	ball
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(38): (vlog-2110) Illegal reference to net "VGA_R".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(39): (vlog-2110) Illegal reference to net "VGA_G".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(40): (vlog-2110) Illegal reference to net "VGA_B".
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(32): (vlog-2110) Illegal reference to net "A_real".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(33): (vlog-2110) Illegal reference to net "A_imag".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(35): (vlog-2110) Illegal reference to net "B_real".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(36): (vlog-2110) Illegal reference to net "B_imag".
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(83): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(139): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(193): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(247): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(301): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(355): (vlog-2730) Undefined variable: 'butterfly_ii3'.
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:23 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:05:23 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:24 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:05:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:24 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:05:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(38): (vlog-2110) Illegal reference to net "VGA_R".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(39): (vlog-2110) Illegal reference to net "VGA_G".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(40): (vlog-2110) Illegal reference to net "VGA_B".
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(32): (vlog-2110) Illegal reference to net "A_real".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(33): (vlog-2110) Illegal reference to net "A_imag".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(35): (vlog-2110) Illegal reference to net "B_real".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv(36): (vlog-2110) Illegal reference to net "B_imag".
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(390): (vlog-2110) Illegal reference to net "x0".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(391): (vlog-2110) Illegal reference to net "x1".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(392): (vlog-2110) Illegal reference to net "x2".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(393): (vlog-2110) Illegal reference to net "x3".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(394): (vlog-2110) Illegal reference to net "x4".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(395): (vlog-2110) Illegal reference to net "x5".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(396): (vlog-2110) Illegal reference to net "x6".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(397): (vlog-2110) Illegal reference to net "x7".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(398): (vlog-2110) Illegal reference to net "x8".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(399): (vlog-2110) Illegal reference to net "x9".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(400): (vlog-2110) Illegal reference to net "x10".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(401): (vlog-2110) Illegal reference to net "x11".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(402): (vlog-2110) Illegal reference to net "x12".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(403): (vlog-2110) Illegal reference to net "x13".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(404): (vlog-2110) Illegal reference to net "x14".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv(405): (vlog-2110) Illegal reference to net "x15".
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 16, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:35 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:06:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 23:08:19 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(38): (vlog-2110) Illegal reference to net "VGA_R".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(39): (vlog-2110) Illegal reference to net "VGA_G".
+# ** Error: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv(40): (vlog-2110) Illegal reference to net "VGA_B".
+# End time: 23:08:19 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:08:19 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:08:19 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:20 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:08:20 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:20 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:08:20 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:20 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:08:20 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:20 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:08:20 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:20 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:08:20 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:53 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:08:53 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:54 on Dec 08,2022
+# vlog -reportprogress 30 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:08:54 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 23:04:22 on Dec 08,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+add wave -position insertpoint  \
+sim:/testbench/s0 \
+sim:/testbench/s1 \
+sim:/testbench/s2 \
+sim:/testbench/s3 \
+sim:/testbench/s4 \
+sim:/testbench/s5 \
+sim:/testbench/s6 \
+sim:/testbench/s7 \
+sim:/testbench/s8 \
+sim:/testbench/s9 \
+sim:/testbench/s10 \
+sim:/testbench/s11 \
+sim:/testbench/s12 \
+sim:/testbench/s13 \
+sim:/testbench/s14 \
+sim:/testbench/s15 \
+sim:/testbench/x0 \
+sim:/testbench/x1 \
+sim:/testbench/x2 \
+sim:/testbench/x3 \
+sim:/testbench/x4 \
+sim:/testbench/x5 \
+sim:/testbench/x6 \
+sim:/testbench/x7 \
+sim:/testbench/x8 \
+sim:/testbench/x9 \
+sim:/testbench/x10 \
+sim:/testbench/x11 \
+sim:/testbench/x12 \
+sim:/testbench/x13 \
+sim:/testbench/x14 \
+sim:/testbench/x15
+run -all
 # Simulation succesfully completed
-add wave -position insertpoint sim:/testbench/color/*
+add wave -position insertpoint  \
+sim:/testbench/fft/curr_state \
+sim:/testbench/fft/next_state
+run -all
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:02 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 23:13:02 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:02 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:13:02 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:03 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:13:03 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:12 on Dec 08,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 23:13:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:13:12 on Dec 08,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 23:13:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# End time: 23:13:18 on Dec 08,2022, Elapsed time: 0:08:56
+# Errors: 1, Warnings: 0
+# vsim work.testbench 
+# Start time: 23:13:18 on Dec 08,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+add wave -position insertpoint  \
+sim:/testbench/fft/curr_state \
+sim:/testbench/fft/next_state
+run -all
+# Simulation succesfully completed
+add wave -position insertpoint  \
+sim:/testbench/Reset
+restart
+run
+run -all
+# Simulation succesfully completed
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:23 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:24 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 23:19:24 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:25 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 23:19:25 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:31 on Dec 08,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 23:19:31 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:19:31 on Dec 08,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 23:19:31 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.testbench
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+run -all
+# Simulation succesfully completed
+add wave -position insertpoint  \
+sim:/testbench/s0 \
+sim:/testbench/s1 \
+sim:/testbench/s2 \
+sim:/testbench/s3 \
+sim:/testbench/s4 \
+sim:/testbench/s5 \
+sim:/testbench/s6 \
+sim:/testbench/s7 \
+sim:/testbench/s8 \
+sim:/testbench/s9 \
+sim:/testbench/s10 \
+sim:/testbench/s11 \
+sim:/testbench/s12 \
+sim:/testbench/s13 \
+sim:/testbench/s14 \
+sim:/testbench/s15 \
+sim:/testbench/x0 \
+sim:/testbench/x1 \
+sim:/testbench/x2 \
+sim:/testbench/x3 \
+sim:/testbench/x4 \
+sim:/testbench/x5 \
+sim:/testbench/x6 \
+sim:/testbench/x7 \
+sim:/testbench/x8 \
+sim:/testbench/x9 \
+sim:/testbench/x10 \
+sim:/testbench/x11 \
+sim:/testbench/x12 \
+sim:/testbench/x13 \
+sim:/testbench/x14 \
+sim:/testbench/x15
 restart
 run -all
 # Simulation succesfully completed
 add wave -position insertpoint  \
-sim:/testbench/color/BAR_Y \
-sim:/testbench/color/BAR_X
+sim:/testbench/fft/outsignal_r0 \
+sim:/testbench/fft/outsignal_r1 \
+sim:/testbench/fft/outsignal_r2 \
+sim:/testbench/fft/outsignal_r3 \
+sim:/testbench/fft/outsignal_r4 \
+sim:/testbench/fft/outsignal_r5 \
+sim:/testbench/fft/outsignal_r6 \
+sim:/testbench/fft/outsignal_r7 \
+sim:/testbench/fft/outsignal_r8 \
+sim:/testbench/fft/outsignal_r9 \
+sim:/testbench/fft/outsignal_r10 \
+sim:/testbench/fft/outsignal_r11 \
+sim:/testbench/fft/outsignal_r12 \
+sim:/testbench/fft/outsignal_r13 \
+sim:/testbench/fft/outsignal_r14 \
+sim:/testbench/fft/outsignal_r15
 restart
 run -all
 # Simulation succesfully completed
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+# WARNING: No extended dataflow license exists
+restart
+run -all
+# Simulation succesfully completed
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:09 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 00:16:09 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:09 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 00:16:09 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:09 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
 # -- Compiling module lab62
 # 
 # Top level modules:
 # 	lab62
-# End time: 00:16:09 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:09 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
-# -- Compiling module testbench
-# ** Error: (vlog-13069) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(65): near "=": syntax error, unexpected '='.
-# End time: 00:16:09 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:09 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
-# -- Compiling module vga_controller
-# 
-# Top level modules:
-# 	vga_controller
-# End time: 00:16:09 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:58 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
-# -- Compiling module ball
-# 
-# Top level modules:
-# 	ball
-# End time: 00:16:58 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:58 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
-# -- Compiling module color_mapper
-# 
-# Top level modules:
-# 	color_mapper
-# End time: 00:16:58 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:58 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
-# -- Compiling module lab62
-# 
-# Top level modules:
-# 	lab62
-# End time: 00:16:58 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:58 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
-# -- Compiling module testbench
-# ** Error: (vlog-13069) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(65): near "=": syntax error, unexpected '='.
-# End time: 00:16:59 on Nov 27,2022, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:16:59 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
-# -- Compiling module vga_controller
-# 
-# Top level modules:
-# 	vga_controller
-# End time: 00:16:59 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:15 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
-# -- Compiling module ball
-# 
-# Top level modules:
-# 	ball
-# End time: 00:17:15 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:15 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
-# -- Compiling module color_mapper
-# 
-# Top level modules:
-# 	color_mapper
-# End time: 00:17:15 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:16 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
-# -- Compiling module lab62
-# 
-# Top level modules:
-# 	lab62
-# End time: 00:17:16 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:16 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# Start time: 23:31:05 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 00:17:16 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:05 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:16 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# Start time: 23:31:06 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 00:17:16 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:06 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:21 on Nov 27,2022
+# Start time: 23:31:12 on Dec 08,2022
 # vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
 # -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
 # -- Refreshing module lab62
 # -- Refreshing module testbench
 # -- Refreshing module vga_controller
-# End time: 00:17:21 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:12 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:17:21 on Nov 27,2022
+# Start time: 23:31:12 on Dec 08,2022
 # vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
 # -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
 # -- Skipping module lab62
 # -- Skipping module testbench
 # -- Skipping module vga_controller
-# End time: 00:17:21 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:31:12 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 restart
 # Loading work.testbench
-# Loading work.color_mapper
+# Loading work.FastFourierTransform
+# Loading work.butterfly
 run -all
 # Simulation succesfully completed
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:17 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# Start time: 23:37:07 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 00:19:17 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:07 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:18 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# Start time: 23:37:07 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:37:07 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:37:07 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:37:07 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:37:07 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 00:19:18 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:07 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:18 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# Start time: 23:37:07 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:37:07 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:37:08 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:37:08 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:37:08 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
 # -- Compiling module lab62
 # 
 # Top level modules:
 # 	lab62
-# End time: 00:19:18 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:08 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:18 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# Start time: 23:37:08 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 00:19:18 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:08 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:18 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# Start time: 23:37:08 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 00:19:19 on Nov 27,2022, Elapsed time: 0:00:01
+# End time: 23:37:08 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:23 on Nov 27,2022
+# Start time: 23:37:11 on Dec 08,2022
 # vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
 # -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
 # -- Refreshing module lab62
 # -- Refreshing module testbench
 # -- Refreshing module vga_controller
-# End time: 00:19:23 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:11 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:19:23 on Nov 27,2022
+# Start time: 23:37:11 on Dec 08,2022
 # vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
 # -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
 # -- Skipping module lab62
 # -- Skipping module testbench
 # -- Skipping module vga_controller
-# End time: 00:19:23 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:37:11 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 restart
-# Loading work.testbench
-# Loading work.color_mapper
-run -all
-# Simulation succesfully completed
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:21 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
-# -- Compiling module ball
-# 
-# Top level modules:
-# 	ball
-# End time: 00:21:22 on Nov 27,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:22 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
-# -- Compiling module color_mapper
-# 
-# Top level modules:
-# 	color_mapper
-# End time: 00:21:22 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:22 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
-# -- Compiling module lab62
-# 
-# Top level modules:
-# 	lab62
-# End time: 00:21:22 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:22 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	testbench
-# End time: 00:21:22 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:22 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
-# -- Compiling module vga_controller
-# 
-# Top level modules:
-# 	vga_controller
-# End time: 00:21:22 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work rtl_work -refresh -force_refresh
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:29 on Nov 27,2022
-# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
-# -- Refreshing module ball
-# -- Refreshing module color_mapper
-# -- Refreshing module lab62
-# -- Refreshing module testbench
-# -- Refreshing module vga_controller
-# End time: 00:21:29 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -work rtl_work -refresh -force_refresh
-# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:21:29 on Nov 27,2022
-# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
-# -- Skipping module ball
-# -- Skipping module color_mapper
-# -- Skipping module lab62
-# -- Skipping module testbench
-# -- Skipping module vga_controller
-# End time: 00:21:29 on Nov 27,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 restart
 # Loading work.testbench
-# Loading work.color_mapper
+# Loading work.FastFourierTransform
+# Loading work.butterfly
 run -all
 # Simulation succesfully completed
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:45 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 00:26:45 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:45 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 00:26:45 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:45 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:55:18 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv 
 # -- Compiling module lab62
 # 
 # Top level modules:
 # 	lab62
-# End time: 00:26:45 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:18 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:45 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# Start time: 23:55:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 00:26:45 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:19 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+vlog -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:46 on Nov 27,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# Start time: 23:55:19 on Dec 08,2022
+# vlog -reportprogress 300 -work work C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 00:26:46 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:19 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:49 on Nov 27,2022
+# Start time: 23:55:23 on Dec 08,2022
 # vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
 # -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
 # -- Refreshing module lab62
 # -- Refreshing module testbench
 # -- Refreshing module vga_controller
-# End time: 00:26:49 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:23 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:26:49 on Nov 27,2022
+# Start time: 23:55:23 on Dec 08,2022
 # vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
 # -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
 # -- Skipping module lab62
 # -- Skipping module testbench
 # -- Skipping module vga_controller
-# End time: 00:26:49 on Nov 27,2022, Elapsed time: 0:00:00
+# End time: 23:55:23 on Dec 08,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
