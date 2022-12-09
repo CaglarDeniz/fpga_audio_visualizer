@@ -1,7 +1,9 @@
 	
 module FastFourierTransform( input logic Clk, Reset,
 									  input logic [23:0] s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,
-									  output logic [23:0] x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15
+									  output logic [23:0] x0,x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,
+									  input logic Ready, 
+									  output logic frame_completed
 
 									  
 );
@@ -115,11 +117,17 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 				end
 				
 			else if (curr_state == wait_state)
+			begin
+			if (Ready)
+					next_state <= stage0;
+			else
 				next_state <= wait_state;
+			end
 			else 
 				begin
 					if (curr_state == stage0)
 						begin
+							frame_completed <= 1'b0 ;
 							butterfly_ir0 <= s0;
 							butterfly_ir1 <= s8;
 							butterfly_ir2 <= s2;
@@ -281,7 +289,7 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 							twiddle_i4<= q0;
 							twiddle_i5<= q2;
 							twiddle_i6<= q4;
-							twiddle_i7<=	q6;
+							twiddle_i7<= q6;
 							
 							next_state <= stage3;
 
@@ -400,8 +408,40 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 						end
 						else if (curr_state == frame_done)
 							begin
-							
-							
+							// Convert negative twos complement to positive value//
+							if (outsignal_r0[23] == 1)
+								 outsignal_r0 <= (outsignal_r0 ^ 24'hffffff)+1;
+							if (outsignal_r1[23] == 1)
+								 outsignal_r1 <= (outsignal_r1 ^ 24'hffffff)+1;
+							if (outsignal_r2[23] == 1)
+								 outsignal_r2 <= (outsignal_r2 ^ 24'hffffff)+1;
+							if (outsignal_r3[23] == 1)
+								 outsignal_r3 <= (outsignal_r3 ^ 24'hffffff)+1;
+							if (outsignal_r4[23] == 1)
+								 outsignal_r4 <= (outsignal_r4 ^ 24'hffffff)+1;
+							if (outsignal_r5[23] == 1)
+								 outsignal_r5 <= (outsignal_r5 ^ 24'hffffff)+1;
+							if (outsignal_r6[23] == 1)
+								 outsignal_r6 <= (outsignal_r6 ^ 24'hffffff)+1;
+							if (outsignal_r7[23] == 1)
+								 outsignal_r7 <= (outsignal_r7 ^ 24'hffffff)+1;
+							if (outsignal_r8[23] == 1)
+								 outsignal_r8 <= (outsignal_r8 ^ 24'hffffff)+1;
+							if (outsignal_r9[23] == 1)
+								 outsignal_r9 <= (outsignal_r9 ^ 24'hffffff)+1;
+							if (outsignal_r10[23] == 1)
+								 outsignal_r10 <= (outsignal_r10 ^ 24'hffffff)+1;
+							if (outsignal_r11[23] == 1)
+								 outsignal_r11 <= (outsignal_r11 ^ 24'hffffff)+1;
+							if (outsignal_r12[23] == 1)
+								 outsignal_r12 <= (outsignal_r12 ^ 24'hffffff)+1;
+							if (outsignal_r13[23] == 1)
+								 outsignal_r13 <= (outsignal_r13 ^ 24'hffffff)+1;
+							if (outsignal_r14[23] == 1)
+								 outsignal_r14 <= (outsignal_r14 ^ 24'hffffff)+1;
+							if (outsignal_r15[23] == 1)
+								 outsignal_r15 <= (outsignal_r15 ^ 24'hffffff)+1;
+	
 							x0 <= outsignal_r0;
 							x1 <= outsignal_r1;
 							x2 <= outsignal_r2;
@@ -418,12 +458,10 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 							x13 <= outsignal_r13;
 							x14 <= outsignal_r14;
 							x15 <= outsignal_r15;
+							frame_completed = 1'b1;
 							next_state <= wait_state;
-
 							end
-				end
-				
-				
+				end	
 		end
 		
 butterfly butterfly_c1( .a_real(butterfly_ir0), .a_imag(butterfly_ii0), .b_real(butterfly_ir1), .b_imag(butterfly_ii1), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
@@ -449,9 +487,5 @@ butterfly butterfly_c7( .a_real(butterfly_ir12), .a_imag(butterfly_ii12), .b_rea
 
 butterfly butterfly_c8( .a_real(butterfly_ir14), .a_imag(butterfly_ii14), .b_real(butterfly_ir15), .b_imag(butterfly_ii15), .twiddle_real(twiddle_r0), .twiddle_imag(twiddle_i0), 
 						 .A_real(outsignal_r14), .A_imag(outsignal_i14) , .B_real(outsignal_r15), .B_imag(outsignal_i15));						 
-	
-		
-		
-		
-		
+
 endmodule 

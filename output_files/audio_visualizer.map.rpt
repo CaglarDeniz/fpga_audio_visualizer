@@ -1,5 +1,5 @@
 Analysis & Synthesis report for audio_visualizer
-Fri Dec 09 02:26:42 2022
+Fri Dec 09 02:45:13 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -13,23 +13,15 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis IP Cores Summary
-  9. State Machine - |lab62|curr_state
- 10. Registers Removed During Synthesis
- 11. Removed Registers Triggering Further Register Optimizations
- 12. General Register Statistics
- 13. Source assignments for ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated
- 14. Parameter Settings for User Entity Instance: ram:ram0|altsyncram:altsyncram_component
- 15. Parameter Settings for User Entity Instance: vga_controller:vga
- 16. Parameter Settings for User Entity Instance: ball:balls
- 17. altsyncram Parameter Settings by Entity Instance
- 18. Port Connectivity Checks: "color_mapper:color"
- 19. Port Connectivity Checks: "vga_controller:vga"
- 20. Port Connectivity Checks: "ram:ram0"
- 21. Post-Synthesis Netlist Statistics for Top Partition
- 22. Elapsed Time Per Partition
- 23. Analysis & Synthesis Messages
- 24. Analysis & Synthesis Suppressed Messages
+  8. General Register Statistics
+  9. Parameter Settings for User Entity Instance: vga_controller:vga
+ 10. Parameter Settings for User Entity Instance: ball:balls
+ 11. Port Connectivity Checks: "color_mapper:color"
+ 12. Port Connectivity Checks: "vga_controller:vga"
+ 13. Post-Synthesis Netlist Statistics for Top Partition
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
+ 16. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -55,7 +47,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 09 02:26:42 2022       ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 09 02:45:13 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; audio_visualizer                            ;
 ; Top-level Entity Name              ; lab62                                       ;
@@ -165,43 +157,29 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 6           ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 6           ;
+; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.0%      ;
-;     Processors 3-6         ;   0.0%      ;
+;     Processors 3-16        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                               ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                 ; Library ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
-; lab62.sv                         ; yes             ; User SystemVerilog HDL File            ; C:/Users/dcagl/Desktop/ECE385/final/lab62.sv                                 ;         ;
-; VGA_controller.sv                ; yes             ; User SystemVerilog HDL File            ; C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv                        ;         ;
-; Color_Mapper.sv                  ; yes             ; User SystemVerilog HDL File            ; C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv                          ;         ;
-; ball.sv                          ; yes             ; User SystemVerilog HDL File            ; C:/Users/dcagl/Desktop/ECE385/final/ball.sv                                  ;         ;
-; ram.v                            ; yes             ; User Wizard-Generated File             ; C:/Users/dcagl/Desktop/ECE385/final/ram.v                                    ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc           ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc        ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc        ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc         ;         ;
-; altrom.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc            ;         ;
-; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc            ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
-; db/altsyncram_7dk1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf                   ;         ;
-; rickroll_short.mif               ; yes             ; Auto-Found Memory Initialization File  ; C:/Users/dcagl/Desktop/ECE385/final/rickroll_short.mif                       ;         ;
-; db/decode_c7a.tdf                ; yes             ; Auto-Generated Megafunction            ; C:/Users/dcagl/Desktop/ECE385/final/db/decode_c7a.tdf                        ;         ;
-; db/mux_b3b.tdf                   ; yes             ; Auto-Generated Megafunction            ; C:/Users/dcagl/Desktop/ECE385/final/db/mux_b3b.tdf                           ;         ;
-+----------------------------------+-----------------+----------------------------------------+------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                            ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                        ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
+; lab62.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv          ;         ;
+; VGA_controller.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv ;         ;
+; Color_Mapper.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv   ;         ;
+; ball.sv                          ; yes             ; User SystemVerilog HDL File  ; C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv           ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------------------+
@@ -247,61 +225,6 @@ refer to the applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+---------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                             ;
-+--------+--------------+---------+--------------+--------------+-----------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+-----------------+-----------------+
-; Altera ; RAM: 1-PORT  ; 18.1    ; N/A          ; N/A          ; |lab62|ram:ram0 ; ram.v           ;
-+--------+--------------+---------+--------------+--------------+-----------------+-----------------+
-
-
-Encoding Type:  One-Hot
-+--------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |lab62|curr_state                                                                                                          ;
-+--------------------------+------------------+--------------------------+--------------------------+-----------------+----------------------+
-; Name                     ; curr_state.write ; curr_state.wait_for_mem1 ; curr_state.wait_for_mem0 ; curr_state.halt ; curr_state.increment ;
-+--------------------------+------------------+--------------------------+--------------------------+-----------------+----------------------+
-; curr_state.halt          ; 0                ; 0                        ; 0                        ; 0               ; 0                    ;
-; curr_state.wait_for_mem0 ; 0                ; 0                        ; 1                        ; 1               ; 0                    ;
-; curr_state.wait_for_mem1 ; 0                ; 1                        ; 0                        ; 1               ; 0                    ;
-; curr_state.write         ; 1                ; 0                        ; 0                        ; 1               ; 0                    ;
-; curr_state.increment     ; 0                ; 0                        ; 0                        ; 1               ; 1                    ;
-+--------------------------+------------------+--------------------------+--------------------------+-----------------+----------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                        ;
-+--------------------------------------------------------------------------------------+--------------------+
-; Register name                                                                        ; Reason for Removal ;
-+--------------------------------------------------------------------------------------+--------------------+
-; ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|rden_a_store ; Lost fanout        ;
-; ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|wren_a_store ; Lost fanout        ;
-; RAM_ADDR[0..14]                                                                      ; Lost fanout        ;
-; curr_state~4                                                                         ; Lost fanout        ;
-; curr_state~5                                                                         ; Lost fanout        ;
-; sample_index[0..5]                                                                   ; Lost fanout        ;
-; curr_state.increment                                                                 ; Lost fanout        ;
-; curr_state.halt                                                                      ; Lost fanout        ;
-; curr_state.wait_for_mem0                                                             ; Lost fanout        ;
-; curr_state.wait_for_mem1                                                             ; Lost fanout        ;
-; curr_state.write                                                                     ; Lost fanout        ;
-; Total Number of Removed Registers = 30                                               ;                    ;
-+--------------------------------------------------------------------------------------+--------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                                                           ;
-+--------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; Register name                                                                        ; Reason for Removal ; Registers Removed due to This Register                                                    ;
-+--------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-; curr_state~4                                                                         ; Lost Fanouts       ; sample_index[5], sample_index[4], sample_index[0], curr_state.increment, curr_state.halt, ;
-;                                                                                      ;                    ; curr_state.wait_for_mem1, curr_state.write                                                ;
-; ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|rden_a_store ; Lost Fanouts       ; sample_index[3], sample_index[2], sample_index[1]                                         ;
-; curr_state~5                                                                         ; Lost Fanouts       ; curr_state.wait_for_mem0                                                                  ;
-+--------------------------------------------------------------------------------------+--------------------+-------------------------------------------------------------------------------------------+
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
@@ -315,76 +238,6 @@ Encoding Type:  One-Hot
 ; Number of registers using Clock Enable       ; 10    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
-
-
-+------------------------------------------------------------------------------------------------+
-; Source assignments for ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated ;
-+---------------------------------+--------------------+------+----------------------------------+
-; Assignment                      ; Value              ; From ; To                               ;
-+---------------------------------+--------------------+------+----------------------------------+
-; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                ;
-+---------------------------------+--------------------+------+----------------------------------+
-
-
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ram:ram0|altsyncram:altsyncram_component ;
-+------------------------------------+----------------------+---------------------------+
-; Parameter Name                     ; Value                ; Type                      ;
-+------------------------------------+----------------------+---------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                   ;
-; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                ;
-; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY              ;
-; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE              ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE            ;
-; WIDTH_BYTEENA                      ; 1                    ; Untyped                   ;
-; OPERATION_MODE                     ; SINGLE_PORT          ; Untyped                   ;
-; WIDTH_A                            ; 16                   ; Signed Integer            ;
-; WIDTHAD_A                          ; 15                   ; Signed Integer            ;
-; NUMWORDS_A                         ; 32768                ; Signed Integer            ;
-; OUTDATA_REG_A                      ; CLOCK0               ; Untyped                   ;
-; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                   ;
-; INDATA_ACLR_A                      ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                   ;
-; WIDTH_B                            ; 1                    ; Untyped                   ;
-; WIDTHAD_B                          ; 1                    ; Untyped                   ;
-; NUMWORDS_B                         ; 1                    ; Untyped                   ;
-; INDATA_REG_B                       ; CLOCK1               ; Untyped                   ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                   ;
-; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                   ;
-; ADDRESS_REG_B                      ; CLOCK1               ; Untyped                   ;
-; OUTDATA_REG_B                      ; UNREGISTERED         ; Untyped                   ;
-; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                   ;
-; INDATA_ACLR_B                      ; NONE                 ; Untyped                   ;
-; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; ADDRESS_ACLR_B                     ; NONE                 ; Untyped                   ;
-; OUTDATA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                   ;
-; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                   ;
-; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer            ;
-; WIDTH_BYTEENA_B                    ; 1                    ; Untyped                   ;
-; RAM_BLOCK_TYPE                     ; M9K                  ; Untyped                   ;
-; BYTE_SIZE                          ; 8                    ; Untyped                   ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                   ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                   ;
-; INIT_FILE                          ; rickroll_short.mif   ; Untyped                   ;
-; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                   ;
-; MAXIMUM_DEPTH                      ; 0                    ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                   ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS               ; Untyped                   ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL               ; Untyped                   ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                   ;
-; ENABLE_ECC                         ; FALSE                ; Untyped                   ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                   ;
-; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                   ;
-; DEVICE_FAMILY                      ; MAX 10               ; Untyped                   ;
-; CBXI_PARAMETER                     ; altsyncram_7dk1      ; Untyped                   ;
-+------------------------------------+----------------------+---------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------------------+
@@ -415,26 +268,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+--------------------------------------------------------------------------------------+
-; altsyncram Parameter Settings by Entity Instance                                     ;
-+-------------------------------------------+------------------------------------------+
-; Name                                      ; Value                                    ;
-+-------------------------------------------+------------------------------------------+
-; Number of entity instances                ; 1                                        ;
-; Entity Instance                           ; ram:ram0|altsyncram:altsyncram_component ;
-;     -- OPERATION_MODE                     ; SINGLE_PORT                              ;
-;     -- WIDTH_A                            ; 16                                       ;
-;     -- NUMWORDS_A                         ; 32768                                    ;
-;     -- OUTDATA_REG_A                      ; CLOCK0                                   ;
-;     -- WIDTH_B                            ; 1                                        ;
-;     -- NUMWORDS_B                         ; 1                                        ;
-;     -- ADDRESS_REG_B                      ; CLOCK1                                   ;
-;     -- OUTDATA_REG_B                      ; UNREGISTERED                             ;
-;     -- RAM_BLOCK_TYPE                     ; M9K                                      ;
-;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                ;
-+-------------------------------------------+------------------------------------------+
-
-
 +-----------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "color_mapper:color"                                                                  ;
 +-------+--------+----------+-------------------------------------------------------------------------------------+
@@ -455,16 +288,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; blank     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; sync      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +-----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ram:ram0"                                                                           ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; wren ; Input  ; Info     ; Stuck at GND                                                                        ;
-; q    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -496,7 +319,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -506,306 +329,190 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Dec 09 02:26:26 2022
+    Info: Processing started: Fri Dec 09 02:44:53 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off audio_visualizer -c audio_visualizer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file lab62.sv
-    Info (12023): Found entity 1: lab62 File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 9
+    Info (12023): Found entity 1: lab62 File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file vga_controller.sv
-    Info (12023): Found entity 1: vga_controller File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 25
+    Info (12023): Found entity 1: vga_controller File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv Line: 25
 Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
-    Info (12023): Found entity 1: HexDriver File: C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv Line: 1
+    Info (12023): Found entity 1: HexDriver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/HexDriver.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file color_mapper.sv
-    Info (12023): Found entity 1: color_mapper File: C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv Line: 16
+    Info (12023): Found entity 1: color_mapper File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/Color_Mapper.sv Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file ball.sv
-    Info (12023): Found entity 1: ball File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 16
+    Info (12023): Found entity 1: ball File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file bar_graph.sv
-    Info (12023): Found entity 1: bar_graph File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 1
+    Info (12023): Found entity 1: bar_graph File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench.sv
-    Info (12023): Found entity 1: testbench File: C:/Users/dcagl/Desktop/ECE385/final/testbench.sv Line: 1
+    Info (12023): Found entity 1: testbench File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/testbench.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fastfouriertransform.sv
-    Info (12023): Found entity 1: FastFourierTransform File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv Line: 2
+    Info (12023): Found entity 1: FastFourierTransform File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/FastFourierTransform.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file butterfly_module.sv
-    Info (12023): Found entity 1: butterfly File: C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: ram File: C:/Users/dcagl/Desktop/ECE385/final/ram.v Line: 39
-Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(296): created implicit net for "VGA_CLK" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 296
-Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(312): created implicit net for "Button_h" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 312
-Warning (10236): Verilog HDL Implicit Net warning at bar_graph.sv(33): created implicit net for "BAR_EN" File: C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv Line: 33
+    Info (12023): Found entity 1: butterfly File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/butterfly_module.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(165): created implicit net for "VGA_CLK" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 165
+Warning (10236): Verilog HDL Implicit Net warning at lab62.sv(181): created implicit net for "Button_h" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 181
+Warning (10236): Verilog HDL Implicit Net warning at bar_graph.sv(33): created implicit net for "BAR_EN" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/bar_graph.sv Line: 33
 Info (12127): Elaborating entity "lab62" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s0" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s1" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s2" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s3" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s4" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s5" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s6" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s7" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s8" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s9" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s10" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s11" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s12" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s13" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s14" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10036): Verilog HDL or VHDL warning at lab62.sv(161): object "s15" assigned a value but never read File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 161
-Warning (10034): Output port "LEDR" at lab62.sv(21) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-Warning (10034): Output port "HEX0" at lab62.sv(24) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-Warning (10034): Output port "HEX1" at lab62.sv(25) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-Warning (10034): Output port "HEX2" at lab62.sv(26) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-Warning (10034): Output port "HEX3" at lab62.sv(27) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-Warning (10034): Output port "HEX4" at lab62.sv(28) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-Warning (10034): Output port "HEX5" at lab62.sv(29) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-Warning (10034): Output port "DRAM_ADDR" at lab62.sv(34) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-Warning (10034): Output port "DRAM_BA" at lab62.sv(35) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
-Warning (10034): Output port "VGA_R" at lab62.sv(47) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 47
-Warning (10034): Output port "VGA_G" at lab62.sv(48) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
-Warning (10034): Output port "VGA_B" at lab62.sv(49) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
-Warning (10034): Output port "DRAM_CLK" at lab62.sv(32) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 32
-Warning (10034): Output port "DRAM_CKE" at lab62.sv(33) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 33
-Warning (10034): Output port "DRAM_LDQM" at lab62.sv(37) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 37
-Warning (10034): Output port "DRAM_UDQM" at lab62.sv(38) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 38
-Warning (10034): Output port "DRAM_CS_N" at lab62.sv(39) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 39
-Warning (10034): Output port "DRAM_WE_N" at lab62.sv(40) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 40
-Warning (10034): Output port "DRAM_CAS_N" at lab62.sv(41) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 41
-Warning (10034): Output port "DRAM_RAS_N" at lab62.sv(42) has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 42
-Info (12128): Elaborating entity "ram" for hierarchy "ram:ram0" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 168
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ram:ram0|altsyncram:altsyncram_component" File: C:/Users/dcagl/Desktop/ECE385/final/ram.v Line: 88
-Info (12130): Elaborated megafunction instantiation "ram:ram0|altsyncram:altsyncram_component" File: C:/Users/dcagl/Desktop/ECE385/final/ram.v Line: 88
-Info (12133): Instantiated megafunction "ram:ram0|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/dcagl/Desktop/ECE385/final/ram.v Line: 88
-    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
-    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "rickroll_short.mif"
-    Info (12134): Parameter "intended_device_family" = "MAX 10"
-    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
-    Info (12134): Parameter "lpm_type" = "altsyncram"
-    Info (12134): Parameter "numwords_a" = "32768"
-    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
-    Info (12134): Parameter "outdata_aclr_a" = "NONE"
-    Info (12134): Parameter "outdata_reg_a" = "CLOCK0"
-    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
-    Info (12134): Parameter "ram_block_type" = "M9K"
-    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
-    Info (12134): Parameter "widthad_a" = "15"
-    Info (12134): Parameter "width_a" = "16"
-    Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_7dk1.tdf
-    Info (12023): Found entity 1: altsyncram_7dk1 File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 31
-Info (12128): Elaborating entity "altsyncram_7dk1" for hierarchy "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12021): Found 1 design units, including 1 entities, in source file db/decode_c7a.tdf
-    Info (12023): Found entity 1: decode_c7a File: C:/Users/dcagl/Desktop/ECE385/final/db/decode_c7a.tdf Line: 22
-Info (12128): Elaborating entity "decode_c7a" for hierarchy "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|decode_c7a:decode3" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 45
-Info (12021): Found 1 design units, including 1 entities, in source file db/mux_b3b.tdf
-    Info (12023): Found entity 1: mux_b3b File: C:/Users/dcagl/Desktop/ECE385/final/db/mux_b3b.tdf Line: 22
-Info (12128): Elaborating entity "mux_b3b" for hierarchy "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|mux_b3b:mux2" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 47
-Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 303
-Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(76): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 76
-Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(79): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv Line: 79
-Info (12128): Elaborating entity "ball" for hierarchy "ball:balls" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 309
-Warning (10230): Verilog HDL assignment warning at ball.sv(64): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 64
-Warning (10230): Verilog HDL assignment warning at ball.sv(82): truncated value with size 32 to match size of target (10) File: C:/Users/dcagl/Desktop/ECE385/final/ball.sv Line: 82
-Info (12128): Elaborating entity "color_mapper" for hierarchy "color_mapper:color" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 314
+Warning (10034): Output port "LEDR" at lab62.sv(21) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+Warning (10034): Output port "HEX0" at lab62.sv(24) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+Warning (10034): Output port "HEX1" at lab62.sv(25) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+Warning (10034): Output port "HEX2" at lab62.sv(26) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+Warning (10034): Output port "HEX3" at lab62.sv(27) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+Warning (10034): Output port "HEX4" at lab62.sv(28) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+Warning (10034): Output port "HEX5" at lab62.sv(29) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+Warning (10034): Output port "DRAM_ADDR" at lab62.sv(34) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+Warning (10034): Output port "DRAM_BA" at lab62.sv(35) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 35
+Warning (10034): Output port "VGA_R" at lab62.sv(47) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 47
+Warning (10034): Output port "VGA_G" at lab62.sv(48) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 48
+Warning (10034): Output port "VGA_B" at lab62.sv(49) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 49
+Warning (10034): Output port "DRAM_CLK" at lab62.sv(32) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 32
+Warning (10034): Output port "DRAM_CKE" at lab62.sv(33) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 33
+Warning (10034): Output port "DRAM_LDQM" at lab62.sv(37) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 37
+Warning (10034): Output port "DRAM_UDQM" at lab62.sv(38) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 38
+Warning (10034): Output port "DRAM_CS_N" at lab62.sv(39) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 39
+Warning (10034): Output port "DRAM_WE_N" at lab62.sv(40) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 40
+Warning (10034): Output port "DRAM_CAS_N" at lab62.sv(41) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 41
+Warning (10034): Output port "DRAM_RAS_N" at lab62.sv(42) has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 42
+Info (12128): Elaborating entity "vga_controller" for hierarchy "vga_controller:vga" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 172
+Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(76): truncated value with size 32 to match size of target (10) File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv Line: 76
+Warning (10230): Verilog HDL assignment warning at VGA_controller.sv(79): truncated value with size 32 to match size of target (10) File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/VGA_controller.sv Line: 79
+Info (12128): Elaborating entity "ball" for hierarchy "ball:balls" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 178
+Warning (10230): Verilog HDL assignment warning at ball.sv(64): truncated value with size 32 to match size of target (10) File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv Line: 64
+Warning (10230): Verilog HDL assignment warning at ball.sv(82): truncated value with size 32 to match size of target (10) File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/ball.sv Line: 82
+Info (12128): Elaborating entity "color_mapper" for hierarchy "color_mapper:color" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 183
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "Reset_h" is missing source, defaulting to GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 61
-Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "Reset_h" is missing source, defaulting to GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 61
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a0" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 48
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a1" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 73
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a2" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 98
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a3" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 123
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a4" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 148
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a5" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 173
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a6" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 198
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a7" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 223
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a8" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 248
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a9" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 273
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a10" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 298
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a11" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 323
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a12" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 348
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a13" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 373
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a14" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 398
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a15" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 423
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a16" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 448
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a17" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 473
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a18" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 498
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a19" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 523
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a20" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 548
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a21" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 573
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a22" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 598
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a23" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 623
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a24" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 648
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a25" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 673
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a26" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 698
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a27" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 723
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a28" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 748
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a29" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 773
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a30" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 798
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a31" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 823
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a32" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 848
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a33" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 873
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a34" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 898
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a35" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 923
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a36" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 948
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a37" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 973
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a38" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 998
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a39" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1023
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a40" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1048
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a41" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1073
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a42" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1098
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a43" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1123
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a44" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1148
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a45" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1173
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a46" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1198
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a47" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1223
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a48" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1248
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a49" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1273
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a50" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1298
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a51" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1323
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a52" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1348
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a53" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1373
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a54" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1398
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a55" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1423
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a56" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1448
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a57" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1473
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a58" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1498
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a59" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1523
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a60" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1548
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a61" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1573
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a62" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1598
-        Warning (14320): Synthesized away node "ram:ram0|altsyncram:altsyncram_component|altsyncram_7dk1:auto_generated|ram_block1a63" File: C:/Users/dcagl/Desktop/ECE385/final/db/altsyncram_7dk1.tdf Line: 1623
+    Warning (12110): Net "Reset_h" is missing source, defaulting to GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 61
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 36
-    Warning (13040): bidirectional pin "ARDUINO_IO[0]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[1]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[2]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[3]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[4]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[5]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[6]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[7]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[8]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[9]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[10]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[11]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[12]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[13]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[14]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_IO[15]" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 53
-    Warning (13040): bidirectional pin "ARDUINO_RESET_N" has no driver File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 56
+    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 36
+    Warning (13040): bidirectional pin "ARDUINO_IO[0]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[1]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[2]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[3]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[4]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[5]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[6]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[7]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[8]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[9]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[10]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[11]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[12]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[13]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[14]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_IO[15]" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 53
+    Warning (13040): bidirectional pin "ARDUINO_RESET_N" has no driver File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 56
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 21
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 24
-    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 25
-    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 26
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 27
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 28
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 29
-    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 32
-    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 33
-    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 34
-    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
-    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 35
-    Warning (13410): Pin "DRAM_LDQM" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 37
-    Warning (13410): Pin "DRAM_UDQM" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 38
-    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 39
-    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 40
-    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 41
-    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 42
-    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 47
-    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 47
-    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 47
-    Warning (13410): Pin "VGA_R[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 47
-    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
-    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
-    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
-    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 48
-    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
-    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
-    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
-    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 49
+    Warning (13410): Pin "LEDR[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[8]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "LEDR[9]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 21
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX0[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 24
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 25
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX2[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 26
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX3[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 27
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 28
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "HEX5[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 29
+    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 32
+    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 33
+    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 34
+    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 35
+    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 35
+    Warning (13410): Pin "DRAM_LDQM" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 37
+    Warning (13410): Pin "DRAM_UDQM" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 38
+    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 39
+    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 40
+    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 41
+    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 42
+    Warning (13410): Pin "VGA_R[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 47
+    Warning (13410): Pin "VGA_R[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 47
+    Warning (13410): Pin "VGA_R[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 47
+    Warning (13410): Pin "VGA_R[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 47
+    Warning (13410): Pin "VGA_G[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_G[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_G[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_G[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 48
+    Warning (13410): Pin "VGA_B[0]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 49
+    Warning (13410): Pin "VGA_B[1]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 49
+    Warning (13410): Pin "VGA_B[2]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 49
+    Warning (13410): Pin "VGA_B[3]" is stuck at GND File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 49
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 30 registers lost all their fanouts during netlist optimizations.
 Warning (20013): Ignored 24 assignments for entity "DE10_LITE_Default" -- entity does not exist in design
     Warning (20014): Assignment for entity set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity DE10_LITE_Default -section_id Top was ignored
     Warning (20014): Assignment for entity set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity DE10_LITE_Default -section_id Top was ignored
@@ -831,37 +538,35 @@ Warning (20013): Ignored 24 assignments for entity "DE10_LITE_Default" -- entity
     Warning (20014): Assignment for entity set_global_assignment -name ABSORB_PATHS_FROM_OUTPUTS_TO_INPUTS ON -entity DE10_LITE_Default -section_id Top was ignored
     Warning (20014): Assignment for entity set_global_assignment -name PARTITION_EXTRACT_HARD_BLOCK_NODES ON -entity DE10_LITE_Default -section_id Top was ignored
     Warning (20014): Assignment for entity set_global_assignment -name PARTITION_ENABLE_STRICT_PRESERVATION OFF -entity DE10_LITE_Default -section_id Top was ignored
-Info (144001): Generated suppressed messages file C:/Users/dcagl/Desktop/ECE385/final/output_files/audio_visualizer.map.smsg
+Info (144001): Generated suppressed messages file C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/output_files/audio_visualizer.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 12 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 15
-    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 15
-    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
-    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 15
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 15
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[4]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[5]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[6]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/lab62.sv Line: 18
 Info (21057): Implemented 191 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 95 output pins
     Info (21060): Implemented 33 bidirectional pins
     Info (21061): Implemented 50 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 280 warnings
-    Info: Peak virtual memory: 4796 megabytes
-    Info: Processing ended: Fri Dec 09 02:26:42 2022
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:10
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 196 warnings
+    Info: Peak virtual memory: 4838 megabytes
+    Info: Processing ended: Fri Dec 09 02:45:13 2022
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:45
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/dcagl/Desktop/ECE385/final/output_files/audio_visualizer.map.smsg.
-
-
+The suppressed messages can be found in C:/Users/deepa/Desktop/ECE385-FinalProject/ece385/output_files/audio_visualizer.map.smsg.
