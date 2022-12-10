@@ -122,10 +122,10 @@ logic Button_h,Reset_h, vssig, blank, sync, VGA_Clk;
 		aud_mclk_ctr <= aud_mclk_ctr + 1;
 	end
 	
-	assign scl_in = ARDUINO_IO[15];
-	assign ARDUINO_IO[15] = scl_oe ? 1'b0 : 1'bz;
-	assign sda_in = ARDUINO_IO[14];
-	assign ARDUINO_IO[14] = sda_oe ? 1'b0 : 1'bz;
+//	assign scl_in = ARDUINO_IO[15];
+//	assign ARDUINO_IO[15] = scl_oe ? 1'b0 : 1'bz;
+//	assign sda_in = ARDUINO_IO[14];
+//	assign ARDUINO_IO[14] = sda_oe ? 1'b0 : 1'bz;
 	
 	assign ARDUINO_IO[1] = 1'bz;
 	assign ARDUINO_IO[2] = ARDUINO_IO[1];
@@ -245,37 +245,37 @@ begin
 	begin
 		case(sample_index)
 			6'd0:
-				s0 <= RAM_OUT;
+				s0 <= 10'd0;//RAM_OUT;
 			6'd1:
-				s1 <= RAM_OUT;
+				s1 <= 10'd1;//RAM_OUT;
 			6'd2:
-				s2 <= RAM_OUT;
+				s2 <= 10'd2;//RAM_OUT;
 			6'd3:
-				s3 <= RAM_OUT;
+				s3 <= 10'd3;//RAM_OUT;
 			6'd4:
-				s4 <= RAM_OUT;
+				s4 <= 10'd4;//RAM_OUT;
 			6'd5:
-				s5 <= RAM_OUT;
+				s5 <= 10'd5;//RAM_OUT;
 			6'd6:
-				s6 <= RAM_OUT;
+				s6 <= 10'd6;//RAM_OUT;
 			6'd7:
-				s7 <= RAM_OUT;
+				s7 <= 10'd7;//RAM_OUT;
 			6'd8:
-				s8 <= RAM_OUT;
+				s8 <= 10'd8;//RAM_OUT;
 			6'd9:
-				s9 <= RAM_OUT;
+				s9 <= 10'd9;//RAM_OUT;
 			6'd10:
-				s10 <= RAM_OUT;
+				s10 <= 10'd0;//RAM_OUT;
 			6'd11:
-				s11 <= RAM_OUT;
+				s11 <= 10'd1;//RAM_OUT;
 			6'd12:
-				s12 <= RAM_OUT;
+				s12 <= 10'd2;//RAM_OUT;
 			6'd13:
-				s13 <= RAM_OUT;
+				s13 <= 10'd3;//RAM_OUT;
 			6'd14:
-				s14 <= RAM_OUT;
+				s14 <= 10'd4;//RAM_OUT;
 			6'd15:
-				s15 <= RAM_OUT;
+				s15 <= 10'd5;//RAM_OUT;
 		endcase
 	end
 end

@@ -13,549 +13,1180 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:44 on Dec 09,2022
+# Start time: 13:41:56 on Dec 09,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ram.v 
 # -- Compiling module ram
 # 
 # Top level modules:
 # 	ram
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:01
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib lab62_soc
+# vmap lab62_soc lab62_soc
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap lab62_soc lab62_soc 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v 
+# -- Compiling module lab62_soc
+# 
+# Top level modules:
+# 	lab62_soc
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v 
+# -- Compiling module altera_avalon_i2c
+# 
+# Top level modules:
+# 	altera_avalon_i2c
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v 
+# -- Compiling module altera_avalon_i2c_clk_cnt
+# 
+# Top level modules:
+# 	altera_avalon_i2c_clk_cnt
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v 
+# -- Compiling module altera_avalon_i2c_condt_det
+# 
+# Top level modules:
+# 	altera_avalon_i2c_condt_det
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v 
+# -- Compiling module altera_avalon_i2c_condt_gen
+# 
+# Top level modules:
+# 	altera_avalon_i2c_condt_gen
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:56 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v 
+# -- Compiling module altera_avalon_i2c_csr
+# 
+# Top level modules:
+# 	altera_avalon_i2c_csr
+# End time: 13:41:56 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v 
+# -- Compiling module altera_avalon_i2c_fifo
+# 
+# Top level modules:
+# 	altera_avalon_i2c_fifo
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v 
+# -- Compiling module altera_avalon_i2c_mstfsm
+# 
+# Top level modules:
+# 	altera_avalon_i2c_mstfsm
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v 
+# -- Compiling module altera_avalon_i2c_rxshifter
+# 
+# Top level modules:
+# 	altera_avalon_i2c_rxshifter
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v 
+# -- Compiling module altera_avalon_i2c_spksupp
+# 
+# Top level modules:
+# 	altera_avalon_i2c_spksupp
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v 
+# -- Compiling module altera_avalon_i2c_txout
+# 
+# Top level modules:
+# 	altera_avalon_i2c_txout
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v 
+# -- Compiling module altera_avalon_i2c_txshifter
+# 
+# Top level modules:
+# 	altera_avalon_i2c_txshifter
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 13:41:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:57 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v 
+# -- Compiling module lab62_soc_hex_digits_pio
+# 
+# Top level modules:
+# 	lab62_soc_hex_digits_pio
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v 
+# -- Compiling module lab62_soc_irq_timer
+# 
+# Top level modules:
+# 	lab62_soc_irq_timer
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v 
+# -- Compiling module lab62_soc_jtag_uart_0_sim_scfifo_w
+# -- Compiling module lab62_soc_jtag_uart_0_scfifo_w
+# -- Compiling module lab62_soc_jtag_uart_0_sim_scfifo_r
+# -- Compiling module lab62_soc_jtag_uart_0_scfifo_r
+# -- Compiling module lab62_soc_jtag_uart_0
+# 
+# Top level modules:
+# 	lab62_soc_jtag_uart_0
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v 
+# -- Compiling module lab62_soc_key
+# 
+# Top level modules:
+# 	lab62_soc_key
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v 
+# -- Compiling module lab62_soc_keycode
+# 
+# Top level modules:
+# 	lab62_soc_keycode
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v 
+# -- Compiling module lab62_soc_leds_pio
+# 
+# Top level modules:
+# 	lab62_soc_leds_pio
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v 
+# -- Compiling module lab62_soc_mm_interconnect_0
+# 
+# Top level modules:
+# 	lab62_soc_mm_interconnect_0
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module lab62_soc_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	lab62_soc_mm_interconnect_0_avalon_st_adapter
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v 
+# -- Compiling module lab62_soc_mm_interconnect_0_avalon_st_adapter_005
+# 
+# Top level modules:
+# 	lab62_soc_mm_interconnect_0_avalon_st_adapter_005
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:58 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v 
+# -- Compiling module lab62_soc_nios2_gen2_0
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0
+# End time: 13:41:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v 
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_register_bank_a_module
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_register_bank_b_module
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_debug
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_break
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_pib
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci_im
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_ocimem
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_nios2_oci
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+# 	lab62_soc_nios2_gen2_0_cpu
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v 
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v 
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0_cpu_debug_slave_tck
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v 
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v 
+# -- Compiling module lab62_soc_nios2_gen2_0_cpu_test_bench
+# 
+# Top level modules:
+# 	lab62_soc_nios2_gen2_0_cpu_test_bench
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v 
+# -- Compiling module lab62_soc_sdram_input_efifo_module
+# -- Compiling module lab62_soc_sdram
+# 
+# Top level modules:
+# 	lab62_soc_sdram
+# End time: 13:41:59 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:59 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v 
+# -- Compiling module lab62_soc_sdram_pll_dffpipe_l2c
+# -- Compiling module lab62_soc_sdram_pll_stdsync_sv6
+# -- Compiling module lab62_soc_sdram_pll_altpll_vg92
+# -- Compiling module lab62_soc_sdram_pll
+# 
+# Top level modules:
+# 	lab62_soc_sdram_pll
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:00 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v 
+# -- Compiling module lab62_soc_spi_0
+# 
+# Top level modules:
+# 	lab62_soc_spi_0
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:00 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v 
+# -- Compiling module lab62_soc_sysid_qsys_0
+# 
+# Top level modules:
+# 	lab62_soc_sysid_qsys_0
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:00 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v 
+# -- Compiling module lab62_soc_usb_gpx
+# 
+# Top level modules:
+# 	lab62_soc_usb_gpx
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules {c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:00 on Dec 09,2022
+# vlog -reportprogress 300 -vlog01compat -work lab62_soc "+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules" c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v 
+# -- Compiling module lab62_soc_usb_rst
+# 
+# Top level modules:
+# 	lab62_soc_usb_rst
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:00 on Dec 09,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/ball.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
 # -- Compiling module FastFourierTransform
 # 
 # Top level modules:
 # 	FastFourierTransform
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
 # -- Compiling module butterfly
 # 
 # Top level modules:
 # 	butterfly
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/lab62.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:45 on Dec 09,2022
+# Start time: 13:42:00 on Dec 09,2022
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
 # -- Compiling module lab62
-# 
-# Top level modules:
-# 	lab62
-# End time: 08:08:45 on Dec 09,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/testbench.sv}
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(126): (vlog-2730) Undefined variable: 'scl_oe'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(128): (vlog-2730) Undefined variable: 'sda_oe'.
+# End time: 13:42:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./audio_visualizer_run_msim_rtl_verilog.do line 53
+# C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final {C:/Users/dcagl/Desktop/ECE385/final/lab62.sv}"
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:08:47 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
-# -- Compiling module testbench
-# 
-# Top level modules:
-# 	testbench
-# End time: 08:08:47 on Dec 09,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
-# Start time: 08:08:48 on Dec 09,2022
-# Loading sv_std.std
-# Loading work.testbench
-# Loading work.lab62
-# Loading work.FastFourierTransform
-# Loading work.butterfly
-# Loading work.ram
-# Loading altera_mf_ver.altsyncram
-# Loading work.vga_controller
-# Loading work.ball
-# Loading work.color_mapper
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Too few port connections. Expected 29, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3015) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'LEDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CLK'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CKE'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_BA'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_DQ'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_HS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_VS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_R'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_G'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_B'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DUMMY_RAM_OUTPUT'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_IO'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_RESET_N'.
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Too few port connections. Expected 20, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/color File: C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x6'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x7'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x8'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x9'.
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(453): Variable '/testbench/top/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(451): Variable '/testbench/top/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(449): Variable '/testbench/top/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(447): Variable '/testbench/top/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(445): Variable '/testbench/top/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(443): Variable '/testbench/top/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(441): Variable '/testbench/top/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(439): Variable '/testbench/top/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(437): Variable '/testbench/top/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(435): Variable '/testbench/top/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(433): Variable '/testbench/top/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(431): Variable '/testbench/top/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(429): Variable '/testbench/top/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(427): Variable '/testbench/top/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(425): Variable '/testbench/top/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(423): Variable '/testbench/top/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# 
-# add wave *
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (8) in data on line 2 of file "rickroll_short.ver". (Max is 4.)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/ram0/altsyncram_component/m_default/altsyncram_inst
-# Simulation succesfully completed
-add wave -position insertpoint  \
-sim:/testbench/top/next_state \
-sim:/testbench/top/next_sample_index \
-sim:/testbench/top/next_draw_counter \
-sim:/testbench/top/input_ready \
-sim:/testbench/top/frame_completed \
-sim:/testbench/top/draw_counter \
-sim:/testbench/top/curr_state
-run
-restart
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Too few port connections. Expected 29, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3015) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'LEDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CLK'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CKE'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_BA'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_DQ'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_HS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_VS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_R'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_G'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_B'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DUMMY_RAM_OUTPUT'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_IO'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_RESET_N'.
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Too few port connections. Expected 20, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/color File: C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x6'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x7'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x8'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x9'.
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(453): Variable '/testbench/top/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(451): Variable '/testbench/top/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(449): Variable '/testbench/top/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(447): Variable '/testbench/top/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(445): Variable '/testbench/top/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(443): Variable '/testbench/top/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(441): Variable '/testbench/top/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(439): Variable '/testbench/top/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(437): Variable '/testbench/top/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(435): Variable '/testbench/top/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(433): Variable '/testbench/top/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(431): Variable '/testbench/top/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(429): Variable '/testbench/top/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(427): Variable '/testbench/top/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(425): Variable '/testbench/top/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(423): Variable '/testbench/top/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (8) in data on line 2 of file "rickroll_short.ver". (Max is 4.)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/ram0/altsyncram_component/m_default/altsyncram_inst
-restart
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Too few port connections. Expected 29, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3015) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'LEDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CLK'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CKE'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_BA'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_DQ'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_HS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_VS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_R'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_G'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_B'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DUMMY_RAM_OUTPUT'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_IO'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_RESET_N'.
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Too few port connections. Expected 20, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/color File: C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x6'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x7'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x8'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(360): [TFMPC] - Missing connection for port 'x9'.
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(453): Variable '/testbench/top/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(451): Variable '/testbench/top/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(449): Variable '/testbench/top/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(447): Variable '/testbench/top/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(445): Variable '/testbench/top/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(443): Variable '/testbench/top/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(441): Variable '/testbench/top/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(439): Variable '/testbench/top/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(437): Variable '/testbench/top/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(435): Variable '/testbench/top/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(433): Variable '/testbench/top/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(431): Variable '/testbench/top/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(429): Variable '/testbench/top/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(427): Variable '/testbench/top/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(425): Variable '/testbench/top/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(423): Variable '/testbench/top/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (8) in data on line 2 of file "rickroll_short.ver". (Max is 4.)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/ram0/altsyncram_component/m_default/altsyncram_inst
-# Simulation succesfully completed
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ball.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:04 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# Start time: 13:43:47 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
 # -- Compiling module ball
 # 
 # Top level modules:
 # 	ball
-# End time: 08:25:04 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:04 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
 # -- Compiling module butterfly
 # 
 # Top level modules:
 # 	butterfly
-# End time: 08:25:04 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:04 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
 # -- Compiling module color_mapper
 # 
 # Top level modules:
 # 	color_mapper
-# End time: 08:25:04 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:04 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
 # -- Compiling module FastFourierTransform
 # 
 # Top level modules:
 # 	FastFourierTransform
-# End time: 08:25:04 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:05 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
-# -- Compiling module lab62
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
 # 
 # Top level modules:
-# 	lab62
-# End time: 08:25:05 on Dec 09,2022, Elapsed time: 0:00:00
+# 	HexDriver
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -vlog01compat -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/ram.v
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:05 on Dec 09,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/ram.v 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# -- Compiling module lab62
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(126): (vlog-2730) Undefined variable: 'scl_oe'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(128): (vlog-2730) Undefined variable: 'sda_oe'.
+# ** Error: (vlog-13069) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(249): near "6": syntax error, unexpected INTEGER NUMBER, expecting ';'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(370): (vlog-2730) Undefined variable: 'VGA_CLK'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(377): Checker 'vga_controller' not found.  Instantiation 'vga' must be of a visible checker.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(383): Checker 'ball' not found.  Instantiation 'balls' must be of a visible checker.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(388): Checker 'color_mapper' not found.  Instantiation 'color' must be of a visible checker.
+# ** Error: (vlog-13069) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(402): near "endmodule": syntax error, unexpected endmodule.
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v 
 # -- Compiling module ram
 # 
 # Top level modules:
 # 	ram
-# End time: 08:25:05 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:05 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 08:25:05 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work +incdir+C:/Users/dcagl/Desktop/ECE385/final C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:05 on Dec 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/dcagl/Desktop/ECE385/final" C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# Start time: 13:43:48 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
 # -- Compiling module vga_controller
 # 
 # Top level modules:
 # 	vga_controller
-# End time: 08:25:06 on Dec 09,2022, Elapsed time: 0:00:01
+# End time: 13:43:48 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 13:44:10 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.testbench
+# ** Error: (vsim-3033) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): Instantiation of 'lab62' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+#         Searched libraries:
+#             C:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 13:44:10 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# -- Compiling module lab62
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(126): (vlog-2730) Undefined variable: 'scl_oe'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(128): (vlog-2730) Undefined variable: 'sda_oe'.
+# End time: 13:45:04 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:04 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:45:05 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:05 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:45:05 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:05 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:45:05 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:05 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 13:45:05 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:11 on Dec 09,2022
+# Start time: 13:45:19 on Dec 09,2022
 # vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Refreshing module ball
+# -- Refreshing module bar_graph
 # -- Refreshing module butterfly
 # -- Refreshing module color_mapper
 # -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module ram
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 13:45:19 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:45:19 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module ram
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 13:45:19 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 13:45:31 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.testbench
+# ** Error: (vsim-3033) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): Instantiation of 'lab62' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+#         Searched libraries:
+#             C:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 13:45:32 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:00 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 13:46:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:00 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 13:46:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:00 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 13:46:00 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# -- Compiling module lab62
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(126): (vlog-2730) Undefined variable: 'scl_oe'.
+# ** Error: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(128): (vlog-2730) Undefined variable: 'sda_oe'.
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:46:01 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:01 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 13:46:02 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:57 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 13:46:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:57 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 13:46:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:57 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 13:46:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:57 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 13:46:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:57 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 13:46:57 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:46:58 on Dec 09,2022
+# vlog -reportprogress 30 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 13:46:58 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:06 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
 # -- Refreshing module lab62
 # -- Refreshing module ram
 # -- Refreshing module testbench
 # -- Refreshing module vga_controller
-# End time: 08:25:11 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:47:06 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vcom -work rtl_work -refresh -force_refresh
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 08:25:11 on Dec 09,2022
+# Start time: 13:47:06 on Dec 09,2022
 # vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
 # -- Skipping module ball
+# -- Skipping module bar_graph
 # -- Skipping module butterfly
 # -- Skipping module color_mapper
 # -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
 # -- Skipping module lab62
 # -- Skipping module ram
 # -- Skipping module testbench
 # -- Skipping module vga_controller
-# End time: 08:25:11 on Dec 09,2022, Elapsed time: 0:00:00
+# End time: 13:47:06 on Dec 09,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-restart
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 13:47:11 on Dec 09,2022
+# Loading sv_std.std
 # Loading work.testbench
 # Loading work.lab62
+# Loading work.HexDriver
+# ** Error: (vsim-3033) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(144): Instantiation of 'lab62_soc' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+#         Searched libraries:
+#             C:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim/rtl_work
 # Loading work.FastFourierTransform
 # Loading work.butterfly
 # Loading work.ram
 # Loading work.vga_controller
 # Loading work.ball
 # Loading work.color_mapper
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Too few port connections. Expected 29, found 3.
+# Error loading design
+# End time: 13:47:12 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:34 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ball.sv 
+# -- Compiling module ball
+# 
+# Top level modules:
+# 	ball
+# End time: 13:47:34 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:34 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/bar_graph.sv 
+# -- Compiling module bar_graph
+# 
+# Top level modules:
+# 	bar_graph
+# End time: 13:47:34 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/butterfly_module.sv 
+# -- Compiling module butterfly
+# 
+# Top level modules:
+# 	butterfly
+# End time: 13:47:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv 
+# -- Compiling module color_mapper
+# 
+# Top level modules:
+# 	color_mapper
+# End time: 13:47:35 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:35 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv 
+# -- Compiling module FastFourierTransform
+# 
+# Top level modules:
+# 	FastFourierTransform
+# End time: 13:47:36 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 13:47:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/lab62.sv 
+# -- Compiling module lab62
+# 
+# Top level modules:
+# 	lab62
+# End time: 13:47:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:36 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/ram_bb.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 13:47:36 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:37 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:47:37 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:37 on Dec 09,2022
+# vlog -reportprogress 300 -work work C:/Users/dcagl/Desktop/ECE385/final/VGA_controller.sv 
+# -- Compiling module vga_controller
+# 
+# Top level modules:
+# 	vga_controller
+# End time: 13:47:37 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:43 on Dec 09,2022
+# vlog -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Refreshing module ball
+# -- Refreshing module bar_graph
+# -- Refreshing module butterfly
+# -- Refreshing module color_mapper
+# -- Refreshing module FastFourierTransform
+# -- Refreshing module HexDriver
+# -- Refreshing module lab62
+# -- Refreshing module ram
+# -- Refreshing module testbench
+# -- Refreshing module vga_controller
+# End time: 13:47:43 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work rtl_work -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:47:43 on Dec 09,2022
+# vcom -reportprogress 300 -work rtl_work -refresh -force_refresh 
+# -- Skipping module ball
+# -- Skipping module bar_graph
+# -- Skipping module butterfly
+# -- Skipping module color_mapper
+# -- Skipping module FastFourierTransform
+# -- Skipping module HexDriver
+# -- Skipping module lab62
+# -- Skipping module ram
+# -- Skipping module testbench
+# -- Skipping module vga_controller
+# End time: 13:47:43 on Dec 09,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 13:47:50 on Dec 09,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab62
+# Loading work.HexDriver
+# ** Error: (vsim-3033) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(144): Instantiation of 'lab62_soc' failed. The design unit was not found.
 #    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3015) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(18).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top File: C:/Users/dcagl/Desktop/ECE385/final/lab62.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'LEDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'HEX5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CLK'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CKE'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_BA'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_DQ'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_HS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_VS'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_R'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_G'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'VGA_B'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'DUMMY_RAM_OUTPUT'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_IO'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/testbench.sv(41): [TFMPC] - Missing connection for port 'ARDUINO_RESET_N'.
-# ** Warning: (vsim-3017) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Too few port connections. Expected 20, found 10.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/color File: C:/Users/dcagl/Desktop/ECE385/final/Color_Mapper.sv
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x0'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x1'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x2'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x3'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x4'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x5'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x6'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x7'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x8'.
-# ** Warning: (vsim-3722) C:/Users/dcagl/Desktop/ECE385/final/lab62.sv(361): [TFMPC] - Missing connection for port 'x9'.
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(453): Variable '/testbench/top/fft/outsignal_r15', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(451): Variable '/testbench/top/fft/outsignal_r14', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(497).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(449): Variable '/testbench/top/fft/outsignal_r13', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(447): Variable '/testbench/top/fft/outsignal_r12', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(494).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(445): Variable '/testbench/top/fft/outsignal_r11', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(443): Variable '/testbench/top/fft/outsignal_r10', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(491).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(441): Variable '/testbench/top/fft/outsignal_r9', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(439): Variable '/testbench/top/fft/outsignal_r8', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(488).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(437): Variable '/testbench/top/fft/outsignal_r7', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(435): Variable '/testbench/top/fft/outsignal_r6', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(485).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(433): Variable '/testbench/top/fft/outsignal_r5', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(431): Variable '/testbench/top/fft/outsignal_r4', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(482).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(429): Variable '/testbench/top/fft/outsignal_r3', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(427): Variable '/testbench/top/fft/outsignal_r2', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(479).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(425): Variable '/testbench/top/fft/outsignal_r1', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-# ** Warning: (vsim-3839) C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(423): Variable '/testbench/top/fft/outsignal_r0', driven via a port connection, is multiply driven. See C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv(476).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/fft File: C:/Users/dcagl/Desktop/ECE385/final/FastFourierTransform.sv
-run -all
-# ** Warning: (vsim-PLI-3406) Too many digits (8) in data on line 2 of file "rickroll_short.ver". (Max is 4.)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/top/ram0/altsyncram_component/m_default/altsyncram_inst
-run -all
-# Simulation succesfully completed
-run -all
-run -all
-# End time: 12:03:30 on Dec 09,2022, Elapsed time: 3:54:42
-# Errors: 0, Warnings: 224
+#         Searched libraries:
+#             C:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim/rtl_work
+# Loading work.FastFourierTransform
+# Loading work.butterfly
+# Loading work.ram
+# Loading work.vga_controller
+# Loading work.ball
+# Loading work.color_mapper
+# Error loading design
+# End time: 13:47:51 on Dec 09,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

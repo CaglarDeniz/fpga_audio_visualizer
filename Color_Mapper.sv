@@ -65,56 +65,56 @@ end
 // update BAR positions with frame clock
 always_comb
 begin
-	BAR_Y[0] = 9'd480 - x0[22:14];
-	BAR_Y[1] = 9'd480 - x1[22:14];	
-	BAR_Y[2] = 9'd480 - x2[22:14];
-	BAR_Y[3] = 9'd480 - x3[22:14];
-	BAR_Y[4] = 9'd480 - x4[22:14];
-	BAR_Y[5] = 9'd480 - x5[22:14];
-	BAR_Y[6] = 9'd480 - x6[22:14];
-	BAR_Y[7] = 9'd480 - x7[22:14];
-	BAR_Y[8] = 9'd480 - x8[22:14];
-	BAR_Y[9] = 9'd480 - x9[22:14];
-//	if(Button)
-//		BAR_Y[0] = 10'd480 - 10'd50;
-//	else
-//		BAR_Y[0] = 10'd480 - 10'd100;
-//	if(Button)
-//		BAR_Y[1] = 10'd480 - 10'd30;
-//	else
-//		BAR_Y[1] = 10'd480 - 10'd60;
-//	if(Button)
-//		BAR_Y[2] = 10'd480 - 10'd120;
-//	else
-//		BAR_Y[2] = 10'd480 - 10'd60;
-//	if(Button)
-//		BAR_Y[3] = 10'd480 - 10'd90;
-//	else
-//		BAR_Y[3] = 10'd480 - 10'd180;
-//	if(Button)
-//		BAR_Y[4] = 10'd480 - 10'd240;
-//	else
-//		BAR_Y[4] = 10'd480 - 10'd120;
-//	if(Button)
-//		BAR_Y[5] = 10'd480 - 10'd150;
-//	else
-//		BAR_Y[5] = 10'd480 - 10'd300;
-//	if(Button)
-//		BAR_Y[6] = 10'd480 - 10'd360;
-//	else
-//		BAR_Y[6] = 10'd480 - 10'd180;
-//	if(Button)
-//		BAR_Y[7] = 10'd480 - 10'd210;
-//	else
-//		BAR_Y[7] = 10'd480 - 10'd420;
-//	if(Button)
-//		BAR_Y[8] = 10'd480 - 10'd50;
-//	else
-//		BAR_Y[8] = 10'd480 - 10'd100;
-//	if(Button)
-//		BAR_Y[9] = 10'd480 - 10'd120;
-//	else
-//		BAR_Y[9] = 10'd480 - 10'd60;
+//	BAR_Y[0] = 9'd480 - x0[22:14];
+//	BAR_Y[1] = 9'd480 - x1[22:14];	
+//	BAR_Y[2] = 9'd480 - x2[22:14];
+//	BAR_Y[3] = 9'd480 - x3[22:14];
+//	BAR_Y[4] = 9'd480 - x4[22:14];
+//	BAR_Y[5] = 9'd480 - x5[22:14];
+//	BAR_Y[6] = 9'd480 - x6[22:14];
+//	BAR_Y[7] = 9'd480 - x7[22:14];
+//	BAR_Y[8] = 9'd480 - x8[22:14];
+//	BAR_Y[9] = 9'd480 - x9[22:14];
+	if(Button)
+		BAR_Y[0] = 10'd480 - 10'd50;
+	else
+		BAR_Y[0] = 10'd480 - 10'd100;
+	if(Button)
+		BAR_Y[1] = 10'd480 - 10'd30;
+	else
+		BAR_Y[1] = 10'd480 - 10'd60;
+	if(Button)
+		BAR_Y[2] = 10'd480 - 10'd120;
+	else
+		BAR_Y[2] = 10'd480 - 10'd60;
+	if(Button)
+		BAR_Y[3] = 10'd480 - 10'd90;
+	else
+		BAR_Y[3] = 10'd480 - 10'd180;
+	if(Button)
+		BAR_Y[4] = 10'd480 - 10'd240;
+	else
+		BAR_Y[4] = 10'd480 - 10'd120;
+	if(Button)
+		BAR_Y[5] = 10'd480 - 10'd150;
+	else
+		BAR_Y[5] = 10'd480 - 10'd300;
+	if(Button)
+		BAR_Y[6] = 10'd480 - 10'd360;
+	else
+		BAR_Y[6] = 10'd480 - 10'd180;
+	if(Button)
+		BAR_Y[7] = 10'd480 - 10'd210;
+	else
+		BAR_Y[7] = 10'd480 - 10'd420;
+	if(Button)
+		BAR_Y[8] = 10'd480 - 10'd50;
+	else
+		BAR_Y[8] = 10'd480 - 10'd100;
+	if(Button)
+		BAR_Y[9] = 10'd480 - 10'd120;
+	else
+		BAR_Y[9] = 10'd480 - 10'd60;
 	
 end
 
