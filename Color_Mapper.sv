@@ -33,6 +33,24 @@ module  color_mapper ( input        [9:0] BallX, BallY, DrawX, DrawY, Ball_size,
      of the 12 available multipliers on the chip!  Since the multiplicants are required to be signed,
 	  we have to first cast them from logic to int (signed by default) before they are multiplied). */
 	  
+logic [8:0] Y_SAVE0,Y_SAVE1,Y_SAVE2,Y_SAVE3,Y_SAVE4,Y_SAVE5,Y_SAVE6,Y_SAVE7,Y_SAVE8,Y_SAVE9;
+
+always_ff @ (posedge Clk)
+begin
+
+	Y_SAVE0  <= 9'd480 - x0[22:14];
+	Y_SAVE1  <= 9'd480 - x1[22:14];	
+	Y_SAVE2  <= 9'd480 - x2[22:14];
+	Y_SAVE3  <= 9'd480 - x3[22:14];
+	Y_SAVE4  <= 9'd480 - x4[22:14];
+	Y_SAVE5  <= 9'd480 - x5[22:14];
+	Y_SAVE6  <= 9'd480 - x6[22:14];
+	Y_SAVE7  <= 9'd480 - x7[22:14];
+	Y_SAVE8  <= 9'd480 - x8[22:14];
+	Y_SAVE9  <= 9'd480 - x9[22:14];
+ 
+end
+	  
 	  
 //// background and foreground colors
 //logic [3:0] BGR_B = 4'd8;
@@ -65,98 +83,98 @@ end
 // update BAR positions with frame clock
 always_comb
 begin
-//	BAR_Y[0] = 9'd480 - x0[22:14];
-//	BAR_Y[1] = 9'd480 - x1[22:14];	
-//	BAR_Y[2] = 9'd480 - x2[22:14];
-//	BAR_Y[3] = 9'd480 - x3[22:14];
-//	BAR_Y[4] = 9'd480 - x4[22:14];
-//	BAR_Y[5] = 9'd480 - x5[22:14];
-//	BAR_Y[6] = 9'd480 - x6[22:14];
-//	BAR_Y[7] = 9'd480 - x7[22:14];
-//	BAR_Y[8] = 9'd480 - x8[22:14];
-//	BAR_Y[9] = 9'd480 - x9[22:14];
-	if(Button)
-		BAR_Y[0] = 10'd480 - 10'd50;
-	else
-		BAR_Y[0] = 10'd480 - 10'd100;
-	if(Button)
-		BAR_Y[1] = 10'd480 - 10'd30;
-	else
-		BAR_Y[1] = 10'd480 - 10'd60;
-	if(Button)
-		BAR_Y[2] = 10'd480 - 10'd120;
-	else
-		BAR_Y[2] = 10'd480 - 10'd60;
-	if(Button)
-		BAR_Y[3] = 10'd480 - 10'd90;
-	else
-		BAR_Y[3] = 10'd480 - 10'd180;
-	if(Button)
-		BAR_Y[4] = 10'd480 - 10'd240;
-	else
-		BAR_Y[4] = 10'd480 - 10'd120;
-	if(Button)
-		BAR_Y[5] = 10'd480 - 10'd150;
-	else
-		BAR_Y[5] = 10'd480 - 10'd300;
-	if(Button)
-		BAR_Y[6] = 10'd480 - 10'd360;
-	else
-		BAR_Y[6] = 10'd480 - 10'd180;
-	if(Button)
-		BAR_Y[7] = 10'd480 - 10'd210;
-	else
-		BAR_Y[7] = 10'd480 - 10'd420;
-	if(Button)
-		BAR_Y[8] = 10'd480 - 10'd50;
-	else
-		BAR_Y[8] = 10'd480 - 10'd100;
-	if(Button)
-		BAR_Y[9] = 10'd480 - 10'd120;
-	else
-		BAR_Y[9] = 10'd480 - 10'd60;
+	BAR_Y[0] = Y_SAVE0;
+	BAR_Y[1] = Y_SAVE1;
+	BAR_Y[2] = Y_SAVE2;
+	BAR_Y[3] = Y_SAVE3;
+	BAR_Y[4] = Y_SAVE4;
+	BAR_Y[5] = Y_SAVE5;
+	BAR_Y[6] = Y_SAVE6;
+	BAR_Y[7] = Y_SAVE7;
+	BAR_Y[8] = Y_SAVE8;
+	BAR_Y[9] = Y_SAVE9;
+//	if(Button)
+//		BAR_Y[0] = 10'd480 - 10'd50;
+//	else
+//		BAR_Y[0] = 10'd480 - 10'd100;
+//	if(Button)
+//		BAR_Y[1] = 10'd480 - 10'd30;
+//	else
+//		BAR_Y[1] = 10'd480 - 10'd60;
+//	if(Button)
+//		BAR_Y[2] = 10'd480 - 10'd120;
+//	else
+//		BAR_Y[2] = 10'd480 - 10'd60;
+//	if(Button)
+//		BAR_Y[3] = 10'd480 - 10'd90;
+//	else
+//		BAR_Y[3] = 10'd480 - 10'd180;
+//	if(Button)
+//		BAR_Y[4] = 10'd480 - 10'd240;
+//	else
+//		BAR_Y[4] = 10'd480 - 10'd120;
+//	if(Button)
+//		BAR_Y[5] = 10'd480 - 10'd150;
+//	else
+//		BAR_Y[5] = 10'd480 - 10'd300;
+//	if(Button)
+//		BAR_Y[6] = 10'd480 - 10'd360;
+//	else
+//		BAR_Y[6] = 10'd480 - 10'd180;
+//	if(Button)
+//		BAR_Y[7] = 10'd480 - 10'd210;
+//	else
+//		BAR_Y[7] = 10'd480 - 10'd420;
+//	if(Button)
+//		BAR_Y[8] = 10'd480 - 10'd50;
+//	else
+//		BAR_Y[8] = 10'd480 - 10'd100;
+//	if(Button)
+//		BAR_Y[9] = 10'd480 - 10'd120;
+//	else
+//		BAR_Y[9] = 10'd480 - 10'd60;
 	
 end
 
 always_comb
 begin
-	if ((DrawX >= BAR_X[0] && DrawX <= BAR_X[0] + 53 && DrawY >= BAR_Y[0])) 
+	if ((DrawX >= BAR_X[0] && DrawX <= BAR_X[0] + 53 && DrawY >= Y_SAVE0)) 
 		BAR_EN[0] = 1'b1;
 	else
 		BAR_EN[0] = 1'b0;
-	if ((DrawX >= BAR_X[1] && (DrawX <= BAR_X[1] + 53) && DrawY >= BAR_Y[1])) 
+	if ((DrawX >= BAR_X[1] && (DrawX <= BAR_X[1] + 53) && DrawY >= Y_SAVE1)) 
 		BAR_EN[1] = 1'b1;
 	else
 		BAR_EN[1] = 1'b0;
-	if ((DrawX >= BAR_X[2] && DrawX <= BAR_X[2] + 53 && DrawY >= BAR_Y[2])) 
+	if ((DrawX >= BAR_X[2] && DrawX <= BAR_X[2] + 53 && DrawY >= Y_SAVE2)) 
 		BAR_EN[2] = 1'b1;
 	else
 		BAR_EN[2] = 1'b0;
-	if ((DrawX >= BAR_X[3] && DrawX <= BAR_X[3] + 53 && DrawY >= BAR_Y[3])) 
+	if ((DrawX >= BAR_X[3] && DrawX <= BAR_X[3] + 53 && DrawY >= Y_SAVE3)) 
 		BAR_EN[3] = 1'b1;
 	else
 		BAR_EN[3] = 1'b0;
-	if ((DrawX >= BAR_X[4] && DrawX <= BAR_X[4] + 53 && DrawY >= BAR_Y[4])) 
+	if ((DrawX >= BAR_X[4] && DrawX <= BAR_X[4] + 53 && DrawY >= Y_SAVE4)) 
 		BAR_EN[4] = 1'b1;
 	else
 		BAR_EN[4] = 1'b0;
-	if ((DrawX >= BAR_X[5] && DrawX <= BAR_X[5] + 53 && DrawY >= BAR_Y[5])) 
+	if ((DrawX >= BAR_X[5] && DrawX <= BAR_X[5] + 53 && DrawY >= Y_SAVE5)) 
 		BAR_EN[5] = 1'b1;
 	else
 		BAR_EN[5] = 1'b0;
-	if ((DrawX >= BAR_X[6] && DrawX <= BAR_X[6] + 53 && DrawY >= BAR_Y[6])) 
+	if ((DrawX >= BAR_X[6] && DrawX <= BAR_X[6] + 53 && DrawY >= Y_SAVE6)) 
 		BAR_EN[6] = 1'b1;
 	else
 		BAR_EN[6] = 1'b0;
-	if ((DrawX >= BAR_X[7] && DrawX <= BAR_X[7] + 53 && DrawY >= BAR_Y[7])) 
+	if ((DrawX >= BAR_X[7] && DrawX <= BAR_X[7] + 53 && DrawY >= Y_SAVE7)) 
 		BAR_EN[7] = 1'b1;
 	else
 		BAR_EN[7] = 1'b0;
-	if ((DrawX >= BAR_X[8] && DrawX <= BAR_X[8] + 53 && DrawY >= BAR_Y[8])) 
+	if ((DrawX >= BAR_X[8] && DrawX <= BAR_X[8] + 53 && DrawY >= Y_SAVE8)) 
 		BAR_EN[8] = 1'b1;
 	else
 		BAR_EN[8] = 1'b0;
-	if ((DrawX >= BAR_X[9] && DrawX <= BAR_X[9] + 53 && DrawY >= BAR_Y[9])) 
+	if ((DrawX >= BAR_X[9] && DrawX <= BAR_X[9] + 53 && DrawY >= Y_SAVE9)) 
 		BAR_EN[9] = 1'b1;
 	else
 		BAR_EN[9] = 1'b0;

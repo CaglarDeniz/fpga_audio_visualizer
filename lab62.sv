@@ -122,10 +122,10 @@ logic Button_h,Reset_h, vssig, blank, sync, VGA_Clk;
 		aud_mclk_ctr <= aud_mclk_ctr + 1;
 	end
 	
-//	assign scl_in = ARDUINO_IO[15];
-//	assign ARDUINO_IO[15] = scl_oe ? 1'b0 : 1'bz;
-//	assign sda_in = ARDUINO_IO[14];
-//	assign ARDUINO_IO[14] = sda_oe ? 1'b0 : 1'bz;
+	assign scl_in = ARDUINO_IO[15];
+	assign ARDUINO_IO[15] = scl_oe ? 1'b0 : 1'bz;
+	assign sda_in = ARDUINO_IO[14];
+	assign ARDUINO_IO[14] = sda_oe ? 1'b0 : 1'bz;
 	
 	assign ARDUINO_IO[1] = 1'bz;
 	assign ARDUINO_IO[2] = ARDUINO_IO[1];
@@ -206,7 +206,7 @@ ram ram0(.address(RAM_ADDR),.clock(MAX10_CLK1_50),.data(RAM_IN),.rden(RAM_RDEN),
 // FSM 
 logic [5:0] sample_index,next_sample_index;
 logic sample_writeen,address_increment,drawing;
-logic [24:0] draw_counter, next_draw_counter;
+logic [22:0] draw_counter, next_draw_counter;
 enum logic [2:0] {halt,wait_for_mem0,wait_for_mem1,write,increment,wait_for_draw,finished_draw} curr_state, next_state;
 
 always_ff @ (posedge MAX10_CLK1_50 or posedge Reset_h)
@@ -217,7 +217,7 @@ begin
 		curr_state <= halt;
 		sample_index <= 6'd0;
 		RAM_ADDR <= 15'h0;
-		draw_counter <= 25'h0;
+		draw_counter <= 23'h0;
 		end
 	else if (~Reset_h && address_increment)
 		begin
@@ -245,37 +245,37 @@ begin
 	begin
 		case(sample_index)
 			6'd0:
-				s0 <= 10'd0;//RAM_OUT;
+				s0 <= RAM_OUT;
 			6'd1:
-				s1 <= 10'd1;//RAM_OUT;
+				s1 <= RAM_OUT;
 			6'd2:
-				s2 <= 10'd2;//RAM_OUT;
+				s2 <= RAM_OUT;
 			6'd3:
-				s3 <= 10'd3;//RAM_OUT;
+				s3 <= RAM_OUT;
 			6'd4:
-				s4 <= 10'd4;//RAM_OUT;
+				s4 <= RAM_OUT;
 			6'd5:
-				s5 <= 10'd5;//RAM_OUT;
+				s5 <= RAM_OUT;
 			6'd6:
-				s6 <= 10'd6;//RAM_OUT;
+				s6 <= RAM_OUT;
 			6'd7:
-				s7 <= 10'd7;//RAM_OUT;
+				s7 <= RAM_OUT;
 			6'd8:
-				s8 <= 10'd8;//RAM_OUT;
+				s8 <= RAM_OUT;
 			6'd9:
-				s9 <= 10'd9;//RAM_OUT;
+				s9 <= RAM_OUT;
 			6'd10:
-				s10 <= 10'd0;//RAM_OUT;
+				s10 <=RAM_OUT;
 			6'd11:
-				s11 <= 10'd1;//RAM_OUT;
+				s11 <=RAM_OUT;
 			6'd12:
-				s12 <= 10'd2;//RAM_OUT;
+				s12 <=RAM_OUT;
 			6'd13:
-				s13 <= 10'd3;//RAM_OUT;
+				s13 <=RAM_OUT;
 			6'd14:
-				s14 <= 10'd4;//RAM_OUT;
+				s14 <=RAM_OUT;
 			6'd15:
-				s15 <= 10'd5;//RAM_OUT;
+				s15 <=RAM_OUT;
 		endcase
 	end
 end
@@ -337,15 +337,15 @@ begin
 		end
 	wait_for_draw:
 		begin
-			if(draw_counter == 25'b1111111111111111111111111) // if draw counter is approximately at 0.1s
+			if(draw_counter == 23'b11111111111111111111111) // if draw counter is approximately at 0.1s
 				begin
 				next_state = finished_draw; // go to finished draw
-				next_draw_counter = 20'd0; // reset counter
+				next_draw_counter = 23'd0; // reset counter
 				end
 			else 
 				begin
 				next_state = wait_for_draw;
-				next_draw_counter = draw_counter + 25'd1;
+				next_draw_counter = draw_counter + 23'd1;
 				end
 			drawing = 1'b1;
 		end
@@ -384,7 +384,7 @@ ball balls(
 
 color_mapper color(
 	.BallX(ballxsig), .BallY(ballysig), .DrawX(drawxsig), .DrawY(drawysig), .Ball_size(ballsizesig),.Clk(MAX10_CLK1_50),.Button(Button_h),
-	.Red(Red), .Green(Green), .Blue(Blue)
+	.Red(Red), .Green(Green), .Blue(Blue),.*
 );
 
 //bar_graph bar(

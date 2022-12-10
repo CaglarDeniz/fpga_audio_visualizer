@@ -1,0 +1,1418 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dcagl/Desktop/ECE385/final/simulation/modelsim
+valtera_avalon_i2c
+Z1 !s110 1670614916
+!i10b 1
+!s100 i;I80YB`l0<cOH0Mh0OXC2
+Ii0lBAHjkl9ok>ZO8aiX_g1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1670614593
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v
+Z4 L0 18
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1670614916.000000
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c.v|
+!i113 1
+Z7 o-vlog01compat -work lab62_soc
+Z8 !s92 -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules
+Z9 tCvgOpt 0
+valtera_avalon_i2c_clk_cnt
+R1
+!i10b 1
+!s100 CAQU3PEJGHFhmUSJ9nV@02
+ILMj3[b?Dn[5d7zM^P1j1V3
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_clk_cnt.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_condt_det
+R1
+!i10b 1
+!s100 NWHS0:R1WP@@17W[f`AJI0
+I9SLedzag[Z4AS3?12G6[@1
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_det.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_condt_gen
+R1
+!i10b 1
+!s100 F?IU54?<EV_ITzfFeG@`Z2
+I6`fR:[N?8gW8_?KgaY86F0
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_condt_gen.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_csr
+R1
+!i10b 1
+!s100 _=XDE5_WWD1FP8Djl72V@1
+IU@MNazV>=Dc[:C5UzAe;U0
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_csr.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_fifo
+Z10 !s110 1670614917
+!i10b 1
+!s100 K6:GE0kJz4H;LzVG[N3Ao2
+I<ekj2Q73U;CFd=E;QS2;S3
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1670614917.000000
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_mstfsm
+R10
+!i10b 1
+!s100 EoIZ@gjk[7@:RNMP??jE51
+IVa?MzT3GO^icZMmLlMFK01
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_mstfsm.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_rxshifter
+R10
+!i10b 1
+!s100 NH?j7@d_^5gIg43`l^N`W3
+IMB`Z1BUfRCHghJl[WbOEB2
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_rxshifter.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_spksupp
+R10
+!i10b 1
+!s100 L4Jc3zDI^<U>:e]oA=kFJ0
+I^jOHCJEjA1W4l^cIL>elV1
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_spksupp.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_txout
+R10
+!i10b 1
+!s100 :0U7=ZbJ=6_9QSWgb9VmM1
+I:A>o@6FCG;V>G<FL_gM@;3
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txout.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_i2c_txshifter
+R10
+!i10b 1
+!s100 ceW5>`_l>2G>TjfE>=9`60
+I7S::Wm>6EM3[Ak]g2E9J`1
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_i2c_txshifter.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_sc_fifo
+R10
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IcFSh0k:6^YhHm<U6CB;E=2
+R2
+R0
+Z12 w1670614618
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v
+Z13 L0 21
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_controller
+R10
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IO=;B1[YAk:YToRX5PHE2D3
+R2
+R0
+Z14 w1670614615
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R10
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IRAiEecVaTjUa9]C6h=HRU1
+R2
+R0
+R14
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc
+R1
+!i10b 1
+!s100 Z3TZJNX2QnzQf;J[JQQR42
+I:izTN>5UI95=M4VRPfN6E3
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/lab62_soc.v|
+!i113 1
+R7
+!s92 -vlog01compat -work lab62_soc +incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc
+R9
+vlab62_soc_hex_digits_pio
+R10
+!i10b 1
+!s100 ?`04Bhh3>CA4@>In<?0AN3
+IT891`b>;2^0VFbQ`5@=9c2
+R2
+R0
+R3
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v
+R13
+R5
+r1
+!s85 0
+31
+R11
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_hex_digits_pio.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_irq_timer
+Z15 !s110 1670614918
+!i10b 1
+!s100 O1G<1m`mKBZKIW82g5:9b0
+IRmWb2YYf3<CMd>e^a6l1i0
+R2
+R0
+Z16 w1670614594
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v
+R13
+R5
+r1
+!s85 0
+31
+Z17 !s108 1670614918.000000
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_irq_timer.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_jtag_uart_0
+R15
+!i10b 1
+!s100 eDI:Nk_M?R`]56^k7@UAU3
+Ic^QWbEUNlMWM;AXaH<8<43
+R2
+R0
+R16
+Z18 8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v
+Z19 Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+R17
+Z20 !s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v|
+Z21 !s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_jtag_uart_0_scfifo_r
+R15
+!i10b 1
+!s100 M<ONLZe77OVd=LLnbg7M>2
+I2feW^fO^O1RFcQ``d_jbB3
+R2
+R0
+R16
+R18
+R19
+L0 243
+R5
+r1
+!s85 0
+31
+R17
+R20
+R21
+!i113 1
+R7
+R8
+R9
+vlab62_soc_jtag_uart_0_scfifo_w
+R15
+!i10b 1
+!s100 YcVe?P<_=g[W@m474@iUM2
+IY8=FUUM__e>@@F9L]WT=20
+R2
+R0
+R16
+R18
+R19
+L0 78
+R5
+r1
+!s85 0
+31
+R17
+R20
+R21
+!i113 1
+R7
+R8
+R9
+vlab62_soc_jtag_uart_0_sim_scfifo_r
+R15
+!i10b 1
+!s100 VzG2K;BINOjTJli9UnP:<0
+I[C[QoKX>C8;fNn@Qa`Fdh3
+R2
+R0
+R16
+R18
+R19
+L0 164
+R5
+r1
+!s85 0
+31
+R17
+R20
+R21
+!i113 1
+R7
+R8
+R9
+vlab62_soc_jtag_uart_0_sim_scfifo_w
+R15
+!i10b 1
+!s100 eB_`HFRMWaz7l7lZP<kEL0
+IKMk7b]feeeKOYhZESmGH83
+R2
+R0
+R16
+R18
+R19
+R13
+R5
+r1
+!s85 0
+31
+R17
+R20
+R21
+!i113 1
+R7
+R8
+R9
+vlab62_soc_key
+R15
+!i10b 1
+!s100 6bLbOAKl]CDNLRR0lSAEZ1
+ImkP;Wj;XV2LVH;m92=4b;1
+R2
+R0
+R16
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v
+R13
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_key.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_keycode
+R15
+!i10b 1
+!s100 Tc`<h:;k_<[fi3WbIU8`n2
+Ih@c8Mnl[i=Tn1^4=gK6j43
+R2
+R0
+R16
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v
+R13
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_keycode.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_leds_pio
+R15
+!i10b 1
+!s100 I^^F?[S44MGZ5kgdHi0QA1
+IHi=T:mWITMj3dboWKAHXJ3
+R2
+R0
+Z22 w1670614595
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v
+R13
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_leds_pio.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_mm_interconnect_0
+R15
+!i10b 1
+!s100 ldW5kZ`=4W28ehFDEK8Hg3
+I39]eDM>DDIdEHPM61_6P53
+R2
+R0
+R14
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_mm_interconnect_0_avalon_st_adapter
+R15
+!i10b 1
+!s100 6nomGWUAM0j`lJVg6SV<o3
+IF5jf9fmVImI`mzd3nHHlN0
+R2
+R0
+R12
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_mm_interconnect_0_avalon_st_adapter_005
+R15
+!i10b 1
+!s100 aIW^]G^V6;W?A1;4=T8P22
+I316mafG[<530[k0JoK:9l3
+R2
+R0
+w1670614619
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v
+L0 9
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_mm_interconnect_0_avalon_st_adapter_005.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0
+R15
+!i10b 1
+!s100 @X>N:3277U`7WVA3ZJkif1
+I3YH7nk4G5>?7=mNA@UaI`2
+R2
+R0
+R22
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R17
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu
+Z23 !s110 1670614919
+!i10b 1
+!s100 U=8fDUQ0XoL:[0UJa^Mi63
+IIJd1[P;kA1924CbjMiYA50
+R2
+R0
+R12
+Z24 8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v
+Z25 Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+Z26 !s108 1670614919.000000
+Z27 !s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+R23
+!i10b 1
+!s100 jCF>n:UMiAfL;;:^j6[OB3
+IlHaYa08WK0Zc3Ph05PiMQ3
+R2
+R0
+R12
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R13
+R5
+r1
+!s85 0
+31
+R26
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_debug_slave_tck
+R23
+!i10b 1
+!s100 `BcC:B`YVjd[bcKe4Wo;@3
+I`XG^_:jjKJE:5mMPh?<9z3
+R2
+R0
+R12
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R13
+R5
+r1
+!s85 0
+31
+R26
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+R23
+!i10b 1
+!s100 A6V4`;@MUSlTVbeZm>3Kh1
+I7z`9c8]e>>b6Rj2h=n9Bi0
+R2
+R0
+R12
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R13
+R5
+r1
+!s85 0
+31
+R26
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+R23
+!i10b 1
+!s100 gnUz;<NiHVU@730G9V0ZJ1
+Ia3K5OZmA_=bSjI_gIEFa^0
+R2
+R0
+R12
+R24
+R25
+L0 2023
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci
+R23
+!i10b 1
+!s100 ;A>08_5]:_8j9JkjO7:0]1
+I9o=?@]f_c3`a@RoD?AGZS1
+R2
+R0
+R12
+R24
+R25
+L0 2362
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_break
+R23
+!i10b 1
+!s100 S4HnVeQDgNK<3nZQd8neW2
+Ib^^_:>5Y9F?TUZ@?=QXWN0
+R2
+R0
+R12
+R24
+R25
+L0 295
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R23
+!i10b 1
+!s100 l1VhgKz2`A1?@3Lf6zTEP3
+IV_0]23[3CHJ<N0_DZRA6X0
+R2
+R0
+R12
+R24
+R25
+L0 1265
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R23
+!i10b 1
+!s100 C7bo:iMRco26WF?fU4Om^1
+IWhlfZdT?63Zk=2GDL9N>B0
+R2
+R0
+R12
+R24
+R25
+L0 795
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R23
+!i10b 1
+!s100 c2RbW?L:f2D8c3B2J3DFj0
+Ilb:7K]0nNk?a?7<[i@Z@73
+R2
+R0
+R12
+R24
+R25
+L0 153
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R23
+!i10b 1
+!s100 W85dCYE]^QKOQYlc;z5G_1
+IE7EOP@Bj3^:dL^[EA^IQ;2
+R2
+R0
+R12
+R24
+R25
+L0 1183
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R23
+!i10b 1
+!s100 iHzPVi:0gJ>T^7S2VmBC92
+IRiVGnCM1f_cICo0OeglWg0
+R2
+R0
+R12
+R24
+R25
+L0 1427
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R23
+!i10b 1
+!s100 dg?AO7MeG5mP23MdMSJb41
+IJ]]L=j`Q^>h2H:@H68>dL1
+R2
+R0
+R12
+R24
+R25
+L0 1380
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R23
+!i10b 1
+!s100 gKU;1`H34dQRWHbk^BoNb1
+IPHi:2Dad<PKRfh??6fK@d3
+R2
+R0
+R12
+R24
+R25
+L0 1337
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_im
+R23
+!i10b 1
+!s100 OJ[5BDo>kjbXFijI]38ET1
+Ik8d>KC56YMZ`N1fVbhB403
+R2
+R0
+R12
+R24
+R25
+L0 1936
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R23
+!i10b 1
+!s100 VY<TeiR2FLH1@G?5XJ8b_1
+ITaDzX<Z;n`OR[NSJFNRCz3
+R2
+R0
+R12
+R24
+R25
+L0 982
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R23
+!i10b 1
+!s100 laD^Z5d5_HO>L;H5z4RCA3
+Ig3z_ca6S;_Z^62gg1VVmT0
+R2
+R0
+R12
+R24
+R25
+L0 1913
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R23
+!i10b 1
+!s100 71gTDzL1Ho336cO7;]Nj53
+I7W1hEO1=FFVje_Z1P=gLc1
+R2
+R0
+R12
+R24
+R25
+L0 1115
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R23
+!i10b 1
+!s100 8Z2OL?H11iECPfXc8zEdJ1
+IR`980DAU=548O0L5LmMVU1
+R2
+R0
+R12
+R24
+R25
+L0 588
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_ocimem
+R23
+!i10b 1
+!s100 Ng1]_[8;SA@cAl<1^mCde3
+II1X1YAUm3Fd`WY@4B:73Z1
+R2
+R0
+R12
+R24
+R25
+L0 2181
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R23
+!i10b 1
+!s100 89b[mDK;Z7zO[i]f]U?6`1
+IgSUS:W7MU:FXbM:2MogS21
+R2
+R0
+R12
+R24
+R25
+L0 2006
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R23
+!i10b 1
+!s100 Fd?l^U;7G:PS[SgY]_SGQ2
+I]g==h0?Q8z8bEP5E>ZaCT3
+R2
+R0
+R12
+R24
+R25
+L0 2116
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_register_bank_a_module
+R23
+!i10b 1
+!s100 KHo?h?QR_KFSL9Hc:E8>n2
+INI=ja_Kk_f0?QOXWc3U^<2
+R2
+R0
+R12
+R24
+R25
+R13
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_register_bank_b_module
+R23
+!i10b 1
+!s100 A<bS5JNB`3mo;jcC_5^UC1
+IjSUM:Fz0KhXY@<C^CnV`]3
+R2
+R0
+R12
+R24
+R25
+L0 87
+R5
+r1
+!s85 0
+31
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vlab62_soc_nios2_gen2_0_cpu_test_bench
+R23
+!i10b 1
+!s100 YbM>Hj>a<_B>@]RhaNU933
+IkWZ`LCNC]WKTf[V]:FzRN0
+R2
+R0
+R12
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v
+R13
+R5
+r1
+!s85 0
+31
+R26
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram
+R23
+!i10b 1
+!s100 dAjTS]FmK^3eRFMfM<ZLM0
+I87OW1ln@=jENcPMlcG`BA3
+R2
+R0
+Z29 w1670614596
+Z30 8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v
+Z31 Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R26
+Z32 !s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v|
+Z33 !s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram_input_efifo_module
+R23
+!i10b 1
+!s100 _03kZT[J1BVcnVdGiEGo42
+IDWMOBWY^`F>K_E<dnd6=h3
+R2
+R0
+R29
+R30
+R31
+R13
+R5
+r1
+!s85 0
+31
+R26
+R32
+R33
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram_pll
+Z34 !s110 1670614920
+!i10b 1
+!s100 47MbJ5cld938d4SdK4;@F2
+IPbkY<2AVG>2fm[fmQ8jhE0
+R2
+R0
+Z35 w1670614597
+Z36 8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v
+Z37 Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+R26
+Z38 !s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v|
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram_pll_altpll_vg92
+R34
+!i10b 1
+!s100 iiSG05Ch33]aVaShnC8OQ2
+IeBn7N[8f80d;CHL@1oTOU3
+R2
+R0
+R35
+R36
+R37
+L0 130
+R5
+r1
+!s85 0
+31
+R26
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram_pll_dffpipe_l2c
+R23
+!i10b 1
+!s100 ]AgAX_;f;Bjl64JGM[7?f3
+I8R5dT]UjSCcT>PjZfC1[H2
+R2
+R0
+R35
+R36
+R37
+L0 37
+R5
+r1
+!s85 0
+31
+R26
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sdram_pll_stdsync_sv6
+R34
+!i10b 1
+!s100 H?UzKL`=<aoE0Ga16D?U;3
+IMzi>aa^ifT[`8<ZL8Qdi^0
+R2
+R0
+R35
+R36
+R37
+L0 98
+R5
+r1
+!s85 0
+31
+R26
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab62_soc_spi_0
+R34
+!i10b 1
+!s100 QL=gE`gZH9NP2PFNSJkMI0
+IQZA9Q<nd?XQ2^bz^1Jajo1
+R2
+R0
+R35
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v
+L0 41
+R5
+r1
+!s85 0
+31
+Z40 !s108 1670614920.000000
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_spi_0.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_sysid_qsys_0
+R34
+!i10b 1
+!s100 BUZ`83dn1<K2Mo?j0FF;71
+I4>z0W_dFPQ06_zm47hB>_1
+R2
+R0
+R35
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v
+L0 34
+R5
+r1
+!s85 0
+31
+R40
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_usb_gpx
+R34
+!i10b 1
+!s100 GULeeJo[_X`=QGkJ1bdHB0
+I<]Qk5I8I8QPnjn56U2zg=2
+R2
+R0
+R35
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v
+R13
+R5
+r1
+!s85 0
+31
+R40
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_gpx.v|
+!i113 1
+R7
+R8
+R9
+vlab62_soc_usb_rst
+R34
+!i10b 1
+!s100 eJCCQH4Bd34M<T@n9YJ2^1
+Ig9S?oVePO]ok]lV>_k?2R0
+R2
+R0
+R35
+8c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v
+Fc:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v
+R13
+R5
+r1
+!s85 0
+31
+R40
+!s107 c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab62_soc|+incdir+c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules|c:/users/dcagl/desktop/ece385/final/db/ip/lab62_soc/submodules/lab62_soc_usb_rst.v|
+!i113 1
+R7
+R8
+R9

@@ -1,12 +1,12 @@
-# system info lab62_soc on 2022.12.09.13:09:39
+# system info lab62_soc on 2022.12.09.22:16:10
 system_info:
 name,value
 DEVICE,10M50DAF484C7G
 DEVICE_FAMILY,MAX 10
-GENERATION_ID,1670612938
+GENERATION_ID,1670645730
 #
 #
-# Files generated for lab62_soc on 2022.12.09.13:09:39
+# Files generated for lab62_soc on 2022.12.09.22:16:10
 files:
 filepath,kind,attributes,module,is_top
 simulation/lab62_soc.v,VERILOG,,lab62_soc,true

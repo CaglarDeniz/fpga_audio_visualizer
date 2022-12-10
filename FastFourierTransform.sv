@@ -420,54 +420,86 @@ logic [23:0] q0,q1,q2,q3,q4,q5,q6,q7;
 							begin
 							// Convert negative twos complement to positive value//
 							if (outsignal_r0[23] == 1)
-								 outsignal_r0 <= (outsignal_r0 ^ 24'hffffff)+24'd1;
+								x0 <= (outsignal_r0 ^ 24'hffffff)+24'd1;
+							else
+								x0 <= outsignal_r0;
+
 							if (outsignal_r1[23] == 1)
-								 outsignal_r1 <= (outsignal_r1 ^ 24'hffffff)+24'd1;
+								 x1 <= (outsignal_r1 ^ 24'hffffff)+24'd1;
+							else
+								x1 <= outsignal_r1;
 							if (outsignal_r2[23] == 1)
-								 outsignal_r2 <= (outsignal_r2 ^ 24'hffffff)+24'd1;
+								 x2 <= (outsignal_r2 ^ 24'hffffff)+24'd1;
+							else
+								x2 <= outsignal_r2;
 							if (outsignal_r3[23] == 1)
-								 outsignal_r3 <= (outsignal_r3 ^ 24'hffffff)+24'd1;
+								 x3 <= (outsignal_r3 ^ 24'hffffff)+24'd1;
+								 else
+								x3 <= outsignal_r3;
 							if (outsignal_r4[23] == 1)
-								 outsignal_r4 <= (outsignal_r4 ^ 24'hffffff)+24'd1;
+								 x4 <= (outsignal_r4 ^ 24'hffffff)+24'd1;
+								 else
+								x4 <= outsignal_r4;
 							if (outsignal_r5[23] == 1)
-								 outsignal_r5 <= (outsignal_r5 ^ 24'hffffff)+24'd1;
+								 x5 <= (outsignal_r5 ^ 24'hffffff)+24'd1;
+								 else
+								x5 <= outsignal_r5;
 							if (outsignal_r6[23] == 1)
-								 outsignal_r6 <= (outsignal_r6 ^ 24'hffffff)+24'd1;
+								 x6 <= (outsignal_r6 ^ 24'hffffff)+24'd1;
+								 else
+								x6 <= outsignal_r6;
 							if (outsignal_r7[23] == 1)
-								 outsignal_r7 <= (outsignal_r7 ^ 24'hffffff)+24'd1;
+								 x7 <= (outsignal_r7 ^ 24'hffffff)+24'd1;
+								 else
+								x7 <= outsignal_r7;
 							if (outsignal_r8[23] == 1)
-								 outsignal_r8 <= (outsignal_r8 ^ 24'hffffff)+24'd1;
+								 x8 <= (outsignal_r8 ^ 24'hffffff)+24'd1;
+								 else
+								x8 <= outsignal_r8;
 							if (outsignal_r9[23] == 1)
-								 outsignal_r9 <= (outsignal_r9 ^ 24'hffffff)+24'd1;
+								 x9 <= (outsignal_r9 ^ 24'hffffff)+24'd1;
+								 else
+								x9 <= outsignal_r9;
 							if (outsignal_r10[23] == 1)
-								 outsignal_r10 <= (outsignal_r10 ^ 24'hffffff)+24'd1;
+								 x10 <= (outsignal_r10 ^ 24'hffffff)+24'd1;
+								 else
+								x10 <= outsignal_r10;
 							if (outsignal_r11[23] == 1)
-								 outsignal_r11 <= (outsignal_r11 ^ 24'hffffff)+24'd1;
+								 x11 <= (outsignal_r11 ^ 24'hffffff)+24'd1;
+								 else
+								x11 <= outsignal_r11;
 							if (outsignal_r12[23] == 1)
-								 outsignal_r12 <= (outsignal_r12 ^ 24'hffffff)+24'd1;
+								 x12 <= (outsignal_r12 ^ 24'hffffff)+24'd1;
+								 else
+								x12 <= outsignal_r12;
 							if (outsignal_r13[23] == 1)
-								 outsignal_r13 <= (outsignal_r13 ^ 24'hffffff)+24'd1;
+								 x13 <= (outsignal_r13 ^ 24'hffffff)+24'd1;
+								 else
+								x13 <= outsignal_r13;
 							if (outsignal_r14[23] == 1)
-								 outsignal_r14 <= (outsignal_r14 ^ 24'hffffff)+24'd1;
+								 x14 <= (outsignal_r14 ^ 24'hffffff)+24'd1;
+								 else
+								x14 <= outsignal_r14;
 							if (outsignal_r15[23] == 1)
-								 outsignal_r15 <= (outsignal_r15 ^ 24'hffffff)+24'd1;
-	
-							x0 <= outsignal_r0;
-							x1 <= outsignal_r1;
-							x2 <= outsignal_r2;
-							x3 <= outsignal_r3;
-							x4 <= outsignal_r4;
-							x5 <= outsignal_r5;
-							x6 <= outsignal_r6;
-							x7 <= outsignal_r7;
-							x8 <= outsignal_r8;
-							x9 <= outsignal_r9;
-							x10 <= outsignal_r10;
-							x11 <= outsignal_r11;
-							x12 <= outsignal_r12;
-							x13 <= outsignal_r13;
-							x14 <= outsignal_r14;
-							x15 <= outsignal_r15;
+								 x15 <= (outsignal_r15 ^ 24'hffffff)+24'd1;
+								 else
+								x15 <= outsignal_r15;
+//	
+//							x1 <= outsignal_r1;
+//							x2 <= outsignal_r2;
+//							x3 <= outsignal_r3;
+//							x4 <= outsignal_r4;
+//							x5 <= outsignal_r5;
+//							x6 <= outsignal_r6;
+//							x7 <= outsignal_r7;
+//							x8 <= outsignal_r8;
+//							x9 <= outsignal_r9;
+//							x10 <= outsignal_r10;
+//							x11 <= outsignal_r11;
+//							x12 <= outsignal_r12;
+//							x13 <= outsignal_r13;
+//							x14 <= outsignal_r14;
+//							x15 <= outsignal_r15;
 							next_state <= halt;
 							end
 				end	

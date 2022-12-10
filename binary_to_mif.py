@@ -22,7 +22,7 @@ with open(args.infile, 'rb') as binary_text:
     mif_file.write('BEGIN\n')
 
     inst_num = 0
-    curr_word = binary_text.read(4);
+    curr_word = binary_text.read(2)
     while curr_word != b'' :
         mif_file.write('{0}: '.format(inst_num))
         byte_list = []
@@ -36,7 +36,7 @@ with open(args.infile, 'rb') as binary_text:
             mif_file.write('{0}'.format(val))
         mif_file.write(' ;\n')
         inst_num += 1
-        curr_word = binary_text.read(4)
+        curr_word = binary_text.read(2)
 
     print(f"File has {inst_num} 4-byte words")
 
